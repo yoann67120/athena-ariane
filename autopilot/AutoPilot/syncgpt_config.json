@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "local_status_url": "http://localhost:5081/status",
+  "remote_sync_url": "http://localhost:5075/bridge/sync",
+  "interval_minutes": 10
+}

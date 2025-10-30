@@ -1,0 +1,28 @@
+[2025-10-28 17:45:55] === Initialisation AgentKit (registre dynamique) ===
+[2025-10-28 17:45:55] ✅ Configuration AgentKit v1.0 chargée.
+[2025-10-28 17:45:55] 🔗 Agent : Ariane-Local-AgentKit
+[2025-10-28 17:45:55] 📦 Actions détectées :
+[2025-10-28 17:45:55]    → create_project [✅ Activée]
+[2025-10-28 17:45:55]    → deploy_project [✅ Activée]
+[2025-10-28 17:45:55]    → list_projects [✅ Activée]
+[2025-10-28 17:45:55]    → update_project [✅ Activée]
+[2025-10-28 17:45:55] 🧩 Action enregistrée : create_project → C:\Ariane-Agent\agentkit\actions\create_project.py
+[2025-10-28 17:45:55] 🧩 Action enregistrée : deploy_project → C:\Ariane-Agent\agentkit\actions\deploy_project.py
+[2025-10-28 17:45:55] 🧩 Action enregistrée : list_projects → C:\Ariane-Agent\agentkit\actions\list_projects.py
+[2025-10-28 17:45:55] 🧩 Action enregistrée : update_project → C:\Ariane-Agent\agentkit\actions\update_project.py
+[2025-10-28 17:45:55] ✅ Registre initialisé (4 actions).
+[2025-10-28 17:45:55] === Chargement terminé ===
+[2025-10-28 17:48:04] === Initialisation AgentKit (registre dynamique) ===
+[2025-10-28 17:48:04] ✅ Configuration AgentKit v1.0 chargée.
+[2025-10-28 17:48:04] 🔗 Agent : Ariane-Local-AgentKit
+[2025-10-28 17:48:04] 📦 Actions détectées :
+[2025-10-28 17:48:04]    → create_project [✅ Activée]
+[2025-10-28 17:48:04]    → deploy_project [✅ Activée]
+[2025-10-28 17:48:04]    → list_projects [✅ Activée]
+[2025-10-28 17:48:04]    → update_project [✅ Activée]
+[2025-10-28 17:48:04] 🧩 Action enregistrée : create_project → C:\Ariane-Agent\agentkit\actions\create_project.py
+[2025-10-28 17:48:04] 🧩 Action enregistrée : deploy_project → C:\Ariane-Agent\agentkit\actions\deploy_project.py
+[2025-10-28 17:48:04] 🧩 Action enregistrée : list_projects → C:\Ariane-Agent\agentkit\actions\list_projects.py
+[2025-10-28 17:48:04] 🧩 Action enregistrée : update_project → C:\Ariane-Agent\agentkit\actions\update_project.py
+[2025-10-28 17:48:04] ✅ Registre initialisé (4 actions).
+[2025-10-28 17:48:04] === Chargement terminé ===

@@ -1,0 +1,53 @@
+{
+  "watchdog_interval_minutes": 0,
+  "AutoIa": true,
+  "ModeEnergie": "max",
+  "AgendaEnabled": true,
+
+  "OPENAI_API_KEY": "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",
+  "OPENAI_API_BASE": "https://api.openai.com/v1",
+  "OPENAI_DEFAULT_MODEL": "gpt-4o-mini",
+  "MODEL": "gpt-4o-mini",
+  "OPENAI_ASSISTANT_ID": "asst_ghTnRlad0n8MRF0F5nbJvRKF",
+
+  "SUPABASE_URL": "https://rcixdtpmuletmpnxldsc.supabase.co",
+  "SUPABASE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJjaXhkdHBtdWxldG1wbnhsZHNjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MTU1MTE5NSwiZXhwIjoyMDY3MTI3MTk1fQ.RFKSn03RMgQZAy3fZer7oHZ_ihxkYMiGlFwRxF49Bbc",
+
+  "N8N_URL": "n8n-ui-production.up.railway.app",
+  "N8N_API_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzYjJkMmU4NC1jMTFmLTRkYmMtYjFkNS1kZmM0NjQ2YjI0YzMiLCJpc3MiOiJuOG4iLCJhdWQiOiJwdWJsaWMtYXBpIiwiaWF0IjoxNzU4MTI0ODk3fQ.hASpxL1lCU0JXtKsfX2sPljuB8QjNN_F2MMoxhSggvg",
+
+  "GITHUB_TOKEN": "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",
+  "RAILWAY_TOKEN": "752ea27a-80ba-4025-a789-d4516f20ba28",
+
+  "workspaceRoot": "C:\\Users\\Sonia\\Dropbox\\ArianeV4",
+  "MemoryFile": "Config/memory.json",
+  "AutonomyFile": "Config/autonomie.json",
+  "LogsDir": "Logs",
+  "ModulesDir": "Modules",
+  "BackupsDir": "Backups",
+
+  "ModulesToLoad": [
+    "Check-Autonomy.psm1",
+    "SelfPatch.psm1",
+    "SystemBridge.psm1",
+    "OfficeBridge.psm1",
+    "WebBridge.psm1",
+    "RPARecorder.psm1",
+    "RPASync.psm1",
+    "RPAManager.psm1"
+  ],
+
+  "AllowedRoots": [
+    "C:\\",
+    "D:\\Projets"
+  ],
+
+  "AutonomyRules": {
+    "systeme": "allow",
+    "modules": "allow",
+    "reseau": "ask",
+    "registre": "ask",
+    "fichiers_critique": "forbid"
+  }
+}
+

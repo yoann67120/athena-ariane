@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "agent_name": "Ariane-Local-AgentKit",
+  "description": "Configuration des actions locales autorisées pour Ariane / Athena V4",
+  "security": {
+    "hmac_key_path": "C:\\Ariane-Agent\\secrets\\bridge_hmac.key",
+    "signature_algorithm": "HMAC-SHA256"
+  },
+  "actions": {
+    "create_project": {
+      "path": "C:\\Ariane-Agent\\agentkit\\actions\\create_project.py",
+      "description": "Crée un projet local à partir du template défini",
+      "enabled": true
+    },
+    "deploy_project": {
+      "path": "C:\\Ariane-Agent\\agentkit\\actions\\deploy_project.py",
+      "description": "Déploie un projet local en exécutant les scripts nécessaires",
+      "enabled": true
+    },
+    "list_projects": {
+      "path": "C:\\Ariane-Agent\\agentkit\\actions\\list_projects.py",
+      "description": "Liste tous les projets disponibles sur l’Usine à Projets",
+      "enabled": true
+    },
+    "update_project": {
+      "path": "C:\\Ariane-Agent\\agentkit\\actions\\update_project.py",
+      "description": "Met à jour un projet existant avec les nouveaux fichiers ou scripts",
+      "enabled": true
+    }
+  },
+  "logging": {
+    "log_path": "C:\\Ariane-Agent\\logs\\agentkit_init.log",
+    "log_level": "INFO"
+  }
+}

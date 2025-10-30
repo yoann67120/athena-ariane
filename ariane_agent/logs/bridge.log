@@ -1,0 +1,14 @@
+[2025-10-27 23:38:24] 🔗 Requête reçue : action=list_projects params={}
+[2025-10-27 23:38:24] ✅ Action 'list_projects' exécutée avec succès.
+[2025-10-27 23:41:23] 🔗 UsineProtocol reçu : list_projects params={}
+[2025-10-27 23:48:06] 🔗 Requête sécurisée : action=list_projects params={}
+[2025-10-28 00:12:44] ❌ Signature HMAC non valide, requête rejetée
+[2025-10-28 00:18:07] ❌ Signature invalide reçue.
+[2025-10-28 00:19:23] 🔗 Requête authentifiée : action=list_projects params={}
+[2025-10-28 00:19:23] ✅ Action 'list_projects' exécutée avec succès.
+[2025-10-28 00:27:27] 🔗 Requête authentifiée : action=list_projects params={}
+[2025-10-28 00:27:27] ✅ Action 'list_projects' exécutée avec succès.
+[2025-10-29 21:38:02] ❌ Signature invalide reçue.
+[2025-10-29 21:38:53] ❌ Signature invalide reçue.
+[2025-10-29 21:40:07] ❌ Signature invalide reçue.
+[2025-10-29 21:41:02] ❌ Signature invalide reçue.

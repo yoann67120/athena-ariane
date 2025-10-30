@@ -1,0 +1,1 @@
+Write-Host (Get-Date -Format "MM/dd/yyyy")

@@ -1,0 +1,1 @@
+console.log('🚀 Projet initialisé avec succès.');

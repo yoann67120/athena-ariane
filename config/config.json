@@ -1,0 +1,13 @@
+{
+  "ModulesToLoad": [
+    "Memory.psm1",
+    "Rules.psm1",
+    "Aliases.psm1",
+    "Aliases.Patch.psm1",
+    "Tools.psm1",
+    "ActionEngine.psm1",
+    "SystemEngine.psm1",
+    "Handle-ContextCommand.psm1",
+    "Handle-StatusCommand.psm1"
+  ]
+}

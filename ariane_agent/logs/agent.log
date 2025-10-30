@@ -1,0 +1,147 @@
+[2025-10-27 09:16:26.786715] Agent démarré.
+[2025-10-27 09:17:20.403019] Prompt reçu : Écris un script PowerShell qui affiche la date du jour
+[2025-10-27 09:17:25.704500] Script temporaire : C:\Users\Sonia\AppData\Local\Temp\tmpfmshjq4i.ps1
+[2025-10-27 09:17:27.201919] Exécution terminée.
+[2025-10-27 09:22:30.462854] Agent démarré.
+[2025-10-27 09:22:52.642509] Prompt reçu : Affiche la date du jour avec Write-Host (PowerShell)
+[2025-10-27 09:22:55.780506] Script temporaire créé : C:\Users\Sonia\AppData\Local\Temp\tmp2msy9_g5.ps1
+[2025-10-27 09:22:56.629077] Exécution terminée.
+[2025-10-27 09:24:30.963775] Prompt reçu : Write a PowerShell script that displays today's date using Write-Host
+[2025-10-27 09:24:33.914568] Script temporaire créé : C:\Users\Sonia\AppData\Local\Temp\tmps6o9cc4s.ps1
+[2025-10-27 09:24:34.558495] Exécution terminée.
+[2025-10-27 09:30:46.948255] Agent démarré.
+[2025-10-27 09:30:57.140542] Prompt reçu : Write a PowerShell script that displays today's date using Write-Host
+[2025-10-27 09:31:02.552511] === Début du code généré ===
+[2025-10-27 09:31:02.553385] To display today's date using PowerShell's `Write-Host` command, you can use the `Get-Date` cmdlet to retrieve the current date. Here's a simple script that accomplishes this:# Get today's date$todayDate = Get-Date# Display today's dateWrite-Host "Today's date is: $todayDate"This script will retrieve the current date and time using `Get-Date` and then display it using `Write-Host`. If you want to display only the date without the time, you can format the date accordingly:# Get today's date$todayDate = Get-Date -Format "yyyy-MM-dd"# Display today's dateWrite-Host "Today's date is: $todayDate"In this version, the date is formatted as "yyyy-MM-dd" (year-month-day), but you can adjust the format string to your preference based on your regional settings or desired format.
+[2025-10-27 09:31:02.554111] === Fin du code généré ===
+[2025-10-27 09:31:02.555893] Code sauvegardé : C:\Ariane-Agent\logs\generated_20251027_093102.ps1
+[2025-10-27 09:31:02.559461] Script temporaire créé : C:\Users\Sonia\AppData\Local\Temp\tmpit7iuqj8.ps1
+[2025-10-27 09:31:02.986501] Exécution terminée.
+[2025-10-27 09:36:39.454209] Agent démarré.
+[2025-10-27 09:36:52.180359] Prompt reçu : Write a PowerShell script that displays today's date using Write-Host
+[2025-10-27 09:36:54.193515] Script temporaire créé : C:\Users\Sonia\AppData\Local\Temp\tmp3zloxk1w.ps1
+[2025-10-27 09:36:54.887067] Exécution terminée.
+[2025-10-27 09:44:07.664632] Agent démarré.
+[2025-10-27 09:44:25.002347] Prompt reçu : Write a PowerShell script that displays today's date using Write-Host
+[2025-10-27 09:44:26.543707] Code sauvegardé : C:\Ariane-Agent\logs\generated_20251027_094426.ps1
+[2025-10-27 09:44:26.545491] Script temporaire créé : C:\Users\Sonia\AppData\Local\Temp\tmppqsefxjn.ps1
+[2025-10-27 09:44:26.973023] Exécution terminée.
+[2025-10-27 09:48:45.657416] Agent démarré avec sauvegarde et versioning.
+[2025-10-27 09:48:55.920140] Prompt reçu : Write a PowerShell script that displays today's date using Write-Host
+[2025-10-27 09:48:57.763307] Version enregistrée : C:\Ariane-Agent\versions\v_20251027_094857\script_20251027_094857.ps1
+[2025-10-27 09:48:57.765096] Script temporaire créé : C:\Users\Sonia\AppData\Local\Temp\tmpde1p7714.ps1
+[2025-10-27 09:48:58.265581] Résultat analyse : Aucun problème détecté
+[2025-10-27 09:48:58.269326] Sauvegarde effectuée : C:\Ariane-Agent\backups\20251027_094858\tmpde1p7714.ps1
+[2025-10-27 09:48:58.588145] Exécution terminée.
+[2025-10-27 10:02:42.479577] Agent Ariane lié au répertoire Modules.
+[2025-10-27 10:02:58.926913] Prompt reçu : Create a new PowerShell module called TestModule.psm1 that writes 'Module Ariane connecté !'
+[2025-10-27 10:03:01.123291] 🧩 Module Ariane créé : C:\Users\Sonia\Dropbox\ArianeV4\Modules\TestModule.psm1
+[2025-10-27 10:08:08.982209] Prompt reçu : Crée un module nommé HelloWorld.psm1 qui affiche 'Ariane connecté avec succès !'
+[2025-10-27 10:08:09.941452] 🧩 Module Ariane créé : C:\Users\Sonia\Dropbox\ArianeV4\Modules\HelloWorld.psm1
+[2025-10-27 10:23:37.891656] Prompt reçu : Crée un module Ariane.Audit.psm1 qui analyse tout le dossier C:\Users\Sonia\Dropbox\ArianeV4 et produit un résumé clair : liste des fichiers, nombre de modules, scripts, journaux, configurations, et mémoire. Il doit me dire à la fin : 'Audit terminé — prêt pour analyse de nettoyage.' Le rapport doit être lisible directement dans la console.
+[2025-10-27 10:23:43.227808] 🧩 Module Ariane créé : C:\Users\Sonia\Dropbox\ArianeV4\Modules\Ariane.Audit.psm1
+[2025-10-27 10:27:22.927560] Prompt reçu : Analyse le résultat de l’audit ArianeV4 suivant : 
+Total Files 2329, Modules 321, Scripts 130, Logs 222, Configurations 0, Taille totale 1,6Go.
+Propose un plan de nettoyage simple et structuré, adapté à un utilisateur non informaticien :
+- Quoi garder et pourquoi
+- Quoi archiver
+- Quoi fusionner ou supprimer
+- Quelle structure finale de dossiers adopter pour que tout soit clair et durable.
+[2025-10-27 10:27:31.395722] 🧩 Module Ariane créé : C:\Users\Sonia\Dropbox\ArianeV4\Modules\GeneratedModule_20251027_102731.psm1
+[2025-10-27 10:30:16.137037] Prompt reçu : Ne crée pas de module. Réponds uniquement par un texte clair et simple, pas en PowerShell. 
+Analyse le résultat de l’audit ArianeV4 :
+Total Files 2329, Modules 321, Scripts 130, Logs 222, Configurations 0, Taille totale 1,6Go.
+Propose-moi un plan de nettoyage et d’organisation adapté à un utilisateur non informaticien :
+1. Quoi garder et pourquoi
+2. Quoi archiver
+3. Quoi fusionner ou supprimer
+4. Quelle structure finale de dossiers adopter pour que tout soit clair et durable.
+Réponds dans un texte explicatif lisible, sans code.
+[2025-10-27 10:30:17.267675] 🧩 Module Ariane créé : C:\Users\Sonia\Dropbox\ArianeV4\Modules\GeneratedModule_20251027_103017.psm1
+[2025-10-27 10:32:48.313526] Agent Ariane lié au répertoire Modules.
+[2025-10-27 10:33:06.579878] Prompt reçu : Analyse le résultat de l’audit ArianeV4 :
+Total Files 2329, Modules 321, Scripts 130, Logs 222, Configurations 0, Taille totale 1,6Go.
+Propose un plan de nettoyage et d’organisation simple et clair pour un utilisateur non informaticien.
+[2025-10-27 10:33:06.580377] Mode détecté : text
+[2025-10-27 10:33:20.370879] Réponse textuelle renvoyée à Ariane.
+[2025-10-27 10:35:06.371909] Prompt reçu : Crée un module Ariane.Cleaner.psm1 qui lit le dossier C:\Users\Sonia\Dropbox\ArianeV4, crée le dossier C:\Users\Sonia\Dropbox\ArianeV4_Audit (avec sous-dossiers Modules, Scripts, Logs, Autres), puis déplace automatiquement les fichiers selon leur extension (.psm1 → Modules, .ps1 → Scripts, .log → Logs, autres → Autres). Avant de déplacer, il doit vérifier et ignorer les fichiers déjà présents dans ArianeV4_Audit. Il doit afficher un résumé à la fin avec le nombre de fichiers déplacés.
+[2025-10-27 10:35:06.378239] Mode détecté : code
+[2025-10-27 10:35:13.150727] 🧩 Module Ariane créé : C:\Users\Sonia\Dropbox\ArianeV4\Modules\(.psm1
+[2025-10-27 11:21:55.608888] Agent Ariane initialisé.
+[2025-10-27 11:26:34.010224] Analyse complète des modules Ariane effectuée.
+[2025-10-27 11:27:22.714977] Agent Ariane initialisé.
+[2025-10-27 11:30:05.475654] Analyse complète des modules Ariane effectuée.
+[2025-10-27 11:33:44.911695] Analyse complète des modules Ariane effectuée.
+[2025-10-27 11:34:02.565003] Analyse complète des modules Ariane effectuée.
+[2025-10-27 11:34:37.921081] Analyse complète des modules Ariane effectuée.
+[2025-10-27 11:36:27.827651] Agent Ariane initialisé.
+[2025-10-27 11:38:00.612723] Analyse terminée : 201 modules inspectés.
+[2025-10-27 11:38:00.613131] Analyse complète des modules Ariane effectuée.
+[2025-10-27 11:39:28.159716] Agent Ariane initialisé.
+[2025-10-27 11:41:07.166858] Analyse terminée : 201 modules inspectés.
+[2025-10-27 11:41:07.167277] Analyse complète des modules Ariane effectuée.
+[2025-10-27 11:42:07.292535] Analyse terminée : 201 modules inspectés.
+[2025-10-27 11:42:07.292976] Analyse complète des modules Ariane effectuée.
+[2025-10-27 11:43:40.078031] Agent Ariane initialisé.
+[2025-10-27 11:43:45.479245] Analyse terminée : 201 modules inspectés.
+[2025-10-27 11:43:45.479626] Analyse complète des modules Ariane effectuée.
+[2025-10-27 11:45:35.407020] Prompt reçu : Crée un module AutoTest.psm1 qui affiche 'Ariane moteur automatique opérationnel !'
+[2025-10-27 11:45:35.407585] Mode détecté : code
+[2025-10-27 11:45:37.892507] 🧩 Module Ariane créé : C:\\Users\\Sonia\\Dropbox\\ArianeV4\Modules\AutoTest.psm1
+[2025-10-27 11:51:04.150644] Agent Ariane initialisé.
+[2025-10-27 11:52:05.638615] Prompt reçu : Crée un module AutoTest.psm1 qui affiche 'Ariane moteur automatique opérationnel !'
+[2025-10-27 11:52:05.639566] Mode détecté : code
+[2025-10-27 11:52:09.141089] 🧩 Module Ariane créé : C:\\Users\\Sonia\\Dropbox\\ArianeV4\Modules\AutoTest.psm1
+[2025-10-27 11:53:40.797350] Analyse terminée : 201 modules inspectés.
+[2025-10-27 11:53:40.797762] Analyse complète des modules Ariane effectuée.
+[2025-10-27 11:53:44.428482] Prompt reçu : vérifie l’intégrité des modules Ariane
+[2025-10-27 11:53:44.430409] Mode détecté : code
+[2025-10-27 11:53:53.120799] 🧩 Module Ariane créé : C:\\Users\\Sonia\\Dropbox\\ArianeV4\Modules\GeneratedModule_20251027_115353.psm1
+[2025-10-27 12:02:06.675330] Analyse terminée : 201 modules inspectés.
+[2025-10-27 12:02:06.675728] Analyse complète des modules Ariane effectuée.
+[2025-10-27 12:02:11.085439] Prompt reçu : vérifie l’intégrité des modules Ariane
+[2025-10-27 12:02:11.085934] Mode détecté : code
+[2025-10-27 12:02:16.390174] 🧩 Module Ariane créé : C:\\Users\\Sonia\\Dropbox\\ArianeV4\Modules\GeneratedModule_20251027_120216.psm1
+[2025-10-27 12:06:02.172710] Agent Ariane initialisé.
+[2025-10-27 12:06:20.286170] Analyse terminée : 201 modules inspectés.
+[2025-10-27 12:06:20.286576] Analyse complète des modules Ariane effectuée.
+[2025-10-27 12:42:21.762330] Agent Ariane initialisé.
+[2025-10-27 12:43:12.759536] Analyse terminée : 201 modules inspectés.
+[2025-10-27 12:43:12.759918] Analyse complète des modules Ariane effectuée.
+[2025-10-27 12:46:32.986603] Agent Ariane initialisé.
+[2025-10-27 12:47:23.102089] Analyse terminée : 201 modules inspectés.
+[2025-10-27 12:47:23.102496] Analyse complète des modules Ariane effectuée.
+[2025-10-27 12:47:25.401738] Commande reçue : vérifie l’intégrité des modules Ariane
+[2025-10-27 12:47:25.966039] Résultat : {'status': 'ERROR', 'stdout': '', 'stderr': "Le terminateur ' est manquant dans la chaŒne.\n    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException\n    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString", 'return_code': 1}
+[2025-10-27 12:49:20.829254] Agent Ariane initialisé.
+[2025-10-27 12:49:42.279183] Analyse terminée : 201 modules inspectés.
+[2025-10-27 12:49:42.279585] Analyse complète des modules Ariane effectuée.
+[2025-10-27 12:49:44.334230] Commande reçue : vérifie l’intégrité des modules Ariane
+[2025-10-27 12:49:44.755320] Résultat : {'status': 'OK', 'stdout': "Ex‚cution de la commande : v‚rifie l'int‚grit‚ des modules Ariane", 'stderr': '', 'return_code': 0}
+[2025-10-27 12:52:00.890052] Agent Ariane initialisé.
+[2025-10-27 12:52:24.851549] Analyse terminée : 201 modules inspectés.
+[2025-10-27 12:52:24.851958] Analyse complète des modules Ariane effectuée.
+[2025-10-27 12:52:29.711523] Commande reçue : vérifie l’intégrité des modules Ariane
+[2025-10-27 12:52:30.053675] Résultat : {'status': 'OK', 'stdout': 'ExÃ©cution de la commande : vÃ©rifie lâ€™intÃ©gritÃ© des modules Ariane', 'stderr': '', 'return_code': 0}
+[2025-10-27 13:02:03] SAFE_EXECUTION = True (mode RÉEL).
+[2025-10-27 13:02:03] Agent Ariane v5 démarré.
+[2025-10-27 13:02:25] 👉 Route /analyze-modules appelée
+[2025-10-27 13:02:28] Analyse terminée : 291 modules inspectés.
+[2025-10-27 13:02:34] Prompt reçu: vérifie l’intégrité des modules Ariane
+[2025-10-27 13:02:34] Analyse terminée : 291 modules inspectés.
+[2025-10-27 13:02:34] Fonctions retenues pour exécution: ['Test-AutoRulesIntegrity', 'Test-EvolutionRegistryIntegrity', 'Invoke-AthenaModuleSyntaxFix']
+[2025-10-27 13:02:49] Execution complete. 3 fonctions lancées.
+[2025-10-27 13:58:57] Agent local initialisé.
+[2025-10-27 13:59:13] Agent local initialisé.
+[2025-10-27 14:00:33] Agent local initialisé.
+[2025-10-27 14:02:25] Agent local initialisé.
+[2025-10-27 14:03:10] 🧠 Requête reçue : vérifie l’intégrité des modules Ariane
+[2025-10-27 14:03:10] 🔧 Action détectée → Module: Ariane.Audit.psm1, Commande: Show-AuditReport
+[2025-10-27 14:03:11] ✅ Tâche terminée (0.72s) — Code: 1
+[2025-10-27 15:03:38] Agent local initialisé.
+[2025-10-27 16:01:40] Agent Ariane initialisé.\n[2025-10-27 18:49:00] Prompt reçu : Donne-moi un plan PowerShell pour sauvegarder mes fichiers importants\n[2025-10-27 18:49:17] Réponse générée avec succès.\n[2025-10-27 18:58:21] Prompt reçu : Explique le rôle du Planificateur de tâches Windows\n[2025-10-27 18:58:31] Réponse générée avec succès.\n[2025-10-27 21:36:18] Prompt reçu : Test de communication Ariane
+[2025-10-27 21:36:20] Réponse GPT reçue.
+[2025-10-28 12:21:40] === Démarrage Ariane Agent Bridge (port 5000) ===
+[2025-10-28 12:25:35] 🧠 Requête reçue de TestConnectivity : exec (Get-Date)
+[2025-10-28 12:25:36] ✅ Exécution PowerShell OK : mardi 28 octobre 2025 12:25:36
+[2025-10-28 13:55:46] === Démarrage Ariane Agent Bridge (port 5000) ===

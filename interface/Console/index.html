@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Athena Cockpit (Live Monitor)</title>
+  <style>
+    body { background-color: #000; color: #0f0; font-family: monospace; padding: 20px; }
+    h1 { color: #0ff; }
+    #log { height: 80vh; overflow-y: auto; border: 1px solid #0f0; padding: 10px; background: #111; }
+    .msg { margin-bottom: 5px; }
+    .in { color: #ff0; }
+    .out { color: #0f0; }
+    .sys { color: #999; }
+  </style>
+</head>
+<body>
+  <h1>🧠 Athena Cockpit (WebSocket Monitor)</h1>
+  <div id="log"></div>
+
+  <script>
+    const log = document.getElementById("log");
+    const ws = new WebSocket("ws://localhost:9191/ws");
+
+    function append(text, type = "sys") {
+      const div = document.createElement("div");
+      div.className = `msg ${type}`;
+      div.textContent = text;
+      log.appendChild(div);
+      log.scrollTop = log.scrollHeight;
+    }
+
+    ws.onopen = () => append("✅ WebSocket connecté à Athena", "sys");
+    ws.onmessage = e => append("📥 Reçu : " + e.data, "in");
+    ws.onclose = () => append("🔌 WebSocket fermé", "sys");
+    ws.onerror = e => append("❌ Erreur WebSocket", "sys");
+  </script>
+</body>
+</html>

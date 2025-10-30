@@ -1,0 +1,65 @@
+[2025-10-27 21:44:18] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 21:44:18] ✅ AgentKit initialisé.
+[2025-10-27 21:48:45] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 21:48:45] ✅ AgentKit initialisé.
+[2025-10-27 21:48:45] ❌ Action inconnue : create_project
+[2025-10-27 21:50:36] ⚠️ Erreur chargement agentkit.actions.create_project: No module named 'agentkit.actions'
+[2025-10-27 21:50:36] ✅ AgentKit initialisé.
+[2025-10-27 21:50:37] ❌ Action inconnue : create_project
+[2025-10-27 21:55:08] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 21:55:08] ✅ AgentKit initialisé.
+[2025-10-27 21:55:08] ❌ Action inconnue : create_project
+[2025-10-27 21:58:09] 🔗 Action chargée : create_project (agentkit.actions.create_project)
+[2025-10-27 21:58:09] 🔗 Action chargée : log (agentkit.actions.create_project)
+[2025-10-27 21:58:09] 🔗 Action chargée : deploy_project (agentkit.actions.deploy_project)
+[2025-10-27 21:58:09] 🔗 Action chargée : log (agentkit.actions.deploy_project)
+[2025-10-27 21:58:09] 🔗 Action chargée : list_projects (agentkit.actions.list_projects)
+[2025-10-27 21:58:09] 🔗 Action chargée : log (agentkit.actions.list_projects)
+[2025-10-27 21:58:09] 🔗 Action chargée : log (agentkit.actions.update_project)
+[2025-10-27 21:58:09] 🔗 Action chargée : update_project (agentkit.actions.update_project)
+[2025-10-27 21:58:09] ✅ AgentKit initialisé.
+[2025-10-27 21:58:09] 🔗 Action chargée : create_project (agentkit.actions.create_project)
+[2025-10-27 21:58:09] 🔗 Action chargée : log (agentkit.actions.create_project)
+[2025-10-27 21:58:09] 🔗 Action chargée : deploy_project (agentkit.actions.deploy_project)
+[2025-10-27 21:58:09] 🔗 Action chargée : log (agentkit.actions.deploy_project)
+[2025-10-27 21:58:09] 🔗 Action chargée : list_projects (agentkit.actions.list_projects)
+[2025-10-27 21:58:09] 🔗 Action chargée : log (agentkit.actions.list_projects)
+[2025-10-27 21:58:09] 🔗 Action chargée : log (agentkit.actions.update_project)
+[2025-10-27 21:58:09] 🔗 Action chargée : update_project (agentkit.actions.update_project)
+[2025-10-27 21:58:09] ✅ AgentKit initialisé.
+[2025-10-27 21:58:09] ✅ Projet 'DemoProject' créé dans C:\Users\Sonia\Dropbox\ArianeV4\Projects\DemoProject
+[2025-10-27 21:58:09] ✅ Action 'create_project' exécutée avec succès.
+[2025-10-27 22:08:24] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:08:24] ✅ AgentKit initialisé.
+[2025-10-27 22:08:26] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:08:26] ✅ AgentKit initialisé.
+[2025-10-27 22:11:36] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:11:36] ✅ AgentKit initialisé.
+[2025-10-27 22:12:35] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:12:35] ✅ AgentKit initialisé.
+[2025-10-27 22:12:36] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:12:36] ✅ AgentKit initialisé.
+[2025-10-27 22:14:50] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:14:50] ✅ AgentKit initialisé.
+[2025-10-27 22:15:12] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:15:12] ✅ AgentKit initialisé.
+[2025-10-27 22:15:13] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:15:13] ✅ AgentKit initialisé.
+[2025-10-27 22:17:02] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:17:02] ✅ AgentKit initialisé.
+[2025-10-27 22:17:19] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:17:19] ✅ AgentKit initialisé.
+[2025-10-27 22:17:20] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:17:20] ✅ AgentKit initialisé.
+[2025-10-27 22:18:11] ⚠️ Erreur chargement agentkit.actions.create_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:18:11] ⚠️ Erreur chargement agentkit.actions.deploy_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:18:11] ⚠️ Erreur chargement agentkit.actions.list_projects: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:18:11] ⚠️ Erreur chargement agentkit.actions.update_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:18:11] ✅ AgentKit initialisé.
+[2025-10-27 22:19:24] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:19:24] ✅ AgentKit initialisé.
+[2025-10-27 22:19:48] ⚠️ Erreur chargement agentkit.actions.create_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:19:48] ⚠️ Erreur chargement agentkit.actions.deploy_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:19:48] ⚠️ Erreur chargement agentkit.actions.list_projects: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:19:48] ⚠️ Erreur chargement agentkit.actions.update_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:19:48] ✅ AgentKit initialisé.

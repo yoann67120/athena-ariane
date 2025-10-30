@@ -1,0 +1,54 @@
+{
+"global": {
+"log_file": "C:/Ariane-Agent/logs/Global.log",
+"speak_url":"",
+"check_interval_sec": 10,
+"cooldown_after_restart_sec": 8,
+"log_max_mb": 10
+},
+"services": [
+{
+"name": "UsineAProjets",
+"method": "http",
+"url": "http://localhost:5050/",
+"expect_code": 200,
+"process_hint": "python",
+"restart_cmd": "powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Usine.ps1",
+"retries": 2
+},
+{
+"name": "AgentFlask",
+"method": "http",
+"url": "http://localhost:5000/analyze-modules",
+"expect_code": 200,
+"process_hint": "python",
+"restart_cmd": "powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Agent.ps1",
+"retries": 2
+},
+{
+"name": "BridgeSuite",
+"method": "tcp",
+"port": 9191,
+"process_hint": "node",
+"restart_cmd": "powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Bridge.ps1",
+"retries": 2
+},
+{
+"name": "AthenaServerCore",
+"method": "tcp",
+"port": 49392,
+"process_hint": "pwsh",
+"restart_cmd": "powershell -ExecutionPolicy Bypass -File C:/Users/Sonia/Dropbox/ArianeV4/Scripts/Start-AthenaServer.ps1",
+"retries": 2
+},
+{
+"name": "CockpitTTS",
+"method": "http",
+"url": "http://localhost:5070/health",
+"expect_code": 200,
+"process_hint": "python",
+"restart_cmd": "powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/CockpitAthena/Start-TTS.ps1",
+"retries": 2
+}
+]
+}

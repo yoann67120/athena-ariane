@@ -1,0 +1,258 @@
+# =====================================================================
+# 🧠 Athena.Cognition.psm1 – Phase 15 : Expansion Cognitive & Métacognition
+# v1.2-stable – Compatibilité PowerShell 5.x / 7.x + correctif CognitiveMap
+# =====================================================================
+# Objectif :
+#   Observer → Réfléchir → Conclure → Mémoriser → Ajuster
+#   Donne à Athena la capacité de raisonner sur ses expériences,
+#   de détecter des motifs et d’en tirer des enseignements persistants.
+# =====================================================================
+
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "SilentlyContinue"
+
+# --- Dossiers principaux ---
+$ModuleDir     = Split-Path -Parent $MyInvocation.MyCommand.Path
+$RootDir       = Split-Path -Parent $ModuleDir
+$LogsDir       = Join-Path $RootDir "Logs"
+$MemoryDir     = Join-Path $RootDir "Memory"
+$CognitionLog  = Join-Path $LogsDir   "Athena.CognitiveReport.log"
+$CognitiveMap  = Join-Path $MemoryDir "CognitiveMap.json"
+
+# =====================================================================
+# 🔹 UTILITAIRES DE LOG
+# =====================================================================
+function Write-CognitionLog {
+    param([string]$Message, [string]$Level = "INFO")
+    $t = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
+    $entry = "[$t][$Level] $Message"
+    Add-Content -Path $CognitionLog -Value $entry
+    Write-Host "🧠 $Message" -ForegroundColor Cyan
+}
+
+# =====================================================================
+# 🔹 INITIALISATION
+# =====================================================================
+function Initialize-Cognition {
+    Write-CognitionLog "Initialisation du moteur cognitif..."
+    $deps = @("LocalModel","ActionEngine")
+    foreach ($dep in $deps) {
+        if (-not (Get-Module -Name $dep)) {
+            $path = Join-Path (Join-Path $RootDir "Modules") "$dep.psm1"
+            if (Test-Path $path) {
+                Import-Module $path -Force -Global
+                Write-CognitionLog "✅ Dépendance chargée : $dep"
+            }
+            else {
+                Write-CognitionLog "⚠️ Dépendance manquante : $dep" "WARN"
+            }
+        }
+    }
+    if (!(Test-Path $MemoryDir)) { New-Item -ItemType Directory -Path $MemoryDir -Force | Out-Null }
+    if (!(Test-Path $LogsDir))   { New-Item -ItemType Directory -Path $LogsDir   -Force | Out-Null }
+    Write-CognitionLog "Moteur cognitif initialisé avec succès."
+}
+
+# =====================================================================
+# 🔹 COLLECTE DES DONNÉES ET OBSERVATIONS (compatibilité universelle)
+# =====================================================================
+function Collect-AthenaState {
+    Write-CognitionLog "Collecte des données système et logs..."
+    # -- Mesures universelles via WMI/CIM --
+    try {
+        $cpuLoad = (Get-CimInstance Win32_Processor | Measure-Object -Property LoadPercentage -Average).Average
+        $mem     = Get-CimInstance Win32_OperatingSystem
+        $memFree = [math]::Round($mem.FreePhysicalMemory / 1024, 2)
+    }
+    catch {
+        $cpuLoad = 0
+        $memFree = 0
+    }
+
+    $state = [ordered]@{
+        CPUUsage   = $cpuLoad
+        MemoryFree = $memFree
+        LogsCount  = (Get-ChildItem $LogsDir -Filter "*.log" -ErrorAction SilentlyContinue | Measure-Object).Count
+        Time       = (Get-Date)
+    }
+
+    # Lecture des rapports récents
+    $report   = Get-Content (Join-Path $LogsDir "AthenaReport.log") -ErrorAction SilentlyContinue -Tail 50
+    $repair   = Get-Content (Join-Path $LogsDir "AthenaRepair.log") -ErrorAction SilentlyContinue -Tail 50
+    $learning = Get-Content (Join-Path $MemoryDir "LearningSummary.json") -ErrorAction SilentlyContinue | ConvertFrom-Json -ErrorAction SilentlyContinue
+
+    $state["RecentReport"]  = ($report -join "`n")
+    $state["RecentRepair"]  = ($repair -join "`n")
+    $state["LearningScore"] = $learning.Score
+
+    Write-CognitionLog "✅ Données collectées : CPU=$([math]::Round($state.CPUUsage,2))% | RAM libre=$([math]::Round($state.MemoryFree,2)) MB"
+    return $state
+}
+
+# =====================================================================
+# 🔹 RAISONNEMENT ET INTERPRÉTATION
+# =====================================================================
+function Invoke-AthenaReasoning {
+    param([hashtable]$State)
+    Write-CognitionLog "Analyse cognitive du contexte en cours..."
+    try {
+        $prompt = @"
+Analyse les éléments suivants et produis une réflexion concise :
+- Données système (CPU/RAM)
+- Logs récents d’Athena
+- Score d’apprentissage
+
+Formate ta réponse sous la forme :
+Observation : ...
+Hypothèse : ...
+Action_suggérée : ...
+"@
+        $prompt += "`n`nContexte : $($State | ConvertTo-Json -Depth 3 -Compress)"
+
+        if (Get-Command Invoke-LocalModel -ErrorAction SilentlyContinue) {
+            $response = Invoke-LocalModel -Prompt $prompt
+        }
+        else {
+            $response = "Observation : LocalModel non disponible.`nHypothèse : moteur cognitif partiel.`nAction_suggérée : exécuter une vérification complète."
+        }
+
+        Write-CognitionLog "💭 Réflexion générée : $response"
+        return $response
+    }
+    catch {
+        Write-CognitionLog "❌ Erreur pendant le raisonnement : $_" "ERROR"
+        return "Observation : Erreur cognitive`nHypothèse : Exception`nAction_suggérée : Reprendre cycle."
+    }
+}
+
+# =====================================================================
+# 🔹 SAUVEGARDE ET MISE À JOUR DE LA CARTE COGNITIVE (corrigée)
+# =====================================================================
+function Update-CognitiveMap {
+    param([string]$Response)
+    try {
+        $entry = @{
+            Timestamp  = (Get-Date).ToString("s")
+            Reflection = $Response
+        }
+
+        $existing = @()
+if (Test-Path $CognitiveMap) {
+    $raw = Get-Content $CognitiveMap -Raw -ErrorAction SilentlyContinue
+    if ($raw.Trim().Length -gt 0) {
+        try {
+            $parsed = $raw | ConvertFrom-Json -ErrorAction Stop
+            if ($parsed -is [System.Collections.IEnumerable]) {
+                $existing += $parsed
+            }
+            else {
+                $existing += ,$parsed
+            }
+        }
+        catch {
+            Write-CognitionLog "⚠️ Erreur lecture CognitiveMap, recréation du fichier." "WARN"
+        }
+    }
+}
+
+$existing += $entry
+        $existing | ConvertTo-Json -Depth 4 | Set-Content -Path $CognitiveMap -Encoding UTF8
+        Write-CognitionLog "🧩 CognitiveMap mise à jour avec succès."
+    }
+    catch {
+        Write-CognitionLog "❌ Erreur mise à jour CognitiveMap : $_" "ERROR"
+    }
+}
+
+# =====================================================================
+# 🔹 DÉCISION ET ACTION
+# =====================================================================
+function Invoke-AthenaDecision {
+    param([string]$Response)
+    Write-CognitionLog "Décision basée sur la réflexion en cours..."
+    if ($Response -match "vérification" -or $Response -match "réparation") {
+        if (Get-Command Invoke-ActionPlan -ErrorAction SilentlyContinue) {
+            Invoke-ActionPlan -Plan "selfrepair"
+            Write-CognitionLog "🩺 Action : auto-réparation déclenchée."
+        }
+        else {
+            Write-CognitionLog "⚠️ ActionEngine non disponible – décision enregistrée seulement." "WARN"
+        }
+    }
+    elseif ($Response -match "stable" -or $Response -match "aucun problème") {
+        Write-CognitionLog "😌 Système stable – aucune action corrective requise."
+    }
+    else {
+        Write-CognitionLog "📘 Observation enregistrée pour apprentissage futur."
+    }
+}
+
+# =====================================================================
+# 🔹 CYCLE COGNITIF COMPLET
+# =====================================================================
+function Invoke-AthenaCognition {
+    Write-CognitionLog "🚀 Démarrage du cycle cognitif complet..."
+    Initialize-Cognition
+    $state      = Collect-AthenaState
+    $reflection = Invoke-AthenaReasoning -State $state
+    Update-CognitiveMap -Response $reflection
+    Invoke-AthenaDecision -Response $reflection
+    Write-CognitionLog "✅ Cycle cognitif terminé avec succès."
+}
+
+Export-ModuleMember -Function *-Athena*, Initialize-Cognition, Write-CognitionLog, Update-CognitiveMap
+# =====================================================================
+# Fin du module Athena.Cognition.psm1
+# =====================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

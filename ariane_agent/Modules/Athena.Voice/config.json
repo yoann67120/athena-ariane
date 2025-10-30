@@ -1,0 +1,11 @@
+{
+  "language": "fr",
+  "wake_word": "athena",
+  "server_port": 5070,
+  "log_path": "C:\\Ariane-Agent\\logs\\AthenaVoice.log",
+  "sounds": {
+    "startup": "sounds/startup.mp3",
+    "confirm": "sounds/confirm.mp3",
+    "error": "sounds/error.mp3"
+  }
+}

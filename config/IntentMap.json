@@ -1,0 +1,45 @@
+[
+  { "pattern": "(?i)(start|demarre|démarre|ouvre.?chat|lance.?console)", "module": "Athena.ConsoleChat", "function": "Start-AthenaConsoleChat" },
+  { "pattern": "(?i)(repar|corrig|fix|defaut|erreur)", "module": "Athena.SelfRepair", "function": "Invoke-AthenaSelfRepair" },
+  { "pattern": "(?i)(netto(ie|yage|yer)|purge|clean)", "module": "Athena.JSONCleaner", "function": "Invoke-AthenaJSONCleaner" },
+  { "pattern": "(?i)(analyse|audit|rapport|etat|scanne)", "module": "Athena.GlobalReport", "function": "Invoke-AthenaGlobalReport" },
+  { "pattern": "(?i)(sauvegarde|backup|enregistre)", "module": "Athena.Backup", "function": "Start-AthenaBackup" },
+  { "pattern": "(?i)(redemarre|restart|relance|reboot)", "module": "Athena.HybridLink", "function": "Restart-HybridLink" },
+  { "pattern": "(?i)(stoppe|arrete|shutdown|off)", "module": "Athena.SystemControl", "function": "Invoke-AthenaShutdown" },
+  { "pattern": "(?i)(mise.?a.?jour|update|patch)", "module": "Athena.AutoPatch", "function": "Invoke-AutoPatch" },
+
+  { "pattern": "(?i)(apprend|learn|entrain|memorise|souviens)", "module": "Athena.AutoLearning", "function": "Invoke-AthenaAutoLearning" },
+  { "pattern": "(?i)(evolue|ameliore|upgrade|developpe)", "module": "Athena.AutoEvolution", "function": "Invoke-AutoEvolutionPlan" },
+  { "pattern": "(?i)(planifie|organise|prepare|programme)", "module": "Athena.AutoPlanner", "function": "Invoke-AthenaPlanner" },
+  { "pattern": "(?i)(introspect|reflechis|analyse.?toi)", "module": "Athena.SelfReflection", "function": "Invoke-AthenaSelfReflection" },
+  { "pattern": "(?i)(harmonise|equilibre|calme|emotions|coherence)", "module": "Athena.SelfHarmony", "function": "Invoke-AthenaHarmonyCycle" },
+  { "pattern": "(?i)(memoire|state|souvenir|cache)", "module": "Athena.MemoryAnalyzer", "function": "Invoke-AthenaMemoryReport" },
+  { "pattern": "(?i)(dialogue|parle|discute|reponds)", "module": "Athena.AutoDialogue", "function": "Invoke-DialogueUnderstanding" },
+  { "pattern": "(?i)(veille|standby|repos)", "module": "Athena.SleepCycle", "function": "Invoke-AthenaSleep" },
+
+  { "pattern": "(?i)(cockpit|interface|ui|affiche|ouvre)", "module": "Cockpit.Server", "function": "Start-CockpitServer" },
+  { "pattern": "(?i)(scanner|barre|halo)", "module": "Cockpit.Signal", "function": "Invoke-CockpitSignalTest" },
+  { "pattern": "(?i)(statut|voyant|indicateur)", "module": "Cockpit.Status", "function": "Invoke-CockpitStatusReport" },
+
+  { "pattern": "(?i)(projet|factory|usine)", "module": "Athena.ProjectFactory", "function": "Invoke-ProjectCreation" },
+  { "pattern": "(?i)(workflow|automate|routine|process)", "module": "Athena.WorkflowEngine", "function": "Invoke-AthenaWorkflow" },
+  { "pattern": "(?i)(integration|liaison|bridge|connecte)", "module": "Athena.IntegrationAdvisor", "function": "Invoke-AthenaIntegration" },
+
+  { "pattern": "(?i)(surveille|watchdog|securite|defense)", "module": "Athena.Watchdog", "function": "Invoke-AthenaWatchdogScan" },
+  { "pattern": "(?i)(verifie|integrite|controle|audit.?modules)", "module": "Athena.Integrity", "function": "Invoke-AthenaIntegrityCheck" },
+  { "pattern": "(?i)(alerte|incident|attaque|danger)", "module": "Athena.DefenseMatrix", "function": "Invoke-AthenaDefenseCycle" },
+
+  { "pattern": "(?i)(logs|journal|historique)", "module": "Athena.AutoReport", "function": "Invoke-AthenaLogReport" },
+  { "pattern": "(?i)(fichier|data|structure|stockage)", "module": "Athena.FileManager", "function": "Invoke-AthenaFileAudit" },
+  { "pattern": "(?i)(config|reglage|parametre|setting)", "module": "Athena.ConfigManager", "function": "Invoke-AthenaConfigAudit" },
+
+  { "pattern": "(?i)(plan|objectif|tache|but)", "module": "Athena.SelfCoordinator", "function": "Invoke-AthenaCoordinationCycle" },
+  { "pattern": "(?i)(creer|construis|developpe)", "module": "Athena.ProjectFactory", "function": "Invoke-ProjectCreation" },
+  { "pattern": "(?i)(idee|concept|innovation)", "module": "Athena.IdeaEngine", "function": "Invoke-AthenaIdeaExpansion" },
+  { "pattern": "(?i)(alertes|prix|surveille.?offre)", "module": "Athena.AlertPrice", "function": "Invoke-AthenaAlertCheck" },
+  { "pattern": "(?i)(veille.?techno|nouveaute)", "module": "Athena.AutoWatcher", "function": "Invoke-AthenaWatcherCycle" },
+
+  { "pattern": "(?i)(ping|statut|status|synchro|sync)", "module": "Athena.SystemMonitor", "function": "Invoke-AthenaSystemPing" },
+  { "pattern": "(?i)(test|check|essaie|verif)", "module": "Athena.TestModule", "function": "Invoke-AthenaTestAction" },
+  { "pattern": ".*", "module": "Athena.Fallback", "function": "Invoke-AthenaFallback" }
+]

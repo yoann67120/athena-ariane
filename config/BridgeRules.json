@@ -1,0 +1,49 @@
+{
+  "Version": "1.0-SecureCore",
+  "Mode": "Strict",
+  "AllowedPaths": [
+    "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules",
+    "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Scripts",
+    "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Memory",
+    "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Logs",
+    "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Config",
+    "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\WebUI"
+  ],
+  "ForbiddenExtensions": [
+    ".exe",
+    ".dll",
+    ".sys",
+    ".bat",
+    ".cmd",
+    ".vbs",
+    ".js",
+    ".msi",
+    ".reg"
+  ],
+  "MaxFileSizeMB": 10,
+  "IntegrityChecks": {
+    "EnableHashVerification": true,
+    "HashAlgorithm": "SHA256",
+    "RequireSignature": false
+  },
+  "AlertBehavior": {
+    "OnPathViolation": "BlockAndLog",
+    "OnExtensionViolation": "BlockAndAlert",
+    "OnSizeViolation": "BlockAndLog",
+    "OnIntegrityFailure": "StopBridge"
+  },
+  "Notifications": {
+    "CockpitIntegration": true,
+    "LogToConsole": true,
+    "LogToFile": true
+  },
+  "AutoRepair": {
+    "Enable": true,
+    "Trigger": "OnNextCycle",
+    "Action": "Invoke-AthenaSelfRepair"
+  },
+  "Audit": {
+    "KeepDays": 30,
+    "RotateOnStartup": true
+  }
+}

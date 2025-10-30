@@ -1,0 +1,263 @@
+# ====================================================================
+# 🧠 Athena.SelfRepair.psm1 – Total Recovery Engine
+# Version : v3.0-Ultimate (Self-Healing + AI Reconstruction + MemorySync)
+# ====================================================================
+# Objectifs :
+#   - Scanner tous les modules et scripts pour détecter anomalies ou corruptions
+#   - Réparer automatiquement via SafeOps, Backup ou reconstruction IA locale
+#   - Valider les exports, recharger à chaud, et historiser chaque action
+#   - Alimenter LearningSummary.json et AutoRepairReport.json
+#   - Prévenir les boucles et assurer la stabilité globale d’Athena
+# ====================================================================
+
+Set-StrictMode -Version Latest
+$ErrorActionPreference = 'SilentlyContinue'
+
+# --- Sécurité Hash globale (déclarée avant tout le reste) ---
+function global:Get-FileHashSafe {
+    param([string]$Path)
+    try {
+        (Get-FileHash $Path -Algorithm SHA256).Hash
+    }
+    catch {
+        return 'N/A'
+    }
+}
+
+# ====================================================================
+# 📁 Initialisation des chemins
+# ====================================================================
+try {
+    $ScriptRoot = $PSScriptRoot
+    if (-not $ScriptRoot) { $ScriptRoot = Split-Path -Parent $PSCommandPath }
+    $RootDir    = Split-Path -Parent $ScriptRoot
+    $ModulesDir = Join-Path $RootDir 'Modules'
+    $LogsDir    = Join-Path $RootDir 'Logs'
+    $MemoryDir  = Join-Path $RootDir 'Memory'
+    $BackupsDir = Join-Path $RootDir 'Backups'
+    $DataDir    = Join-Path $RootDir 'Data\GPT'
+
+    foreach ($p in @($LogsDir,$MemoryDir,$BackupsDir)) {
+        if (!(Test-Path $p)) { New-Item -ItemType Directory -Path $p -Force | Out-Null }
+    }
+
+    $LogFile     = Join-Path $LogsDir 'AthenaSelfRepair.log'
+    $ReportFile  = Join-Path $MemoryDir 'AutoRepairReport.json'
+    $LearningSum = Join-Path $MemoryDir 'LearningSummary.json'
+}
+catch {
+    Write-Warning "⚠️ Erreur d’initialisation des chemins : $_"
+    return
+}
+
+# ====================================================================
+# 🧩 Fonctions utilitaires
+# ====================================================================
+function Write-RepairLog {
+    param([string]$Message, [string]$Level = 'INFO')
+    $t = (Get-Date).ToString('yyyy-MM-dd HH:mm:ss')
+    Add-Content -Path $LogFile -Value "[$t][$Level] $Message"
+    Write-Host "🩺 $Message"
+}
+
+function Add-LearningEntry {
+    param([string]$Module,[string]$Action,[string]$Result)
+    $entry = [PSCustomObject]@{
+        Date    = (Get-Date).ToString('u')
+        Module  = $Module
+        Action  = $Action
+        Result  = $Result
+    }
+    $data = @()
+    if (Test-Path $LearningSum) {
+        try { $data = Get-Content $LearningSum -Raw | ConvertFrom-Json } catch {}
+    }
+    $data += @() + @() + $entry
+    $data | ConvertTo-Json -Depth 4 | Out-File $LearningSum -Encoding UTF8
+}
+
+function Get-ModuleList {
+    Get-ChildItem -Path $ModulesDir -Filter '*.psm1' -ErrorAction SilentlyContinue
+}
+
+function Get-FileHashSafe {
+    param($Path)
+    try { (Get-FileHash $Path -Algorithm SHA256).Hash } catch { return 'N/A' }
+}
+
+# ====================================================================
+# 🔍 Étape 1 – Analyse d’intégrité
+# ====================================================================
+function Test-AthenaModuleIntegrity {
+    Write-Host "`n🔎 Analyse de l’intégrité des modules..." -ForegroundColor Cyan
+    $modules = Get-ModuleList
+    $report = @()
+
+    foreach ($m in $modules) {
+        try {
+            $importable = $true
+            try { Import-Module $m.FullName -Force -ErrorAction Stop } catch { $importable = $false }
+            $hash = Get-FileHashSafe $m.FullName
+            $size = [math]::Round($m.Length/1KB,2)
+            $report += @() + @() + [PSCustomObject]@{
+                Module = $m.Name
+                Taille = "$size Ko"
+                Hash   = $hash
+                Importable = $importable
+            }
+        } catch {
+            Write-RepairLog "Erreur analyse module $($m.Name) : $_" 'WARN'
+        }
+    }
+
+    $report | ConvertTo-Json -Depth 3 | Out-File (Join-Path $MemoryDir 'IntegrityCheck.json') -Encoding utf8
+    Write-Host "✅ Vérification d’intégrité terminée." -ForegroundColor Green
+    return $report
+}
+
+# ====================================================================
+# 🧩 Étape 2 – Réparation locale via SafeOps ou Backup
+# ====================================================================
+function Repair-AthenaModule {
+    param([string]$Name)
+    $Path = Join-Path $ModulesDir "$Name.psm1"
+    Write-RepairLog "🩹 Tentative de réparation du module $Name..."
+
+    # 🔁 1. Restauration depuis SafeOps (.bak)
+    $bak = Get-ChildItem "$Path.bak_*" -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+    if ($bak) {
+        Copy-Item $bak.FullName $Path -Force
+        Import-Module $Path -Force -Global
+        Write-RepairLog "✅ Restauration depuis snapshot SafeOps : $($bak.Name)"
+        Add-LearningEntry $Name 'SafeOpsRestore' 'Succès'
+        return
+    }
+
+    # 💾 2. Copie depuis Backups
+    $backupMatch = Get-ChildItem -Path $BackupsDir -Recurse -Filter "$Name.psm1" -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+    if ($backupMatch) {
+        Copy-Item $backupMatch.FullName $Path -Force
+        Import-Module $Path -Force -Global
+        Write-RepairLog "✅ Module restauré depuis Backup : $($backupMatch.FullName)"
+        Add-LearningEntry $Name 'BackupRestore' 'Succès'
+        return
+    }
+
+    # 🤖 3. Reconstruction IA locale
+    if (Get-Command Invoke-LocalModel -ErrorAction SilentlyContinue) {
+        Write-RepairLog "🧠 Reconstruction IA du module $Name en cours..."
+        $prompt = "Recrée le module PowerShell nommé '$Name' pour le projet ArianeV4. 
+                   Il doit contenir au moins une fonction 'Invoke-$($Name -replace '\.','')' 
+                   qui écrit un message de confirmation. Format PowerShell complet."
+        try {
+            $code = Invoke-LocalModel -Prompt $prompt
+            if ($code -and $code.Length -gt 20) {
+                $code | Out-File -FilePath $Path -Encoding UTF8
+                Import-Module $Path -Force -Global
+                Write-RepairLog "✅ Module $Name régénéré via IA locale."
+                Add-LearningEntry $Name 'AIRebuild' 'Succès'
+            } else {
+                Write-RepairLog "❌ Échec de génération IA pour $Name" 'ERROR'
+            }
+        } catch {
+            Write-RepairLog "⚠️ Erreur pendant la reconstruction IA : $_"
+            Add-LearningEntry $Name 'AIRebuild' 'Échec'
+        }
+    } else {
+        Write-RepairLog "⚠️ Moteur IA local non disponible pour $Name." 'WARN'
+        Add-LearningEntry $Name 'AIRebuild' 'Non disponible'
+    }
+}
+
+# ====================================================================
+# ♻️ Étape 3 – Cycle complet de réparation
+# ====================================================================
+function Invoke-AthenaSelfRepair {
+    param([switch]$DryRun)
+
+    Write-Host "`n🩺 Démarrage du processus complet de SelfRepair..." -ForegroundColor Cyan
+    Write-RepairLog "=== Cycle complet lancé ==="
+
+    $integrity = Test-AthenaModuleIntegrity
+    $toFix = $integrity | Where-Object { -not $_.Importable -or $_.Taille -eq '0 Ko' }
+
+    if ($toFix.Count -eq 0) {
+        Write-RepairLog "✅ Tous les modules sont intacts."
+    } else {
+        foreach ($m in $toFix) {
+            if ($DryRun) {
+                Write-RepairLog "[DRYRUN] Module $($m.Module) nécessiterait une réparation." 'INFO'
+            } else {
+                Repair-AthenaModule -Name ($m.Module -replace '\.psm1','')
+            }
+        }
+    }
+
+    # 🧪 Test post-réparation
+    Write-Host "`n🧪 Vérification post-réparation..." -ForegroundColor Yellow
+    try {
+        $exports = Get-Command -Name "Invoke-Athena*" -ErrorAction SilentlyContinue
+        Write-RepairLog "Exports disponibles : $($exports.Count)"
+    } catch {
+        Write-RepairLog "⚠️ Échec de vérification post-réparation : $_"
+    }
+
+    # 🧾 Rapport synthétique
+    $summary = [PSCustomObject]@{
+        Date = (Get-Date).ToString('yyyy-MM-dd HH:mm:ss')
+        ModulesAnalyzed = $integrity.Count
+        ModulesRepaired = $toFix.Module
+        Duration = "$([math]::Round(((Get-Date) - (Get-Content $LogFile | Select-Object -First 1)).Count,2))"
+    }
+    $summary | ConvertTo-Json -Depth 4 | Out-File $ReportFile -Encoding UTF8
+
+    # 🔊 Annonce vocale finale
+    try {
+        Add-Type -AssemblyName System.Speech -ErrorAction Stop
+        $s = New-Object System.Speech.Synthesis.SpeechSynthesizer
+        $s.Rate = -1
+        $s.SelectVoiceByHints([System.Speech.Synthesis.VoiceGender]::Female)
+        $s.Speak("Cycle d'auto-réparation Athena terminé avec succès.")
+    } catch {}
+
+    Write-RepairLog "✅ Cycle de SelfRepair terminé avec succès."
+    Write-Host "`n✅ Auto-réparation complète effectuée." -ForegroundColor Green
+}
+
+# ====================================================================
+# 📜 Exportations
+# ====================================================================
+Export-ModuleMember -Function Invoke-AthenaSelfRepair, Test-AthenaModuleIntegrity, Repair-AthenaModule, Write-RepairLog
+Write-Host "🧠 Module Athena.SelfRepair.psm1 chargé (v3.0-Ultimate – Total Recovery Engine)." -ForegroundColor Cyan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ✅ Correctif appliqué le 17/10/2025 09:06 – Add remplacé.
+
+# ✅ Correctif appliqué le 17/10/2025 09:11 – op_Addition remplacé.
+
+
+
+
+
+

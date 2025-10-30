@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Athena Cockpit – Soft Light Edition</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- === Mode secours minimaliste === -->
+  <div id="failsafe" class="hidden">
+    <h1>Athena – Mode Secours</h1>
+    <p>Interface simplifiée chargée. Utilise la console pour piloter Athena.</p>
+    <button id="reload-main">Recharger le cockpit complet</button>
+  </div>
+
+  <!-- === Cockpit principal === -->
+  <div id="cockpit">
+    <audio id="scannerSound" src="sounds/scanner_soft.mp3" loop></audio>
+
+    <!-- Halo émotionnel -->
+    <div id="emotion-halo"></div>
+
+    <!-- Indicateurs supérieurs -->
+    <div id="status-bars">
+      <div class="status-indicator" id="cpu"></div>
+      <div class="status-indicator" id="ram"></div>
+      <div class="status-indicator" id="net"></div>
+      <div class="status-indicator" id="mood"></div>
+    </div>
+
+    <!-- Scanner central -->
+    <div id="scanner">
+      <div class="bar" id="bar1"></div>
+      <div class="bar" id="bar2"></div>
+      <div class="bar" id="bar3"></div>
+    </div>
+
+    <!-- Boutons latéraux -->
+    <div id="buttons-left" class="button-column">
+      <button class="side-btn" data-menu="system">🧠 SYSTÈME</button>
+      <button class="side-btn" data-menu="modules">⚙️ MODULES</button>
+      <button class="side-btn" data-menu="harmony">🧬 HARMONY</button>
+      <button class="side-btn" data-menu="maintenance">🔧 MAINTENANCE</button>
+    </div>
+
+    <div id="buttons-right" class="button-column">
+      <button class="side-btn" data-menu="evolution">📈 ÉVOLUTION</button>
+      <button class="side-btn" data-menu="projects">🧩 PROJETS</button>
+      <button class="side-btn" data-menu="logs">📜 LOGS</button>
+      <button class="side-btn" data-menu="dialogue">💬 DIALOGUE</button>
+    </div>
+
+    <!-- Zone de chat -->
+    <div id="chat-zone">
+      <div id="chat-history"></div>
+      <div id="chat-input">
+        <input type="text" id="user-input" placeholder="Parle à Athena..." />
+        <button id="send-btn">Envoyer</button>
+        <button id="mic-btn">🎙️</button>
+      </div>
+    </div>
+
+    <!-- Barre de contrôle -->
+    <div id="control-bar">
+      <button id="mode-btn">AUTO</button>
+      <button id="save-btn">💾 Sauvegarde</button>
+      <button id="conn-btn">🌐 Connexion</button>
+      <button id="lock-btn">🔒 Lock</button>
+      <span id="status-label">État : Stable | Mode : Auto</span>
+    </div>
+
+    <!-- Notifications -->
+    <div id="notifications"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "recommandations": [
+    { "action": "New-LocalFile", "path": "Modules/Sample.psm1", "content": "# module..." },
+    { "action": "Import-ModuleReload", "module": "Modules/Sample.psm1" }
+  ],
+  "note": "Résumé court envoyé par GPT (sans fichiers complets)."
+}

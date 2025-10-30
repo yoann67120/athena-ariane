@@ -1,0 +1,10 @@
+[2025-10-29 17:36:38.164135] === DÉMARRAGE LEARNING_ENGINE ===
+[2025-10-29 17:36:39.174170] 🧠 Plan généré : C:\Ariane-Agent\logs\EvolutionPlan.json
+[2025-10-29 17:36:39.174596] {
+  "timestamp": "2025-10-29T17:36:39.173231",
+  "avg_cpu": 52.3,
+  "avg_ram": 79.3,
+  "issues_detected": 0,
+  "actions": []
+}
+[2025-10-29 17:36:39.174924] === FIN LEARNING_ENGINE ===

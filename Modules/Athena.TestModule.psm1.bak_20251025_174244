@@ -1,0 +1,1 @@
+﻿function Test-Module { Write-Host 'âœ… Module fonctionnel depuis GPT' }

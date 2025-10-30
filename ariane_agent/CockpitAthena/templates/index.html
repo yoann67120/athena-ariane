@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>🚗 Athena K2000 – Cockpit</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <h1>🚗 ATHENA K2000</h1>
+  <div class="modes">
+    <button onclick="setMode('AUTO')" id="auto">AUTO</button>
+    <button onclick="setMode('FULL')" id="full">FULL</button>
+    <button onclick="setMode('DIEU')" id="dieu">DIEU</button>
+  </div>
+</header>
+
+<main>
+  <div id="scanner"><div class="beam"></div></div>
+
+  <section id="system">
+    <div class="gauge"><label>AIR (CPU)</label><span id="cpu">--</span>%</div>
+    <div class="gauge"><label>OIL (RAM)</label><span id="ram">--</span>%</div>
+    <div class="gauge"><label>NET</label><span id="net">--</span></div>
+    <div class="gauge"><label>STATE</label><span id="state">--</span></div>
+  </section>
+
+  <section id="projects">
+    <h2>📁 Projets de l’Usine</h2>
+    <div id="projectList">Chargement...</div>
+  </section>
+</main>
+
+<footer><p>© Ariane V4 – Cockpit Athena v3.0 Final</p></footer>
+<script src="/static/script.js"></script>
+</body>
+</html>

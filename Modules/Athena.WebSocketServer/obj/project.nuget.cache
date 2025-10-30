@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "6k5ymdbYtC8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.WebSocketServer\\Athena.WebSocketServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sonia\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.9\\microsoft.net.illink.tasks.9.0.9.nupkg.sha512",
+    "C:\\Users\\Sonia\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\9.0.9\\microsoft.netcore.app.runtime.win-x64.9.0.9.nupkg.sha512",
+    "C:\\Users\\Sonia\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\9.0.9\\microsoft.windowsdesktop.app.runtime.win-x64.9.0.9.nupkg.sha512",
+    "C:\\Users\\Sonia\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\9.0.9\\microsoft.aspnetcore.app.runtime.win-x64.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

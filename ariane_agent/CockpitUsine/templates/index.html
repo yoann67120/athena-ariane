@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>🧩 Cockpit Usine à Projets</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <h1>🧠 Cockpit – Usine à Projets</h1>
+  <div class="controls">
+    <button id="btn-refresh">🔄 Actualiser</button>
+    <button id="btn-athena">🚀 Ouvrir Athena</button>
+  </div>
+</header>
+
+<main>
+  <section id="create-panel">
+    <h2>🆕 Créer un projet</h2>
+    <input id="project-name" type="text" placeholder="Nom du projet">
+    <select id="project-type">
+      <option value="Web">Web</option>
+      <option value="IA">IA</option>
+      <option value="Script">Script</option>
+    </select>
+    <button id="btn-create">Créer</button>
+  </section>
+
+  <section id="projects-section">
+    <h2>📂 Projets existants</h2>
+    <div id="project-list">Chargement...</div>
+  </section>
+
+  <section id="log-section">
+    <h2>🧾 Journal de l’Usine</h2>
+    <div id="log-box">Chargement des logs...</div>
+  </section>
+</main>
+
+<footer>
+  <p>© Ariane V4 – Cockpit Usine (Phase 5.0bis)</p>
+</footer>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

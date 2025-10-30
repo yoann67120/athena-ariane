@@ -1,0 +1,164 @@
+# ====================================================================
+# 💬 Athena.Conversant.psm1 – Interface conversationnelle hybride
+# Version : v3.6-AutoClean-Stable
+# Auteur  : Ariane V4 / Athena Core Engine
+# Objectif : conversation naturelle + exécution intelligente des actions système
+# ====================================================================
+
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "SilentlyContinue"
+
+# === Importations automatiques ===
+$deps = @(
+    "Athena.HybridCore.psm1",
+    "Athena.Voice.psm1",
+    "Athena.Sound.psm1",
+    "ActionEngine.psm1",
+    "AutoPatch.psm1"
+)
+foreach ($dep in $deps) {
+    $path = Join-Path $PSScriptRoot $dep
+    if (Test-Path $path) {
+        Import-Module $path -Force -Global
+    } else {
+        Write-Warning "⚠️ Dépendance manquante : $dep"
+    }
+}
+
+# === Configuration mémoire ===
+$Root      = Split-Path -Parent $PSScriptRoot
+$MemoryDir = Join-Path $Root "Memory"
+if (!(Test-Path $MemoryDir)) { New-Item -ItemType Directory -Path $MemoryDir | Out-Null }
+$ConvLog   = Join-Path $MemoryDir "Conversations.log"
+
+# ====================================================================
+# ⚡ Analyse d’intention et exécution d’action
+# ====================================================================
+function Invoke-AthenaAction {
+    param([string]$Text)
+
+    $cmd = $Text.ToLower()
+    switch -regex ($cmd) {
+
+        # === Nouvelle intention : création de module ===
+        "crée|creer|nouveau.?module|ajoute.?module|genere.?module" {
+            Write-Host "🧩 Détection d’une intention de création de module..." -ForegroundColor Cyan
+            if (Get-Command Invoke-AthenaVoice -ErrorAction SilentlyContinue) {
+                try { Invoke-AthenaVoice -Text "Création de module en cours..." -Silent } catch {}
+            }
+
+            $prompt = "$Text. Réponds uniquement avec le code PowerShell complet du module, sans explication ni commentaire."
+            try {
+                $response = Invoke-AthenaHybrid -Prompt $prompt
+                Write-Host "🧠 Réponse GPT Architecte reçue – tentative d’application automatique..." -ForegroundColor Cyan
+
+                # 🧹 Nettoyage du code PowerShell (suppression des balises Markdown)
+                if ($response -match '```powershell([\s\S]*?)```') { $response = $matches[1].Trim() }
+                elseif ($response -match '```([\s\S]*?)```') { $response = $matches[1].Trim() }
+
+                Apply-GPTCode -Code $response
+                if (Get-Command Invoke-AthenaVoice -ErrorAction SilentlyContinue) {
+                    try { Invoke-AthenaVoice -Text "Module généré et chargé avec succès." -Silent } catch {}
+                }
+                return "✅ Module généré automatiquement par le GPT Architecte."
+            }
+            catch {
+                Write-Warning "⚠️ Erreur durant la création automatique de module : $_"
+                if (Get-Command Invoke-AthenaVoice -ErrorAction SilentlyContinue) {
+                    try { Invoke-AthenaVoice -Text 'Erreur lors de la génération du module.' -Silent } catch {}
+                }
+                return "❌ Erreur lors de la génération du module."
+            }
+        }
+
+        # === Intentions standards ===
+        "répare|repare|auto.?repair|patch" { return Invoke-ActionPlan -Plan "AutoRepair" }
+        "synchronis(e|er)|mémoire|memoire" { return Invoke-ActionPlan -Plan "MemorySync" }
+        "harmoni(e|e)|équilibre|equilibre" { return Invoke-ActionPlan -Plan "AutoHarmony" }
+        "apprends|apprentissage|learning"  { return Invoke-ActionPlan -Plan "AutoLearning" }
+        "rapport"                         { return Invoke-ActionPlan -Plan "AutoReport" }
+        "évolution|evolution"             { return Invoke-ActionPlan -Plan "AutoEvolution" }
+        default                           { return $null }
+    }
+}
+
+# ====================================================================
+# 🧠 Moteur de conversation principale
+# ====================================================================
+function Invoke-AthenaConversant {
+    Write-Host "`n💬 Mode conversation directe activé." -ForegroundColor Cyan
+    Write-Host "Tape 'exit' pour quitter.`n" -ForegroundColor DarkGray
+
+    while ($true) {
+        $input = Read-Host "🗣️ Toi"
+        if ($input -eq "exit") {
+            Write-Host "`n👋 Fin de la session.`n" -ForegroundColor Yellow
+            break
+        }
+
+        Add-Content -Path $ConvLog -Value ("[Toi] " + $input)
+
+        try {
+            # 🧠 Reformulation automatique pour GPT Architecte
+            if ($input -match "crée|creer|corrige|corriger|module|psm1|script|patch|code") {
+                $input = "$input. Réponds uniquement avec le code PowerShell complet du module, sans explication ni commentaire."
+                Write-Host "🧩 Reformulation automatique pour GPT Architecte..." -ForegroundColor Cyan
+            }
+
+            $actionResult = Invoke-AthenaAction -Text $input
+            if ($actionResult) { $response = $actionResult }
+            else { $response = Invoke-AthenaHybrid -Prompt $input }
+        }
+        catch {
+            $response = "⚠️ Erreur interne pendant la réponse."
+        }
+
+        if ([string]::IsNullOrWhiteSpace($response)) { $response = "(aucune réponse)" }
+        Add-Content -Path $ConvLog -Value ("[Athena] " + $response)
+        Write-Host "🤖 Athena : $response" -ForegroundColor Green
+
+        if (Get-Command Invoke-AthenaVoice -ErrorAction SilentlyContinue) {
+            try { Invoke-AthenaVoice -Text $response -Silent } catch {}
+        }
+    }
+}
+
+# ====================================================================
+# 🔧 Export global
+# ====================================================================
+Export-ModuleMember -Function Invoke-AthenaConversant
+Write-Host "✅ Athena.Conversant.psm1 v3.6-AutoClean-Stable chargé (création automatique + nettoyage Markdown + feedback vocal)." -ForegroundColor Cyan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

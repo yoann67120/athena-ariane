@@ -1,0 +1,75 @@
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761771415|3cd2e4e55a96827f|{"name":"Auto_Test_01"}
+Attendu : e563d4625bbdebcd1f60e39037b68ae42608ee8cc108a507e74d04b8786b36e6
+Reçu    : abfcf7f32c1f6e86a1c09cdc155fc15768ed634de6c8d3e07f55993c743de19f
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761771552|b9d5aaf9766bd6a4|{"name":"Auto_Test_01"}
+Attendu : eddb0d49d03d664da706cbbc14dda3728578ae79ef5d4fa2bfe1831a2c4ca6b9
+Reçu    : d67d69616da176876f16d4b4d5d5db73aa0b441ac1e720bc7da0fe34db2e4a0c
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761771612|187f999ab445ae60|{"name":"Auto_Test_01"}
+Attendu : f08f2dfb58deaf25ba093dc0f729a8bd8331e27bc89f54274b6a07331316bbcf
+Reçu    : 97ee83c69963f47b6e3a0c4cfc16fed1a6cdacb236a0d6ec0c1197123cfa8097
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761771709|2df7355c09cfc61b|{"name":"Auto_Test_01"}
+Attendu : 997a8557ca9ab462f9cc8c2f214dc6cd0b6e3669992ed1be6998f9c280fa3434
+Reçu    : 57fd2cef83d415b4a2b7c0b9477978905d72c76c7fa699b1fd48df691bb6b68b
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761771798|6cbf378cf42ad689|{"name":"Auto_Test_01"}
+Attendu : 328049a5fab1a1697d53a9cca9f868da488007bc91954a260993ac2ffc998df9
+Reçu    : ff42796931cdc8a7c6e4d10d637d3dc9e2218192731eb9dae9706f50a6b46e76
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761771884|36a3156095ef9272|{"name":"Auto_Test_01"}
+Attendu : d917a50fcd2353c7933508c61c87f8e7311c41792dc622eedaaeb6eccee24986
+Reçu    : e4d2ee807967943b6307e20f68359a72238266b789e6eea654eb5235211b3f74
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761771957|7dba44fe65b540c1|{"name":"Auto_Test_01"}
+Attendu : f19836dce17597d329771ab9c539d8c39d0146a088b8d3b3241c54c8b4357a4b
+Reçu    : c6e46d2c729fc023e73b3342cc13666a2ba23d9f7f81ddaf72354042b9d4621b
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761772003|dccab589d4313e40|{"name":"Auto_Test_01"}
+Attendu : 1f70851e602ec1b5570a52db4c529d73f1d2ed9052f74c1594105435cd9b4dbb
+Reçu    : 3324adbaf13ecf1b527217622face4f5d35ab00efc3e7d09caabc6840beb35ef
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761772154|836110b4ec20aa3e|{"name":"Auto_Test_01"}
+Attendu : a5ffb435157beebb8ae8d1d99a8930105a1e33e54582f0846262306adea5d381
+Reçu    : a5ffb435157beebb8ae8d1d99a8930105a1e33e54582f0846262306adea5d381
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761772298|b9014502d65f234a|{"name":"Auto_Test_01"}
+Attendu : 3c1487c046a78ace3265d5e56cbe4cf1a679b3b9b321d117b28a13dcb4bfcee5
+Reçu    : 3c1487c046a78ace3265d5e56cbe4cf1a679b3b9b321d117b28a13dcb4bfcee5
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761773632|37e7ea8b7ca145be|{"name":"Auto_Test_01"}
+Attendu : 3f80863d367d3e7d4f363f5e4095fb908174c8023c398100f5a6d061e52da326
+Reçu    : 3f80863d367d3e7d4f363f5e4095fb908174c8023c398100f5a6d061e52da326
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761773771|9e91d90773ddb4bd|{"name":"Auto_Test_01"}
+Attendu : 1d1d63b5b0f985e7847dc4b0c30da1118f5112e137eb171d07d25d2fb5136689
+Reçu    : 1d1d63b5b0f985e7847dc4b0c30da1118f5112e137eb171d07d25d2fb5136689
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761774115|5e6c0f54419a2f58|{"name":"Auto_Test_01"}
+Attendu : b99fa5f7e50047d569e0a913d6ed37802e67cd64e75227e47ae23d7c2d6cd3c1
+Reçu    : b99fa5f7e50047d569e0a913d6ed37802e67cd64e75227e47ae23d7c2d6cd3c1
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761774242|3a9f61c47b97f30b|{"name":"Auto_Test_01"}
+Attendu : b70852178858f24d3403f32539fc12954f5ad149e7d473b856463edbebbde2cf
+Reçu    : b70852178858f24d3403f32539fc12954f5ad149e7d473b856463edbebbde2cf
+
+[TRACE HMAC DEBUG]
+Message : create_project|1761779275|b8b2327cbe9a8369|{"name":"Auto_Test_01"}
+Attendu : 94fc9a1069fdda19df92d74734a5a768fbe38d92176874139d253ac57c3d6b32
+Reçu    : 94fc9a1069fdda19df92d74734a5a768fbe38d92176874139d253ac57c3d6b32

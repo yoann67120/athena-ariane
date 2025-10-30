@@ -1,0 +1,251 @@
+/* ============================================================
+   Athena Cockpit – Soft Light Edition
+   Feuille de style principale
+   ============================================================ */
+
+/* --- réglages de base --- */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: radial-gradient(circle at center, #000 70%, #111);
+  color: #eee;
+  font-family: "Orbitron", "Audiowide", sans-serif;
+  overflow: hidden;
+  user-select: none;
+}
+
+/* --- halo émotionnel --- */
+#emotion-halo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40vmin;
+  height: 40vmin;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(255,0,0,0.3), transparent 70%);
+  filter: blur(60px);
+  transition: background 2s ease, opacity 2s ease;
+  z-index: 0;
+}
+
+/* --- indicateurs supérieurs --- */
+#status-bars {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+  z-index: 5;
+}
+
+.status-indicator {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(255,0,0,0.6);
+  box-shadow: 0 0 8px rgba(255,0,0,0.8);
+  transition: background 0.5s, box-shadow 0.5s;
+}
+
+/* --- scanner central --- */
+#scanner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 30vmin;
+  height: 10vmin;
+  display: flex;
+  justify-content: space-between;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.bar {
+  flex: 1;
+  margin: 0 5px;
+  background: linear-gradient(to top, rgba(255,0,0,0.9), rgba(100,0,0,0.2));
+  border-radius: 4px;
+  animation: pulse 1.5s ease-in-out infinite;
+  box-shadow: 0 0 10px rgba(255,0,0,0.8);
+}
+
+@keyframes pulse {
+  0%,100% { transform: scaleY(0.3); opacity: 0.5; }
+  50% { transform: scaleY(1); opacity: 1; }
+}
+
+/* --- boutons latéraux --- */
+.button-column {
+  position: absolute;
+  top: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 3;
+}
+
+#buttons-left { left: 5%; }
+#buttons-right { right: 5%; }
+
+.side-btn {
+  background: rgba(40,40,40,0.8);
+  color: #fff;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.side-btn:hover {
+  background: rgba(255,0,0,0.4);
+  box-shadow: 0 0 10px #ff0000;
+}
+
+/* --- zone de chat --- */
+#chat-zone {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: rgba(0,0,0,0.6);
+  border: 1px solid rgba(255,0,0,0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 4;
+}
+
+#chat-history {
+  flex: 1;
+  padding: 8px;
+  overflow-y: auto;
+  font-size: 0.85rem;
+}
+
+.user { color: #4db8ff; }
+.athena { color: #ff4d4d; }
+
+#chat-input {
+  display: flex;
+  background: rgba(20,20,20,0.9);
+  border-top: 1px solid rgba(255,0,0,0.3);
+}
+
+#chat-input input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #eee;
+  padding: 8px;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+#chat-input button {
+  background: transparent;
+  border: none;
+  color: #ff0000;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+/* --- barre de contrôle --- */
+#control-bar {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  z-index: 4;
+}
+
+#control-bar button {
+  background: rgba(40,40,40,0.8);
+  color: #fff;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+#control-bar button:hover {
+  background: rgba(255,0,0,0.3);
+  box-shadow: 0 0 8px #ff0000;
+}
+
+#status-label {
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+/* --- notifications --- */
+#notifications {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 10;
+}
+
+.notification {
+  background: rgba(255,0,0,0.8);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  animation: fadeInOut 6s ease forwards;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10%,90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(10px); }
+}
+
+/* --- mode secours --- */
+#failsafe {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+/* --- état connecté : cockpit relié à Athena --- */
+body.connected #chat-history {
+  border-color: #00ffcc;
+  box-shadow: 0 0 15px #00ffcc;
+  transition: all 0.5s ease;
+}
+
+body.connected #emotion-halo {
+  background: radial-gradient(circle, rgba(0,255,204,0.3), transparent 70%);
+  filter: blur(80px);
+  transition: background 1.5s ease, filter 1.5s ease;
+}
+
+body.connected .bar {
+  background: linear-gradient(to top, rgba(0,255,204,0.9), rgba(0,100,100,0.3));
+  box-shadow: 0 0 12px #00ffcc;
+}
+
+#failsafe.hidden { display: none; }

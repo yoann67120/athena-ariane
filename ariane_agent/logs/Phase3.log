@@ -1,0 +1,24 @@
+
+[INIT] Phase3.log créé le 2025-10-27 23:11:33
+[2025-10-27 23:17:41] CREATE – TestPhase3 – succès
+[2025-10-27 23:18:26] CREATE – AthenaV4_Test2 – succès
+[2025-10-28 10:02:29] CREATE – test1 – succès
+[2025-10-28 10:02:36] CREATE – test1 – succès
+[2025-10-28 10:08:00] CREATE – test – succès
+[2025-10-28 10:20:23] CREATE – test1 – succès
+[2025-10-28 10:20:23] ERROR – test1 – Object of type module is not JSON serializable
+[2025-10-28 10:24:34] CREATE – astra – succès
+[2025-10-28 10:24:34] ERROR – astra – Object of type module is not JSON serializable
+[2025-10-28 10:27:17] CREATE – TestManual – succès
+[2025-10-28 10:27:17] ERROR – TestManual – Object of type module is not JSON serializable
+[2025-10-28 10:30:37] CREATE – TestManual – succès
+[2025-10-28 10:30:37] ERROR – TestManual – Object of type module is not JSON serializable
+[2025-10-28 10:33:29] CREATE – TestManual – succès
+[2025-10-29 19:07:40] CREATE – Cloud_Test_03 – succès
+[2025-10-29 19:14:50] CREATE – Cloud_Test_04 – succès
+[2025-10-29 22:11:38] CREATE – Auto_Test_01 – succès
+[2025-10-29 22:33:52] CREATE – Auto_Test_01 – succès
+[2025-10-29 22:36:12] CREATE – Auto_Test_01 – succès
+[2025-10-29 22:41:56] CREATE – Auto_Test_01 – succès
+[2025-10-29 22:44:03] CREATE – Auto_Test_01 – succès
+[2025-10-30 00:07:56] CREATE – Auto_Test_01 – succès

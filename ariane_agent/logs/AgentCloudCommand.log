@@ -1,0 +1,35 @@
+[2025-10-29 14:41:54] ❌ Erreur lors de la commande 'list_projects' : Response status code does not indicate success: 401 (Unauthorized).
+[2025-10-29 14:43:58] ❌ Erreur lors de la commande 'list_projects' : Response status code does not indicate success: 401 (Unauthorized).
+[2025-10-29 14:45:05] ❌ Erreur lors de la commande 'list_projects' : Response status code does not indicate success: 401 (Unauthorized).
+[2025-10-29 14:58:36] ❌ Erreur lors de la commande 'list_projects' : Response status code does not indicate success: 401 (Unauthorized).
+[2025-10-29 15:02:55] ❌ Erreur lors de la commande 'list_projects' : Response status code does not indicate success: 404 (Not Found).
+[2025-10-29 15:09:48] ❌ Erreur lors de la commande 'list_projects' : Response status code does not indicate success: 404 (Not Found).
+[2025-10-29 15:31:22] ❌ Erreur lors de la commande 'list_projects' : Response status code does not indicate success: 401 (Unauthorized).
+[2025-10-29 15:34:42] ❌ Erreur lors de la commande 'list_projects' : Response status code does not indicate success: 401 (Unauthorized).
+
+[10/29/2025 15:38:37] ✅ Réponse du Bridge (list_projects) : {
+  "data": {
+    "projects": {
+      "projects": [
+        {
+          "author": "Yoann Rousselle",
+          "created_at": "2025-10-28 17:49:52",
+          "deployed_at": "2025-10-28 17:49:58",
+          "description": "Template complet d'agent IA local (Modules + Scripts)",
+          "modules": [
+            "Athena.ServerCore.psm1",
+            "Athena.Engine.psm1",
+            "Athena.AutoRepair.psm1"
+          ],
+          "name": "AthenaV4",
+          "path": "C:\\\\Ariane-Agent\\\\Projects\\Athena_Test",
+          "scripts": [
+            "Start-Athena.ps1"
+          ],
+          "version": "4.0"
+        }
+      ]
+    }
+  },
+  "status": "ok"
+}

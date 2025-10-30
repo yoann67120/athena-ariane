@@ -1,0 +1,1 @@
+[2025-10-28 18:00:43] === Démarrage AutoPilot Supervisor ===\n[2025-10-28 18:03:10] === Démarrage AutoPilot Supervisor (port 5081) ===\n[2025-10-28 18:26:11] ⚠️ AutoPilot inactif sur port 5080 → tentative de relance…\n[2025-10-28 18:26:11] ✅ AutoPilot relancé via Start-AgentSystem.ps1\n

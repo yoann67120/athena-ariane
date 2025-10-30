@@ -1,0 +1,61 @@
+[2025-10-29 21:38:01] === TEST RELAIS CLOUD → BRIDGE LOCAL ===\n[2025-10-29 21:38:01] 🌍 Envoi vers https://usine.ngrok.io/bridge → create_project\n[2025-10-29 21:38:02] ✅ Statut 403: {
+  "action": "auth",
+  "error": "Invalid signature",
+  "protocol": "UsineProtocol_v1",
+  "result": null,
+  "status": "error",
+  "timestamp": "2025-10-29T20:38:02.397298Z"
+}
+\n[2025-10-29 21:38:02] Résultat : {"action": "auth", "error": "Invalid signature", "protocol": "UsineProtocol_v1", "result": null, "status": "error", "timestamp": "2025-10-29T20:38:02.397298Z"}\n[2025-10-29 21:38:02] === FIN TEST ===\n[2025-10-29 21:38:53] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.2) ===\n[2025-10-29 21:38:53] 🌍 Envoi vers https://usine.ngrok.io/bridge → create_project\n[2025-10-29 21:38:53] ✅ Statut 403: {
+  "action": "auth",
+  "error": "Invalid signature",
+  "protocol": "UsineProtocol_v1",
+  "result": null,
+  "status": "error",
+  "timestamp": "2025-10-29T20:38:53.607414Z"
+}
+\n[2025-10-29 21:38:53] Résultat: {"action": "auth", "error": "Invalid signature", "protocol": "UsineProtocol_v1", "result": null, "status": "error", "timestamp": "2025-10-29T20:38:53.607414Z"}\n[2025-10-29 21:38:53] === FIN TEST ===\n[2025-10-29 21:40:07] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.3) ===\n[2025-10-29 21:40:07] 🌍 Envoi vers https://usine.ngrok.io/bridge → create_project\n[2025-10-29 21:40:07] ✅ Statut 403: {
+  "action": "auth",
+  "error": "Invalid signature",
+  "protocol": "UsineProtocol_v1",
+  "result": null,
+  "status": "error",
+  "timestamp": "2025-10-29T20:40:07.713011Z"
+}
+\n[2025-10-29 21:40:07] Résultat : {"action": "auth", "error": "Invalid signature", "protocol": "UsineProtocol_v1", "result": null, "status": "error", "timestamp": "2025-10-29T20:40:07.713011Z"}\n[2025-10-29 21:40:07] === FIN TEST ===\n[2025-10-29 21:41:01] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.4) ===\n[2025-10-29 21:41:01] 🌍 Envoi vers https://usine.ngrok.io/bridge → create_project\n[2025-10-29 21:41:02] ✅ Statut 403: {
+  "action": "auth",
+  "error": "Invalid signature",
+  "protocol": "UsineProtocol_v1",
+  "result": null,
+  "status": "error",
+  "timestamp": "2025-10-29T20:41:02.049334Z"
+}
+\n[2025-10-29 21:41:02] Résultat : {"action": "auth", "error": "Invalid signature", "protocol": "UsineProtocol_v1", "result": null, "status": "error", "timestamp": "2025-10-29T20:41:02.049334Z"}\n[2025-10-29 21:41:02] === FIN TEST ===\n[2025-10-29 21:49:30] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 21:49:30] 🌍 Envoi vers https://usine.ngrok.io/bridge → create_project\n[2025-10-29 21:49:30] ✅ Statut 404: <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/\n[2025-10-29 21:49:30] ❌ Erreur : Expecting value: line 1 column 1 (char 0)\n[2025-10-29 21:49:30] Résultat : {"error": "Expecting value: line 1 column 1 (char 0)"}\n[2025-10-29 21:49:30] === FIN TEST ===\n[2025-10-29 21:53:01] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 21:53:01] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 21:53:03] ✅ Statut 500: {"error":"'SelfGuard' object has no attribute 'sign'"}
+\n[2025-10-29 21:53:03] Résultat : {"error": "'SelfGuard' object has no attribute 'sign'"}\n[2025-10-29 21:53:03] === FIN TEST ===\n[2025-10-29 21:56:12] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 21:56:12] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 21:56:12] ✅ Statut 500: {"error":"'SelfGuard' object has no attribute 'sign'"}
+\n[2025-10-29 21:56:12] Résultat : {"error": "'SelfGuard' object has no attribute 'sign'"}\n[2025-10-29 21:56:12] === FIN TEST ===\n[2025-10-29 21:56:55] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 21:56:55] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 21:56:56] ✅ Statut 401: {"error":"invalid_signature"}
+\n[2025-10-29 21:56:56] Résultat : {"error": "invalid_signature"}\n[2025-10-29 21:56:56] === FIN TEST ===\n[2025-10-29 21:59:12] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 21:59:12] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 21:59:12] ✅ Statut 401: {"error":"invalid_signature"}
+\n[2025-10-29 21:59:12] Résultat : {"error": "invalid_signature"}\n[2025-10-29 21:59:12] === FIN TEST ===\n[2025-10-29 22:00:12] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:00:12] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:00:13] ✅ Statut 401: {"error":"invalid_signature"}
+\n[2025-10-29 22:00:13] Résultat : {"error": "invalid_signature"}\n[2025-10-29 22:00:13] === FIN TEST ===\n[2025-10-29 22:01:49] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:01:49] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:01:50] ✅ Statut 401: {"error":"invalid_signature"}
+\n[2025-10-29 22:01:50] Résultat : {"error": "invalid_signature"}\n[2025-10-29 22:01:50] === FIN TEST ===\n[2025-10-29 22:03:18] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:03:18] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:03:19] ✅ Statut 401: {"error":"invalid_signature"}
+\n[2025-10-29 22:03:19] Résultat : {"error": "invalid_signature"}\n[2025-10-29 22:03:19] === FIN TEST ===\n[2025-10-29 22:04:44] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:04:44] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:04:44] ✅ Statut 401: {"error":"invalid_signature"}
+\n[2025-10-29 22:04:44] Résultat : {"error": "invalid_signature"}\n[2025-10-29 22:04:44] === FIN TEST ===\n[2025-10-29 22:05:57] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:05:57] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:05:58] ✅ Statut 401: {"error":"invalid_signature"}
+\n[2025-10-29 22:05:58] Résultat : {"error": "invalid_signature"}\n[2025-10-29 22:05:58] === FIN TEST ===\n[2025-10-29 22:06:43] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:06:43] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:06:43] ✅ Statut 401: {"error":"invalid_signature"}
+\n[2025-10-29 22:06:43] Résultat : {"error": "invalid_signature"}\n[2025-10-29 22:06:43] === FIN TEST ===\n[2025-10-29 22:09:14] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:09:14] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:09:17] ✅ Statut 200: {"error":"HTTPConnectionPool(host='127.0.0.1', port=5050): Max retries exceeded with url: /create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021338544EC0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n\u2019a pu \u00eatre \u00e9tabli\n[2025-10-29 22:09:17] Résultat : {"error": "HTTPConnectionPool(host='127.0.0.1', port=5050): Max retries exceeded with url: /create (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021338544EC0>: Failed to establish a new connection: [WinError 10061] Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée'))", "status": "error"}\n[2025-10-29 22:09:17] === FIN TEST ===\n[2025-10-29 22:11:38] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:11:38] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:11:38] ✅ Statut 200: {"data":{"project_path":"C:\\\\Ariane-Agent\\\\Projects\\Auto_Test_01","status":"created"},"status":"ok"}
+\n[2025-10-29 22:11:38] Résultat : {"data": {"project_path": "C:\\\\Ariane-Agent\\\\Projects\\Auto_Test_01", "status": "created"}, "status": "ok"}\n[2025-10-29 22:11:38] === FIN TEST ===\n[2025-10-29 22:15:02] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:15:02] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:15:02] ✅ Statut 404: <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/\n[2025-10-29 22:15:02] ❌ Erreur : Expecting value: line 1 column 1 (char 0)\n[2025-10-29 22:15:02] Résultat : {"error": "Expecting value: line 1 column 1 (char 0)"}\n[2025-10-29 22:15:02] === FIN TEST ===\n[2025-10-29 22:19:58] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:19:58] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:19:58] ✅ Statut 404: <!DOCTYPE html>
+<html class="h-full" lang="en-US" dir="ltr">
+  <head>
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/euclid-square/EuclidSquare-Regular-WebS.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="preload" href="https://cdn.ngrok.com/static/fonts/\n[2025-10-29 22:19:58] ❌ Erreur : Expecting value: line 1 column 1 (char 0)\n[2025-10-29 22:19:58] Résultat : {"error": "Expecting value: line 1 column 1 (char 0)"}\n[2025-10-29 22:19:58] === FIN TEST ===\n[2025-10-29 22:33:52] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:33:52] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:33:53] ✅ Statut 200: {"data":{"project_path":"C:\\\\Ariane-Agent\\\\Projects\\Auto_Test_01","status":"created"},"status":"ok"}
+\n[2025-10-29 22:33:53] Résultat : {"data": {"project_path": "C:\\\\Ariane-Agent\\\\Projects\\Auto_Test_01", "status": "created"}, "status": "ok"}\n[2025-10-29 22:33:53] === FIN TEST ===\n[2025-10-29 22:36:11] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:36:11] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:36:12] ✅ Statut 200: {"data":{"project_path":"C:\\\\Ariane-Agent\\\\Projects\\Auto_Test_01","status":"created"},"status":"ok"}
+\n[2025-10-29 22:36:12] Résultat : {"data": {"project_path": "C:\\\\Ariane-Agent\\\\Projects\\Auto_Test_01", "status": "created"}, "status": "ok"}\n[2025-10-29 22:36:12] === FIN TEST ===\n[2025-10-29 22:41:55] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:41:55] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:41:56] ✅ Statut 200: {"data":{"project_path":"C:\\\\Ariane-Agent\\\\Projects\\Auto_Test_01","status":"created"},"status":"ok"}
+\n[2025-10-29 22:41:56] Résultat : {"data": {"project_path": "C:\\\\Ariane-Agent\\\\Projects\\Auto_Test_01", "status": "created"}, "status": "ok"}\n[2025-10-29 22:41:56] === FIN TEST ===\n[2025-10-29 22:44:02] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-29 22:44:02] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-29 22:44:03] ✅ Statut 200: {"data":{"project_path":"C:\\\\Ariane-Agent\\\\Projects\\Auto_Test_01","status":"created"},"status":"ok"}
+\n[2025-10-29 22:44:03] Résultat : {"data": {"project_path": "C:\\\\Ariane-Agent\\\\Projects\\Auto_Test_01", "status": "created"}, "status": "ok"}\n[2025-10-29 22:44:03] === FIN TEST ===\n[2025-10-30 00:07:55] === TEST RELAIS CLOUD → BRIDGE LOCAL (PATCH v27.5) ===\n[2025-10-30 00:07:55] 🌍 Envoi vers https://ariane.ngrok.io/bridge → create_project\n[2025-10-30 00:07:56] ✅ Statut 200: {"data":{"project_path":"C:\\\\Ariane-Agent\\\\Projects\\Auto_Test_01","status":"created"},"status":"ok"}
+\n[2025-10-30 00:07:56] Résultat : {"data": {"project_path": "C:\\\\Ariane-Agent\\\\Projects\\Auto_Test_01", "status": "created"}, "status": "ok"}\n[2025-10-30 00:07:56] === FIN TEST ===\n

@@ -1,0 +1,88 @@
+{
+  "generated_at": "2025-10-28 14:55:04",
+  "entries": [
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-27 22:18:11] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.create_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\\\Ariane-Agent\\\\agentkit\\\\actions\\\\actions'"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-27 22:18:11] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.deploy_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\\\Ariane-Agent\\\\agentkit\\\\actions\\\\actions'"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-27 22:18:11] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.list_projects: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\\\Ariane-Agent\\\\agentkit\\\\actions\\\\actions'"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-27 22:18:11] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.update_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\\\Ariane-Agent\\\\agentkit\\\\actions\\\\actions'"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-27 22:19:48] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.create_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\\\Ariane-Agent\\\\agentkit\\\\actions\\\\actions'"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-27 22:19:48] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.deploy_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\\\Ariane-Agent\\\\agentkit\\\\actions\\\\actions'"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-27 22:19:48] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.list_projects: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\\\Ariane-Agent\\\\agentkit\\\\actions\\\\actions'"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-27 22:19:48] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.update_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\\\Ariane-Agent\\\\agentkit\\\\actions\\\\actions'"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-27 23:41:23] [USINEPROTOCOL] ⬛ Build response: {'protocol': 'UsineProtocol_v1', 'status': 'success', 'action': 'list_projects', 'result': [{'Nom': ' Solaris', 'Type': 'Web', 'DateCreation': '2025-10-20 12:31:23', 'Auteur': 'Athena', 'Etat': 'Initialisé', 'Fichiers': ['index.html', 'styles.css', 'script.js', 'README.md', 'meta.json']}, {'name': 'AthenaV4', 'description': 'Aucun descriptif.', 'created_at': '2025-10-27T23:07:18.726775', 'status': 'created'}, {'name': 'AthenaV4_Test2', 'description': 'Aucun descriptif.', 'created_at': '2025-10-27T23:18:26.814790', 'status': 'created'}, {'Nom': 'crée un Solaris', 'Type': 'Web', 'DateCreation': '2025-10-20 12:29:13', 'Auteur': 'Athena', 'Etat': 'Initialisé', 'Fichiers': ['index.html', 'styles.css', 'script.js', 'README.md', 'meta.json']}, {'name': 'DemoProject', 'description': 'Projet test Usine à Projets', 'template': 'default', 'created': '2025-10-27T21:58:09.347547'}, {'name': 'TestPhase3', 'description': 'Aucun descriptif.', 'created_at': '2025-10-27T23:13:33.303961', 'status': 'created'}, {'Nom': 'un   nommé Solaris', 'Type': 'Web', 'DateCreation': '2025-10-20 12:22:54', 'Auteur': 'Athena', 'Etat': 'Initialisé', 'Fichiers': ['index.html', 'styles.css', 'script.js', 'README.md', 'meta.json']}], 'error': None, 'timestamp': '2025-10-27T22:41:23.496160Z'}"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-27 23:48:06] [USINEPROTOCOL] ⬛ Build response: {'protocol': 'UsineProtocol_v1', 'status': 'success', 'action': 'list_projects', 'result': [{'Nom': ' Solaris', 'Type': 'Web', 'DateCreation': '2025-10-20 12:31:23', 'Auteur': 'Athena', 'Etat': 'Initialisé', 'Fichiers': ['index.html', 'styles.css', 'script.js', 'README.md', 'meta.json']}, {'name': 'AthenaV4', 'description': 'Aucun descriptif.', 'created_at': '2025-10-27T23:07:18.726775', 'status': 'created'}, {'name': 'AthenaV4_Test2', 'description': 'Aucun descriptif.', 'created_at': '2025-10-27T23:18:26.814790', 'status': 'created'}, {'Nom': 'crée un Solaris', 'Type': 'Web', 'DateCreation': '2025-10-20 12:29:13', 'Auteur': 'Athena', 'Etat': 'Initialisé', 'Fichiers': ['index.html', 'styles.css', 'script.js', 'README.md', 'meta.json']}, {'name': 'DemoProject', 'description': 'Projet test Usine à Projets', 'template': 'default', 'created': '2025-10-27T21:58:09.347547'}, {'name': 'TestPhase3', 'description': 'Aucun descriptif.', 'created_at': '2025-10-27T23:13:33.303961', 'status': 'created'}, {'Nom': 'un   nommé Solaris', 'Type': 'Web', 'DateCreation': '2025-10-20 12:22:54', 'Auteur': 'Athena', 'Etat': 'Initialisé', 'Fichiers': ['index.html', 'styles.css', 'script.js', 'README.md', 'meta.json']}], 'error': None, 'timestamp': '2025-10-27T22:48:06.535162Z'}"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-28 00:12:44] [USINEPROTOCOL] ⬛ Build response: {'protocol': 'UsineProtocol_v1', 'status': 'error', 'action': 'auth', 'result': None, 'error': 'Invalid signature', 'timestamp': '2025-10-27T23:12:44.045715Z'}"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-28 10:20:23] [PHASE3] ERROR – test1 – Object of type module is not JSON serializable"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-28 10:24:34] [PHASE3] ERROR – astra – Object of type module is not JSON serializable"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-28 10:27:17] [PHASE3] ERROR – TestManual – Object of type module is not JSON serializable"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-28 10:30:37] [PHASE3] ERROR – TestManual – Object of type module is not JSON serializable"
+    },
+    {
+      "timestamp": "2025-10-28 14:55:04",
+      "level": "error",
+      "message": "[2025-10-28 12:27:21] [AGENT] Résultat : {'status': 'ERROR', 'stdout': '', 'stderr': \"Le terminateur ' est manquant dans la chaŒne.\\n    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException\\n    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString\", 'return_code': 1}"
+    }
+  ],
+  "summary": {
+    "total": 16
+  }
+}

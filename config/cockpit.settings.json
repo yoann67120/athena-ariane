@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "theme": {
+    "primaryColor": "#00baff",
+    "secondaryColor": "#ff0015",
+    "background": "#000814",
+    "font": "Orbitron"
+  },
+  "scanner": {
+    "speed": 2.0,
+    "color": "#ff0015",
+    "intensity": 0.8
+  },
+  "sound": {
+    "enabled": true,
+    "volume": 0.5,
+    "beepUp": "assets/beep_up.wav",
+    "beepDown": "assets/beep_down.wav",
+    "scannerLoop": "assets/scanner_loop.wav"
+  },
+  "voice": {
+    "enabled": true,
+    "engine": "default",
+    "volume": 0.8,
+    "rate": 1.0,
+    "pitch": 1.0
+  },
+  "indicators": {
+    "updateInterval": 2000,
+    "showCPU": true,
+    "showRAM": true,
+    "showNetwork": true
+  },
+  "modes": {
+    "AUTO": {
+      "color": "#00baff",
+      "description": "Mode autonome – opérations standard"
+    },
+    "FULL": {
+      "color": "#00ff88",
+      "description": "Mode complet – toutes les fonctions actives"
+    },
+    "GOD": {
+      "color": "#ff0015",
+      "description": "Mode DIEU – contrôle total et accès racine"
+    }
+  },
+  "emotionColors": {
+    "Calme": "#00baff",
+    "Concentrée": "#00ffaa",
+    "Alerte": "#ffcc00",
+    "Stressée": "#ff5500",
+    "Critique": "#ff0015"
+  }
+}

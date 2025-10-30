@@ -1,0 +1,129 @@
+[2025-10-28 22:01:42] ✅ Bridge local détecté sur port 5075.
+[2025-10-28 22:01:42] 🔑 Clé HMAC chargée.
+[2025-10-28 22:01:42] 🌍 Envoi des informations du Bridge vers AgentKit Cloud...
+[2025-10-28 22:01:42] ❌ Erreur pendant l'enregistrement Cloud : Hôte inconnu.
+[2025-10-28 22:01:42] 🔐 Vérification du handshake Cloud ↔ Local...
+[2025-10-28 22:03:49] ❌ Échec du handshake via tunnel ngrok.
+[2025-10-28 22:03:49] 🧩 Test de commande list_projects via Cloud...
+[2025-10-28 22:05:55] ⚠️ Erreur sur list_projects : 
+{
+  "error": "timestamp_out_of_range"
+}
+[2025-10-28 22:07:23] ❌ Impossible de contacter le Bridge local.
+[2025-10-28 22:08:28] ❌ Impossible de contacter le Bridge local.
+[2025-10-28 22:08:58] ✅ Bridge local détecté sur port 5075.
+[2025-10-28 22:08:58] 🔑 Clé HMAC chargée.
+[2025-10-28 22:08:58] 🌍 Envoi des informations du Bridge vers AgentKit Cloud...
+[2025-10-28 22:08:58] ❌ Erreur pendant l'enregistrement Cloud : Hôte inconnu.
+[2025-10-28 22:08:58] 🔐 Vérification du handshake Cloud ↔ Local...
+[2025-10-28 22:10:34] ✅ Bridge local détecté sur port 5075.
+[2025-10-28 22:10:34] 🔑 Clé HMAC chargée.
+[2025-10-28 22:10:34] 🌍 Envoi des informations du Bridge vers AgentKit Cloud...
+[2025-10-28 22:12:40] ✅ Bridge enregistré sur AgentKit Cloud : https://446d8b90e9d1.ngrok-free.app/bridge
+[2025-10-28 22:12:40] 🔐 Vérification du handshake Cloud ↔ Local...
+[2025-10-28 22:14:47] ✅ Handshake HMAC validé avec succès.
+[2025-10-28 22:14:47] 🧩 Test de commande list_projects via Cloud...
+[2025-10-28 22:29:07] ✅ Bridge local détecté sur port 5075.
+[2025-10-28 22:29:07] 🔑 Clé HMAC chargée.
+[2025-10-28 22:29:07] 🌍 Envoi des informations du Bridge vers AgentKit Cloud...
+[2025-10-29 13:34:10] ✅ Bridge local détecté sur port 5075.
+[2025-10-29 13:34:10] 🔑 Clé HMAC chargée.
+[2025-10-29 13:34:10] 🌍 Envoi des informations du Bridge vers AgentKit Cloud...
+[2025-10-29 13:34:10] ❌ Erreur pendant l'enregistrement Cloud : The endpoint 53bb60eef99c.ngrok-free.app is offline.
+
+ERR_NGROK_3200
+
+[2025-10-29 13:34:10] 🔐 Vérification du handshake Cloud ↔ Local...
+[2025-10-29 13:34:10] ❌ Échec du handshake via tunnel ngrok.
+[2025-10-29 13:34:10] 🧩 Test de commande list_projects via Cloud...
+[2025-10-29 13:34:10] ⚠️ Erreur sur list_projects : The endpoint 53bb60eef99c.ngrok-free.app is offline.
+
+ERR_NGROK_3200
+
+[2025-10-29 13:37:07] ✅ Bridge local détecté sur port 5075.
+[2025-10-29 13:37:07] 🔑 Clé HMAC chargée.
+[2025-10-29 13:37:07] 🌍 Envoi des informations du Bridge vers AgentKit Cloud...
+[2025-10-29 13:37:07] ✅ Bridge enregistré sur AgentKit Cloud : https://ariane.ngrok.io/bridge
+[2025-10-29 13:37:07] 🔐 Vérification du handshake Cloud ↔ Local...
+[2025-10-29 13:37:08] ✅ Handshake HMAC validé avec succès.
+[2025-10-29 13:37:08] 🧩 Test de commande list_projects via Cloud...
+[2025-10-29 13:37:08] ⚠️ Erreur sur list_projects : 
+{
+  "error": "timestamp_out_of_range"
+}
+[2025-10-29 13:42:23] ✅ Bridge local détecté sur port 5075.
+[2025-10-29 13:42:23] 🔑 Clé HMAC chargée.
+[2025-10-29 13:42:23] 🌍 Envoi des informations du Bridge vers AgentKit Cloud...
+[2025-10-29 13:42:24] ✅ Bridge enregistré sur AgentKit Cloud : https://ariane.ngrok.io/bridge
+[2025-10-29 13:42:24] 🔐 Vérification du handshake Cloud ↔ Local...
+[2025-10-29 13:42:24] ✅ Handshake HMAC validé avec succès.
+[2025-10-29 13:42:24] 🧩 Test de commande list_projects via Cloud...
+[2025-10-29 13:42:24] ⚠️ Erreur sur list_projects : 
+{
+  "error": "timestamp_out_of_range"
+}
+[2025-10-29 13:43:59] ✅ Bridge local détecté sur port 5075.
+[2025-10-29 13:43:59] 🔑 Clé HMAC chargée.
+[2025-10-29 13:43:59] 🌍 Envoi des informations du Bridge vers AgentKit Cloud...
+[2025-10-29 13:43:59] ✅ Bridge enregistré sur AgentKit Cloud : https://ariane.ngrok.io/bridge
+[2025-10-29 13:43:59] 🔐 Vérification du handshake Cloud ↔ Local...
+[2025-10-29 13:43:59] ✅ Handshake HMAC validé avec succès.
+[2025-10-29 13:43:59] 🧩 Test de commande list_projects via Cloud...
+[2025-10-29 13:43:59] ⚠️ Erreur sur list_projects : 
+{
+  "error": "timestamp_out_of_range"
+}
+[2025-10-29 13:44:57] ✅ Bridge local détecté sur port 5075.
+[2025-10-29 13:44:57] 🔑 Clé HMAC chargée.
+[2025-10-29 13:44:57] 🌍 Envoi des informations du Bridge vers AgentKit Cloud (horloge +5 s)...
+[2025-10-29 13:44:58] ✅ Bridge enregistré sur AgentKit Cloud : https://ariane.ngrok.io/bridge
+[2025-10-29 13:44:58] 🔐 Vérification du handshake Cloud ↔ Local...
+[2025-10-29 13:44:58] ✅ Handshake HMAC validé avec succès.
+[2025-10-29 13:44:58] 🧩 Test de commande list_projects via Cloud...
+[2025-10-29 13:44:58] ⚠️ Erreur sur list_projects : 
+{
+  "error": "timestamp_out_of_range"
+}
+[2025-10-29 13:46:37] ✅ Bridge local détecté sur port 5075.
+[2025-10-29 13:46:37] 🔑 Clé HMAC chargée.
+[2025-10-29 13:46:37] 🌍 Envoi des informations du Bridge vers AgentKit Cloud (horloge +15 s)...
+[2025-10-29 13:46:37] ✅ Bridge enregistré sur AgentKit Cloud : https://ariane.ngrok.io/bridge
+[2025-10-29 13:46:37] 🔐 Vérification du handshake Cloud ↔ Local...
+[2025-10-29 13:46:37] ✅ Handshake HMAC validé avec succès.
+[2025-10-29 13:46:37] 🧩 Test de commande list_projects via Cloud...
+[2025-10-29 13:46:37] ⚠️ Erreur sur list_projects : 
+{
+  "error": "timestamp_out_of_range"
+}
+[2025-10-29 13:47:56] ✅ Bridge local détecté sur port 5075.
+[2025-10-29 13:47:56] 🔑 Clé HMAC chargée.
+[2025-10-29 13:47:56] 🌍 Envoi des informations du Bridge vers AgentKit Cloud (horloge +15 s)...
+[2025-10-29 13:47:56] ✅ Bridge enregistré sur AgentKit Cloud : https://ariane.ngrok.io/bridge
+[2025-10-29 13:47:56] 🔐 Vérification du handshake Cloud ↔ Local...
+[2025-10-29 13:47:57] ✅ Handshake HMAC validé avec succès.
+[2025-10-29 13:47:57] 🧩 Test de commande list_projects via Cloud...
+[2025-10-29 13:47:57] ⚠️ Erreur sur list_projects : 
+{
+  "error": "timestamp_out_of_range"
+}
+[2025-10-29 13:49:44] ✅ Bridge local détecté sur port 5075.
+[2025-10-29 13:49:44] 🔑 Clé HMAC chargée.
+[2025-10-29 13:49:44] 🌍 Envoi des informations du Bridge vers AgentKit Cloud (horloge +10 s)...
+[2025-10-29 13:49:44] ✅ Bridge enregistré sur AgentKit Cloud : https://ariane.ngrok.io/bridge
+[2025-10-29 13:49:44] 🔐 Vérification du handshake Cloud ↔ Local...
+[2025-10-29 13:49:44] ✅ Handshake HMAC validé avec succès.
+[2025-10-29 13:49:44] 🧩 Test de commande list_projects via Cloud...
+[2025-10-29 13:49:44] ⚠️ Erreur sur list_projects : Response status code does not indicate success: 401 (Unauthorized).
+[2025-10-29 14:05:06] ❌ Erreur d'enregistrement : Hôte inconnu. (agentkit.openai.com:443)
+[2025-10-29 14:10:14] ❌ Erreur d'enregistrement : Response status code does not indicate success: 404 (Not Found).
+[2025-10-29 14:14:21] ❌ Erreur d'enregistrement : Response status code does not indicate success: 404 (Not Found).
+[2025-10-29 14:18:08] ❌ Erreur d'enregistrement : Response status code does not indicate success: 404 (Not Found).
+[2025-10-29 14:20:33] ❌ Erreur d'enregistrement : Response status code does not indicate success: 404 (Not Found).
+[2025-10-29 14:25:07] ❌ Erreur d'enregistrement : Response status code does not indicate success: 404 (Not Found).
+[2025-10-29 14:37:42] ❌ Erreur d'enregistrement : Response status code does not indicate success: 404 (Not Found).
+[2025-10-29 14:39:32] ✅ Bridge ArianeV4 enregistré dans AgentKit Cloud.
+[2025-10-29 14:39:32] ↩️ Réponse Cloud : {
+  "message": "Bridge enregistré avec succès.",
+  "status": "ok"
+}
+[2025-10-29 14:39:33] ❌ Erreur durant le test list_projects : Response status code does not indicate success: 401 (Unauthorized).

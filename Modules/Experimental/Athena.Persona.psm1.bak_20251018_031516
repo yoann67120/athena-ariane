@@ -1,0 +1,140 @@
+# ====================================================================
+# 💬 Athena.Persona.psm1 – Adaptation linguistique & émotionnelle
+# Version : v1.2-Stable-Robust (auto-réparation + ton adaptatif sécurisé)
+# Description : Ajuste le ton et le style de la réponse selon le profil linguistique de l’utilisateur.
+# ====================================================================
+
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "SilentlyContinue"
+
+$ModuleDir   = Split-Path -Parent $MyInvocation.MyCommand.Path
+$RootDir     = Split-Path -Parent $ModuleDir
+$MemoryDir   = Join-Path $RootDir "Memory"
+$ProfileFile = Join-Path $MemoryDir "Profile.Linguistic.json"
+
+# ====================================================================
+# 📁 Initialisation du profil linguistique (auto-réparation)
+# ====================================================================
+function Initialize-AthenaLinguisticProfile {
+    if (!(Test-Path $ProfileFile)) {
+        $DefaultProfile = @{
+            AverageLength = 40
+            Emotion       = 0.3
+            DominantType  = "neutre"
+            PreferredTone = "calme"
+        }
+        $DefaultProfile | ConvertTo-Json -Depth 3 | Set-Content -Path $ProfileFile -Encoding UTF8
+        Write-Host "🩹 Profil linguistique par défaut créé." -ForegroundColor DarkCyan
+    }
+}
+
+Initialize-AthenaLinguisticProfile
+
+# ====================================================================
+# 📖 Lecture du profil linguistique
+# ====================================================================
+function Get-AthenaLinguisticProfile {
+    try {
+        $json = Get-Content $ProfileFile -Raw -ErrorAction Stop
+        if ([string]::IsNullOrWhiteSpace($json)) { throw "Fichier vide." }
+        return ($json | ConvertFrom-Json -ErrorAction Stop)
+    }
+    catch {
+        $errMsg = if ($_.Exception) { $_.Exception.Message } else { "Erreur inconnue durant la lecture du profil linguistique." }
+        Write-Warning "⚠️ Erreur lecture profil linguistique : $errMsg"
+        # Auto-réparation du profil
+        Remove-Item $ProfileFile -ErrorAction SilentlyContinue
+        Initialize-AthenaLinguisticProfile
+        return (Get-Content $ProfileFile -Raw | ConvertFrom-Json)
+    }
+}
+
+# ====================================================================
+# 💡 Fonction principale – Adaptation du ton
+# ====================================================================
+function Invoke-AthenaPersona {
+    param([string]$Prompt)
+
+    $Profile = Get-AthenaLinguisticProfile
+    if (-not $Profile) {
+        Write-Warning "⚠️ Profil linguistique non chargé, utilisation du ton neutre."
+        $Profile = @{ PreferredTone = "neutre" }
+    }
+
+    switch ($Profile.PreferredTone) {
+        "calme" {
+            $prefix = "Réponds avec douceur, empathie et clarté. "
+        }
+        "directif" {
+            $prefix = "Réponds de manière concise, efficace et orientée action. "
+        }
+        "curieux" {
+            $prefix = "Réponds avec curiosité, pédagogie et clarté d’explication. "
+        }
+        "émotionnel" {
+            $prefix = "Réponds avec chaleur, émotion et bienveillance. "
+        }
+        "analytique" {
+            $prefix = "Réponds de façon structurée et logique, en expliquant le raisonnement. "
+        }
+        default {
+            $prefix = "Réponds de façon naturelle et claire. "
+        }
+    }
+
+    $PromptAdapted = "$prefix Voici la requête : $Prompt"
+    Write-Host "💬 [Persona] Ton appliqué : $($Profile.PreferredTone)" -ForegroundColor Green
+    return $PromptAdapted
+}
+
+# ====================================================================
+# 📤 Export des fonctions
+# ====================================================================
+Export-ModuleMember -Function Invoke-AthenaPersona, Get-AthenaLinguisticProfile
+Write-Host "✅ Athena.Persona.psm1 chargé (v1.2-Stable-Robust – Adaptation linguistique opérationnelle)." -ForegroundColor Cyan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

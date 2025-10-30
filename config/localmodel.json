@@ -1,0 +1,5 @@
+{
+  "local_default_model": "tinyllama",
+  "alternate_model": "gemma:2b",
+  "deep_model": "llama3"
+}

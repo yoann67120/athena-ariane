@@ -1,0 +1,14 @@
+{
+    "Nom": "TestManual",
+    "Type": "Web",
+    "Auteur": "Athena",
+    "Etat": "Initialisé",
+    "DateCreation": "2025-10-28 10:33:29",
+    "Fichiers": [
+        "index.html",
+        "styles.css",
+        "script.js",
+        "README.md",
+        "meta.json"
+    ]
+}

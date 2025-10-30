@@ -1,0 +1,13 @@
+version: 2
+authtoken: 32vV0bVzEiTnuh0ZBFPHB9WZpb9_5ZTCkgW4pqGdrxTkdqxJJ
+
+tunnels:
+  bridge:
+    addr: 5075
+    proto: http
+    hostname: ariane.ngrok.io
+
+  usine:
+    addr: 5050
+    proto: http
+    hostname: usine.ngrok.io

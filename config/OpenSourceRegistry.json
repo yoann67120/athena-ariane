@@ -1,0 +1,228 @@
+{
+  "Automation": {
+    "n8n": {
+      "type": "automation",
+      "use": "Automatisation de workflows et intégration d’API locales ou distantes",
+      "keywords": [
+        "automatisation",
+        "nœud",
+        "processus",
+        "workflow"
+      ],
+      "link": "https://n8n.io"
+    },
+    "NodeRED": {
+      "type": "automation",
+      "use": "Automatisation visuelle de tâches et intégration IoT",
+      "keywords": [
+        "automation",
+        "iot",
+        "mqtt",
+        "workflow"
+      ],
+      "link": "https://nodered.org"
+    },
+    "Docker": {
+      "type": "automation",
+      "use": "Conteneurisation et déploiement automatisé d’applications",
+      "keywords": [
+        "automation",
+        "container",
+        "devops"
+      ],
+      "link": "https://www.docker.com"
+    },
+    "HomeAssistant": {
+      "type": "automation",
+      "use": "Plateforme open-source de domotique locale et intelligente",
+      "keywords": [
+        "automation",
+        "home",
+        "iot",
+        "smart"
+      ],
+      "link": "https://www.home-assistant.io"
+    },
+    "OBS": {
+      "type": "automation",
+      "use": "Logiciel open-source de capture vidéo et streaming automatisé",
+      "keywords": [
+        "capture",
+        "stream",
+        "video"
+      ],
+      "link": "https://obsproject.com"
+    }
+  },
+  "Database": {
+    "Supabase": {
+      "type": "database",
+      "use": "Base de données open-source avec API et authentification intégrée",
+      "keywords": [
+        "api",
+        "base",
+        "donnée",
+        "stockage"
+      ],
+      "link": "https://supabase.com"
+    },
+    "SQLite": {
+      "type": "database",
+      "use": "Base de données locale légère, parfaite pour le stockage embarqué",
+      "keywords": [
+        "database",
+        "local",
+        "sql",
+        "stockage"
+      ],
+      "link": "https://www.sqlite.org"
+    },
+    "DuckDB": {
+      "type": "database",
+      "use": "Base de données analytique locale optimisée pour fichiers CSV / Parquet",
+      "keywords": [
+        "analyse",
+        "csv",
+        "database",
+        "local"
+      ],
+      "link": "https://duckdb.org"
+    }
+  },
+  "Repository": {
+    "GitHub": {
+      "type": "repository",
+      "use": "Hébergement de code et gestion de versions collaborative",
+      "keywords": [
+        "code",
+        "git",
+        "repository",
+        "version"
+      ],
+      "link": "https://github.com"
+    },
+    "Gitea": {
+      "type": "repository",
+      "use": "Alternative open-source légère à GitHub pour serveur personnel",
+      "keywords": [
+        "git",
+        "repository",
+        "self-hosted"
+      ],
+      "link": "https://gitea.io"
+    }
+  },
+  "AI_Assistants": {
+    "Ollama": {
+      "type": "local-llm",
+      "use": "Exécution locale de modèles de langage (LLM) sur machine personnelle",
+      "keywords": [
+        "gpt",
+        "ia",
+        "llm",
+        "local"
+      ],
+      "link": "https://ollama.ai"
+    },
+    "LMStudio": {
+      "type": "local-llm",
+      "use": "Interface locale pour modèles open-source (Mistral, Llama 2, Vicuna)",
+      "keywords": [
+        "chat",
+        "ia",
+        "local",
+        "model"
+      ],
+      "link": "https://lmstudio.ai"
+    },
+    "LangChain": {
+      "type": "ai-framework",
+      "use": "Framework Python pour orchestrer les appels aux modèles de langage",
+      "keywords": [
+        "ia",
+        "llm",
+        "orchestration",
+        "prompt"
+      ],
+      "link": "https://www.langchain.com"
+    },
+    "AutoGPT": {
+      "type": "ai-agent",
+      "use": "Agent autonome open-source pour exécution de tâches complexes",
+      "keywords": [
+        "agent",
+        "autonomous",
+        "gpt",
+        "task"
+      ],
+      "link": "https://github.com/Significant-Gravitas/AutoGPT"
+    },
+    "StableDiffusion": {
+      "type": "ai-image",
+      "use": "Génération d’images par IA open-source",
+      "keywords": [
+        "art",
+        "diffusion",
+        "ia",
+        "image"
+      ],
+      "link": "https://stability.ai"
+    },
+    "Whisper": {
+      "type": "voice",
+      "use": "Reconnaissance vocale open-source multilingue par OpenAI",
+      "keywords": [
+        "audio",
+        "speech",
+        "transcription",
+        "voice"
+      ],
+      "link": "https://github.com/openai/whisper"
+    },
+    "Vosk": {
+      "type": "voice",
+      "use": "Reconnaissance vocale hors-ligne rapide et locale",
+      "keywords": [
+        "offline",
+        "speech",
+        "voice"
+      ],
+      "link": "https://alphacephei.com/vosk"
+    }
+  },
+  "Monitoring": {
+    "Grafana": {
+      "type": "monitoring",
+      "use": "Visualisation temps réel de métriques système ou IA",
+      "keywords": [
+        "dashboard",
+        "metrics",
+        "monitoring"
+      ],
+      "link": "https://grafana.com"
+    },
+    "Prometheus": {
+      "type": "monitoring",
+      "use": "Collecte et surveillance de métriques pour serveurs et applications",
+      "keywords": [
+        "alerting",
+        "metrics",
+        "monitoring"
+      ],
+      "link": "https://prometheus.io"
+    }
+  },
+  "Storage": {
+    "Nextcloud": {
+      "type": "storage",
+      "use": "Solution open-source d’hébergement de fichiers auto-hébergée",
+      "keywords": [
+        "cloud",
+        "file",
+        "storage",
+        "sync"
+      ],
+      "link": "https://nextcloud.com"
+    }
+  }
+}

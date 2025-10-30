@@ -1,0 +1,4 @@
+function Test-Module { Write-Host 'âœ… Module fonctionnel depuis GPT' }
+
+Export-ModuleMember -Function *
+

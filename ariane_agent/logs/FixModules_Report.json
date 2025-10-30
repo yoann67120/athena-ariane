@@ -1,0 +1,2624 @@
+[
+  {
+    "Module": "ActionEngine.Patch",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\ActionEngine.Patch.psm1",
+    "Fixed": false,
+    "ExportAdded": false,
+    "EncodingFixed": false,
+    "FolderFixed": true,
+    "Errors": [
+      "The process cannot access the file 'C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\ActionEngine.Patch\\ActionEngine.Patch.psm1' because it is being used by another process."
+    ]
+  },
+  {
+    "Module": "ActionEngine",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\ActionEngine.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "ActionLearning",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\ActionLearning.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Ariane.Assist",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Ariane.Assist.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Ariane.Bridge",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Ariane.Bridge.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Ariane.Cleaner",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Ariane.Cleaner.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Ariane.Cleaner.Safe",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Ariane.Cleaner.Safe.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Ariane.Cleaner.Safe.v2",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Ariane.Cleaner.Safe.v2.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Ariane.Cognition",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Ariane.Cognition.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Ariane.Context",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Ariane.Context.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Ariane.Dialogue",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Ariane.Dialogue.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Ariane.Executor",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Ariane.Executor.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Ariane.Guide",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Ariane.Guide.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Ariane.SelfCheck",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Ariane.SelfCheck.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.ActionBridge",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.ActionBridge.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.ActionRouter",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.ActionRouter.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Alert",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Alert.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AlertBackup",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AlertBackup.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AnnualLearning",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AnnualLearning.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.API",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.API.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Architect",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Architect.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Archive",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Archive.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AudioController.Extended",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AudioController.Extended.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AudioController",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AudioController.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AuditEngine",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AuditEngine.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoBackup",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoBackup.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoCycle",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoCycle.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoDeploy",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoDeploy.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoDialogue",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoDialogue.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoEvolution",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoEvolution.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoEvolutionMonitor",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoEvolutionMonitor.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoExpandRegistry",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoExpandRegistry.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoExpansionPlanner",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoExpansionPlanner.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoExpansionPlanner.v2",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoExpansionPlanner.v2.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoHarmony",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoHarmony.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoIntegration",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoIntegration.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoLearning",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoLearning.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoMemory",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoMemory.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Autonomy",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Autonomy.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoOptimize",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoOptimize.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoPatch",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoPatch.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoPatchLearning",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoPatchLearning.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoPlanner",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoPlanner.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoRepair",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoRepair.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoReport",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoReport.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoRules",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoRules.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoSelfRepair",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoSelfRepair.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoSign",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoSign.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoSyntaxMonitor",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoSyntaxMonitor.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoUpgrade",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoUpgrade.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoValidat",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoValidat.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoValidator",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.AutoValidator.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.BridgeServer",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.BridgeServer.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.BridgeSocket",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.BridgeSocket.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.CockpitAutoLauncher",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.CockpitAutoLauncher.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.CockpitConfigurator",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.CockpitConfigurator.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Cognition",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Cognition.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.CommunicationBridge",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.CommunicationBridge.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Connect-GPTArchitect",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Connect-GPTArchitect.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.ConsoleChat",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.ConsoleChat.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.ConsoleListener",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.ConsoleListener.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Conversant",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Conversant.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.DefenseMatrix",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.DefenseMatrix.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Deployer",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Deployer.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Diagnostic",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Diagnostic.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Dialogue",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Dialogue.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.DialogueCore",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.DialogueCore.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.DirectBridge",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.DirectBridge.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Doc",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Doc.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Emotion",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Emotion.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.EmotionEngine",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.EmotionEngine.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Engine",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Engine.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.EvolutionGuardian",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.EvolutionGuardian.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.EvolutionPlanner",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.EvolutionPlanner.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.EvolutionReport",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.EvolutionReport.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Fallback",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Fallback.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Feedback",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Feedback.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.FileCommander",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.FileCommander.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Freeze",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Freeze.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.GlobalReport",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.GlobalReport.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.GPTBridge",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.GPTBridge.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.GPTPush",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.GPTPush.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.GPTScanner",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.GPTScanner.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.GuardianCheck",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.GuardianCheck.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HarmonyAnalytics",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.HarmonyAnalytics.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HarmonyFeedback",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.HarmonyFeedback.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HarmonyGuardian",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.HarmonyGuardian.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HarmonyNetwork",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.HarmonyNetwork.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HarmonyRules",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.HarmonyRules.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.History",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.History.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HttpRepair",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.HttpRepair.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HybridCore",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.HybridCore.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HybridLink",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.HybridLink.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.IntegrationAdvisor-Evo",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.IntegrationAdvisor-Evo.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.IntegrationAdvisor",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.IntegrationAdvisor.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.IntegrationGuardian",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.IntegrationGuardian.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Integrator",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Integrator.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Integrity",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Integrity.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Integrity.psm1-Fige",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Integrity.psm1-Fige.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.IntentBridge",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.IntentBridge.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.IntentParser",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.IntentParser.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.IntentTranslator",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.IntentTranslator.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.InteractiveBridge",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.InteractiveBridge.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Interface",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Interface.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.JSONCleaner",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.JSONCleaner.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Learning",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Learning.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.LinkAlias",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.LinkAlias.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Linker",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Linker.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Maintainer",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Maintainer.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.MasterCore",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.MasterCore.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.MCP",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.MCP.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.MemoryLinker",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.MemoryLinker.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.MemoryOptimizer",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.MemoryOptimizer.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.MemoryReport",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.MemoryReport.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.MemorySync",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.MemorySync.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.ModuleSyntaxFix",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.ModuleSyntaxFix.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Optimize",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Optimize.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Persona",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Persona.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Phase27",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Phase27.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.ProjectFactory",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.ProjectFactory.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.ProjectManager",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.ProjectManager.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Reflection",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Reflection.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.RegistryEvolutionSuite",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.RegistryEvolutionSuite.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Repair",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Repair.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Report",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Report.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.RollbackManager",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.RollbackManager.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SafeOps",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SafeOps.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Scheduler",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Scheduler.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Security",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Security.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SecurityGuardian",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SecurityGuardian.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfAwareness",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SelfAwareness.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfBuilder",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SelfBuilder.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfCoordinator",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SelfCoordinator.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfEvolution",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SelfEvolution.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfGuard",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SelfGuard.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfHarmony",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SelfHarmony.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfMaintenance",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SelfMaintenance.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfOptimization",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SelfOptimization.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfReflection",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SelfReflection.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfRegulation",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SelfRegulation.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfRepair",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SelfRepair.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfVerification",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.SelfVerification.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.ServerCore",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.ServerCore.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Signature",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Signature.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Sleep",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Sleep.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Sound",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Sound.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Supervisor",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Supervisor.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.TestModule",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.TestModule.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Validator",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Validator.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.VisualSync",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.VisualSync.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Voice.Extended",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Voice.Extended.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Voice",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Voice.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Watchdog",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.Watchdog.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.WebSocketBridge",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.WebSocketBridge.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.WebSocketRelay",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Athena.WebSocketRelay.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "AutoLoader",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\AutoLoader.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "AutoPatch.IntelliFix",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\AutoPatch.IntelliFix.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "AutoPatch",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\AutoPatch.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "AutoTest",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\AutoTest.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.Actions",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.Actions.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.AutoLink",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.AutoLink.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.CycleMonitor",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.CycleMonitor.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.Data",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.Data.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.Engine",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.Engine.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.Launcher",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.Launcher.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.Notify",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.Notify.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.PortSync",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.PortSync.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.Server-Auto",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.Server-Auto.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.Server-DisplayFix",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.Server-DisplayFix.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.Server",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.Server.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.Signal",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.Signal.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.SocketServer",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.SocketServer.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.Sync",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.Sync.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.UI.Extended",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.UI.Extended.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Cockpit.UI",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Cockpit.UI.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Core",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Core.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "GeneratedModule_20251027_102731",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\GeneratedModule_20251027_102731.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "GeneratedModule_20251027_115353",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\GeneratedModule_20251027_115353.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "GeneratedModule_20251027_120216",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\GeneratedModule_20251027_120216.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "HelloWorld",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\HelloWorld.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Initialize-AutonomyMatrix",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Initialize-AutonomyMatrix.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "LocalModel.Engine",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\LocalModel.Engine.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "LocalModel",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\LocalModel.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Memory.Analytics",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Memory.Analytics.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "SelfLearning",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\SelfLearning.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "SystmestableoptimisationpossibledesperformancesIA",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\SystmestableoptimisationpossibledesperformancesIA.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "TestModule",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\TestModule.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Watchdog",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Watchdog.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Watchdog.Visual",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Watchdog.Visual.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Ariane.Audit",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Ariane.Audit\\Ariane.Audit.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": false,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Alert",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Alert.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AlertBackup",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AlertBackup.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AnnualLearning",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AnnualLearning.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Architect",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Architect.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Archive",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Archive.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AudioController.Extended",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AudioController.Extended.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AudioController",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AudioController.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoBackup",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoBackup.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoCycle",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoCycle.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoEvolution",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoEvolution.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoEvolutionMonitor",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoEvolutionMonitor.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoExpandRegistry",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoExpandRegistry.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoExpansionPlanner",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoExpansionPlanner.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoExpansionPlanner.v2",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoExpansionPlanner.v2.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoHarmony",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoHarmony.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoIntegration",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoIntegration.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoLearning",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoLearning.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoMemory",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoMemory.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoOptimize",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoOptimize.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoPatch",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoPatch.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoPatchLearning",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoPatchLearning.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoPlanner",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoPlanner.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoRepair",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoRepair.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoReport",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoReport.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoRules",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoRules.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoSelfRepair",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoSelfRepair.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoSign",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoSign.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoSyntaxMonitor",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoSyntaxMonitor.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.AutoUpgrade",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.AutoUpgrade.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Cognition",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Cognition.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.CommunicationBridge",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.CommunicationBridge.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Connect-GPTArchitect",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Connect-GPTArchitect.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.ConsoleListener",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.ConsoleListener.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Conversant",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Conversant.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.DefenseMatrix",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.DefenseMatrix.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Deployer",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Deployer.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Diagnostic",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Diagnostic.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Dialogue",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Dialogue.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Doc",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Doc.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Emotion",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Emotion.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.EmotionEngine",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.EmotionEngine.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.EvolutionGuardian",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.EvolutionGuardian.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.EvolutionPlanner",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.EvolutionPlanner.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.EvolutionReport",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.EvolutionReport.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Feedback",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Feedback.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Freeze",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Freeze.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.GlobalReport",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.GlobalReport.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.GuardianCheck",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.GuardianCheck.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HarmonyAnalytics",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.HarmonyAnalytics.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HarmonyFeedback",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.HarmonyFeedback.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HarmonyGuardian",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.HarmonyGuardian.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HarmonyNetwork",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.HarmonyNetwork.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HarmonyRules",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.HarmonyRules.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.History",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.History.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.HybridCore",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.HybridCore.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.IntegrationAdvisor-Evo",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.IntegrationAdvisor-Evo.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.IntegrationAdvisor",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.IntegrationAdvisor.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.IntegrationGuardian",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.IntegrationGuardian.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Integrator",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Integrator.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Integrity",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Integrity.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Integrity.psm1-Fige",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Integrity.psm1-Fige.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Interface",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Interface.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.JSONCleaner",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.JSONCleaner.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Learning",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Learning.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Linker",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Linker.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Maintainer",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Maintainer.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.MemoryLinker",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.MemoryLinker.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.MemoryOptimizer",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.MemoryOptimizer.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.MemoryReport",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.MemoryReport.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.MemorySync",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.MemorySync.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.ModuleSyntaxFix",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.ModuleSyntaxFix.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Optimize",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Optimize.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Persona",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Persona.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Phase27",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Phase27.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.ProjectFactory",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.ProjectFactory.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Reflection",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Reflection.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.RegistryEvolutionSuite",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.RegistryEvolutionSuite.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Repair",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Repair.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Report",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Report.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SafeOps",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.SafeOps.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Scheduler",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Scheduler.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Security",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Security.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SecurityGuardian",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.SecurityGuardian.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfAwareness",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.SelfAwareness.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfBuilder",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.SelfBuilder.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfCoordinator",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.SelfCoordinator.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfEvolution",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.SelfEvolution.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfHarmony",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.SelfHarmony.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfOptimization",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.SelfOptimization.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfReflection",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.SelfReflection.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfRegulation",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.SelfRegulation.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfRepair",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.SelfRepair.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.SelfVerification",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.SelfVerification.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Signature",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Signature.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Sleep",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Sleep.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Sound",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Sound.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Supervisor",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Supervisor.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Validator",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Validator.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.VisualSync",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.VisualSync.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Voice.Extended",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Voice.Extended.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  },
+  {
+    "Module": "Athena.Voice",
+    "Path": "C:\\Users\\Sonia\\Dropbox\\ArianeV4\\Modules\\Experimental\\Athena.Voice.psm1",
+    "Fixed": true,
+    "ExportAdded": false,
+    "EncodingFixed": true,
+    "FolderFixed": true,
+    "Errors": []
+  }
+]
+

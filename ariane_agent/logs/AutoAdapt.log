@@ -1,0 +1,11 @@
+[2025-10-29 17:41:06.951188] === DÉMARRAGE AUTO_ADAPT ===
+[2025-10-29 17:41:06.952122] Analyse: CPU=52.3%, RAM=79.3%, Actions=[]
+[2025-10-29 17:41:06.965619] ⚙️ Priorité ajustée: python -> 32
+[2025-10-29 17:41:06.966488] ⚙️ Priorité ajustée: python -> 32
+[2025-10-29 17:41:06.972245] ⚙️ Priorité ajustée: python -> 32
+[2025-10-29 17:41:06.976433] ⚙️ Priorité ajustée: python -> 32
+[2025-10-29 17:41:06.977446] ⚙️ Priorité ajustée: python -> 32
+[2025-10-29 17:41:06.978287] ⚙️ Priorité ajustée: python -> 32
+[2025-10-29 17:41:06.979886] ⚙️ Priorité ajustée: python -> 32
+[2025-10-29 17:41:07.711709] ☁️ Rapport envoyé : 200
+[2025-10-29 17:41:07.713885] === FIN AUTO_ADAPT ===

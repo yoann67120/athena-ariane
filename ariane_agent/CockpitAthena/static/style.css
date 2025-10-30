@@ -1,0 +1,44 @@
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at center, #000 70%, #111);
+  color: #fff; margin: 0; overflow-x: hidden;
+}
+header {
+  background: rgba(255,0,0,0.2);
+  border-bottom: 2px solid #f00;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 20px;
+}
+h1 { margin: 0; color: #f33; letter-spacing: 2px; }
+button {
+  background: transparent; border: 2px solid #f00; color: #fff;
+  padding: 5px 12px; border-radius: 6px; cursor: pointer; margin:0 2px;
+}
+button:hover, .active { background: rgba(255,0,0,0.3); }
+
+#scanner {
+  position: relative; height: 40px; width: 80%; margin: 40px auto;
+  border: 2px solid #f00; background: rgba(255,0,0,0.1); overflow: hidden;
+}
+.beam {
+  position: absolute; left: 0; top: 0; height: 100%; width: 10%;
+  background: linear-gradient(90deg, transparent, red, transparent);
+  animation: scan 2s infinite alternate ease-in-out;
+}
+@keyframes scan { from { left:0; } to { left:90%; } }
+
+#system {
+  display: flex; justify-content: center; gap: 40px;
+  font-size: 1.2rem; margin-top: 30px;
+}
+.gauge label { display:block; color:#f44; font-weight:bold; }
+
+#projects {
+  text-align:center; margin-top:50px;
+}
+#projectList {
+  background:#111; border:1px solid #f00; padding:10px; width:60%;
+  margin:0 auto; border-radius:8px; min-height:80px;
+  color:#0f0; text-align:left; font-size:1rem;
+}
+footer { text-align:center; padding:10px; color:#888; }

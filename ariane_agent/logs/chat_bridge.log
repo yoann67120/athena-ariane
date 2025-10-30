@@ -1,0 +1,12 @@
+[2025-10-27 18:49:00] Envoi du prompt à l'agent : Donne-moi un plan PowerShell pour sauvegarder mes fichiers importants\n[2025-10-27 18:58:21] Envoi du prompt (mode=auto) → agent : http://127.0.0.1:5000/execute
+[2025-10-27 18:58:31] Réponse affichée avec succès.
+[2025-10-27 19:01:51] ⚠️ Agent Ariane non disponible. Lancez : python agent_improved.py
+[2025-10-27 19:06:10] ⚠️ Agent Ariane non disponible. Lancez : python agent_improved.py
+[2025-10-27 19:13:28] 🚀 Agent Ariane Athéna Ready initialisé.
+[2025-10-27 19:13:28] Mode serveur détecté — lancement de l’API Flask Ariane.
+[2025-10-27 19:18:29] 🚀 Agent Ariane Athéna Ready initialisé.
+[2025-10-27 19:18:29] Mode serveur détecté — lancement de l’API Flask Ariane.
+[2025-10-27 19:22:46] 🚀 Agent Ariane Athéna Ready initialisé.
+[2025-10-27 19:22:46] Mode serveur détecté — lancement de l’API Flask Ariane.
+[2025-10-27 21:36:18] Envoi du prompt (mode=text) → agent : http://127.0.0.1:5000/execute
+[2025-10-27 21:36:21] Réponse affichée avec succès.

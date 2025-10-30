@@ -1,0 +1,14 @@
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\bin\Release\net9.0\AthenaServerTemp.exe
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\bin\Release\net9.0\AthenaServerTemp.deps.json
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\bin\Release\net9.0\AthenaServerTemp.runtimeconfig.json
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\bin\Release\net9.0\AthenaServerTemp.dll
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\bin\Release\net9.0\AthenaServerTemp.pdb
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\obj\Release\net9.0\AthenaServerTemp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\obj\Release\net9.0\AthenaServerTemp.AssemblyInfoInputs.cache
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\obj\Release\net9.0\AthenaServerTemp.AssemblyInfo.cs
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\obj\Release\net9.0\AthenaServerTemp.csproj.CoreCompileInputs.cache
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\obj\Release\net9.0\AthenaServerTemp.dll
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\obj\Release\net9.0\refint\AthenaServerTemp.dll
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\obj\Release\net9.0\AthenaServerTemp.pdb
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\obj\Release\net9.0\AthenaServerTemp.genruntimeconfig.cache
+C:\Users\Sonia\Dropbox\ArianeV4\Modules\AthenaServerTemp\obj\Release\net9.0\ref\AthenaServerTemp.dll

@@ -1,0 +1,554 @@
+[2025-10-27 13:02:03] [AGENT] SAFE_EXECUTION = True (mode RÉEL).
+[2025-10-27 13:02:03] [AGENT] Agent Ariane v5 démarré.
+[2025-10-27 13:02:25] [AGENT] 👉 Route /analyze-modules appelée
+[2025-10-27 13:02:28] [AGENT] Analyse terminée : 291 modules inspectés.
+[2025-10-27 13:02:34] [AGENT] Prompt reçu: vérifie l’intégrité des modules Ariane
+[2025-10-27 13:02:34] [AGENT] Analyse terminée : 291 modules inspectés.
+[2025-10-27 13:02:34] [AGENT] Fonctions retenues pour exécution: ['Test-AutoRulesIntegrity', 'Test-EvolutionRegistryIntegrity', 'Invoke-AthenaModuleSyntaxFix']
+[2025-10-27 13:02:49] [AGENT] Execution complete. 3 fonctions lancées.
+[2025-10-27 13:58:57] [AGENT] Agent local initialisé.
+[2025-10-27 13:59:13] [AGENT] Agent local initialisé.
+[2025-10-27 14:00:33] [AGENT] Agent local initialisé.
+[2025-10-27 14:02:25] [AGENT] Agent local initialisé.
+[2025-10-27 14:03:10] [AGENT] 🧠 Requête reçue : vérifie l’intégrité des modules Ariane
+[2025-10-27 14:03:10] [AGENT] 🔧 Action détectée → Module: Ariane.Audit.psm1, Commande: Show-AuditReport
+[2025-10-27 14:03:11] [AGENT] ✅ Tâche terminée (0.72s) — Code: 1
+[2025-10-27 15:03:38] [AGENT] Agent local initialisé.
+[2025-10-27 16:01:40] [AGENT] Agent Ariane initialisé.\n[2025-10-27 18:49:00] Prompt reçu : Donne-moi un plan PowerShell pour sauvegarder mes fichiers importants\n[2025-10-27 18:49:17] Réponse générée avec succès.\n[2025-10-27 18:58:21] Prompt reçu : Explique le rôle du Planificateur de tâches Windows\n[2025-10-27 18:58:31] Réponse générée avec succès.\n[2025-10-27 21:36:18] Prompt reçu : Test de communication Ariane
+[2025-10-27 18:49:00] [CHATBRIDGE] Envoi du prompt à l'agent : Donne-moi un plan PowerShell pour sauvegarder mes fichiers importants\n[2025-10-27 18:58:21] Envoi du prompt (mode=auto) → agent : http://127.0.0.1:5000/execute
+[2025-10-27 18:58:31] [CHATBRIDGE] Réponse affichée avec succès.
+[2025-10-27 19:01:51] [CHATBRIDGE] ⚠️ Agent Ariane non disponible. Lancez : python agent_improved.py
+[2025-10-27 19:06:10] [CHATBRIDGE] ⚠️ Agent Ariane non disponible. Lancez : python agent_improved.py
+[2025-10-27 19:13:28] [CHATBRIDGE] 🚀 Agent Ariane Athéna Ready initialisé.
+[2025-10-27 19:13:28] [CHATBRIDGE] Mode serveur détecté — lancement de l’API Flask Ariane.
+[2025-10-27 19:18:29] [CHATBRIDGE] 🚀 Agent Ariane Athéna Ready initialisé.
+[2025-10-27 19:18:29] [CHATBRIDGE] Mode serveur détecté — lancement de l’API Flask Ariane.
+[2025-10-27 19:22:46] [CHATBRIDGE] 🚀 Agent Ariane Athéna Ready initialisé.
+[2025-10-27 19:22:46] [CHATBRIDGE] Mode serveur détecté — lancement de l’API Flask Ariane.
+[2025-10-27 21:36:18] [CHATBRIDGE] Envoi du prompt (mode=text) → agent : http://127.0.0.1:5000/execute
+[2025-10-27 21:36:20] [AGENT] Réponse GPT reçue.
+[2025-10-27 21:36:21] [CHATBRIDGE] Réponse affichée avec succès.
+[2025-10-27 21:44:18] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 21:44:18] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 21:48:45] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 21:48:45] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 21:48:45] [AGENTKIT] ❌ Action inconnue : create_project
+[2025-10-27 21:50:36] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.create_project: No module named 'agentkit.actions'
+[2025-10-27 21:50:36] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 21:50:37] [AGENTKIT] ❌ Action inconnue : create_project
+[2025-10-27 21:55:08] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 21:55:08] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 21:55:08] [AGENTKIT] ❌ Action inconnue : create_project
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : create_project (agentkit.actions.create_project)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : log (agentkit.actions.create_project)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : deploy_project (agentkit.actions.deploy_project)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : log (agentkit.actions.deploy_project)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : list_projects (agentkit.actions.list_projects)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : log (agentkit.actions.list_projects)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : log (agentkit.actions.update_project)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : update_project (agentkit.actions.update_project)
+[2025-10-27 21:58:09] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : create_project (agentkit.actions.create_project)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : log (agentkit.actions.create_project)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : deploy_project (agentkit.actions.deploy_project)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : log (agentkit.actions.deploy_project)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : list_projects (agentkit.actions.list_projects)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : log (agentkit.actions.list_projects)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : log (agentkit.actions.update_project)
+[2025-10-27 21:58:09] [AGENTKIT] 🔗 Action chargée : update_project (agentkit.actions.update_project)
+[2025-10-27 21:58:09] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 21:58:09] [AGENTKIT] ✅ Projet 'DemoProject' créé dans C:\Users\Sonia\Dropbox\ArianeV4\Projects\DemoProject
+[2025-10-27 21:58:09] [AGENTKIT] ✅ Action 'create_project' exécutée avec succès.
+[2025-10-27 22:08:24] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:08:24] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:08:26] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:08:26] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:11:36] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:11:36] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:12:35] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:12:35] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:12:36] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:12:36] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:14:50] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:14:50] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:15:12] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:15:12] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:15:13] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:15:13] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:17:02] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:17:02] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:17:19] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:17:19] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:17:20] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:17:20] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:18:11] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.create_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:18:11] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.deploy_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:18:11] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.list_projects: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:18:11] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.update_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:18:11] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:19:24] [AGENTKIT] ⚠️ Aucun dossier actions trouvé.
+[2025-10-27 22:19:24] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 22:19:48] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.create_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:19:48] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.deploy_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:19:48] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.list_projects: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:19:48] [AGENTKIT] ⚠️ Erreur chargement agentkit.actions.update_project: [WinError 3] Le chemin d’accès spécifié est introuvable: 'C:\\Ariane-Agent\\agentkit\\actions\\actions'
+[2025-10-27 22:19:48] [AGENTKIT] ✅ AgentKit initialisé.
+[2025-10-27 23:17:41] [PHASE3] CREATE – TestPhase3 – succès
+[2025-10-27 23:18:26] [PHASE3] CREATE – AthenaV4_Test2 – succès
+[2025-10-27 23:38:24] [BRIDGE] 🔗 Requête reçue : action=list_projects params={}
+[2025-10-27 23:38:24] [BRIDGE] ✅ Action 'list_projects' exécutée avec succès.
+[2025-10-27 23:41:23] [BRIDGE] 🔗 UsineProtocol reçu : list_projects params={}
+[2025-10-27 23:41:23] [USINEPROTOCOL] 🟩 Requête valide : list_projects
+[2025-10-27 23:41:23] [USINEPROTOCOL] ⬛ Build response: {'protocol': 'UsineProtocol_v1', 'status': 'success', 'action': 'list_projects', 'result': [{'Nom': ' Solaris', 'Type': 'Web', 'DateCreation': '2025-10-20 12:31:23', 'Auteur': 'Athena', 'Etat': 'Initialisé', 'Fichiers': ['index.html', 'styles.css', 'script.js', 'README.md', 'meta.json']}, {'name': 'AthenaV4', 'description': 'Aucun descriptif.', 'created_at': '2025-10-27T23:07:18.726775', 'status': 'created'}, {'name': 'AthenaV4_Test2', 'description': 'Aucun descriptif.', 'created_at': '2025-10-27T23:18:26.814790', 'status': 'created'}, {'Nom': 'crée un Solaris', 'Type': 'Web', 'DateCreation': '2025-10-20 12:29:13', 'Auteur': 'Athena', 'Etat': 'Initialisé', 'Fichiers': ['index.html', 'styles.css', 'script.js', 'README.md', 'meta.json']}, {'name': 'DemoProject', 'description': 'Projet test Usine à Projets', 'template': 'default', 'created': '2025-10-27T21:58:09.347547'}, {'name': 'TestPhase3', 'description': 'Aucun descriptif.', 'created_at': '2025-10-27T23:13:33.303961', 'status': 'created'}, {'Nom': 'un   nommé Solaris', 'Type': 'Web', 'DateCreation': '2025-10-20 12:22:54', 'Auteur': 'Athena', 'Etat': 'Initialisé', 'Fichiers': ['index.html', 'styles.css', 'script.js', 'README.md', 'meta.json']}], 'error': None, 'timestamp': '2025-10-27T22:41:23.496160Z'}
+[2025-10-27 23:48:06] [BRIDGE] 🔗 Requête sécurisée : action=list_projects params={}
+[2025-10-27 23:48:06] [SECURITY] 🟢 Signature générée : ca5cc68b19d4...
+[2025-10-27 23:48:06] [SECURITY] ✅ Signature vérifiée avec succès.
+[2025-10-27 23:48:06] [USINEPROTOCOL] 🟩 Requête valide : list_projects
+[2025-10-27 23:48:06] [USINEPROTOCOL] ⬛ Build response: {'protocol': 'UsineProtocol_v1', 'status': 'success', 'action': 'list_projects', 'result': [{'Nom': ' Solaris', 'Type': 'Web', 'DateCreation': '2025-10-20 12:31:23', 'Auteur': 'Athena', 'Etat': 'Initialisé', 'Fichiers': ['index.html', 'styles.css', 'script.js', 'README.md', 'meta.json']}, {'name': 'AthenaV4', 'description': 'Aucun descriptif.', 'created_at': '2025-10-27T23:07:18.726775', 'status': 'created'}, {'name': 'AthenaV4_Test2', 'description': 'Aucun descriptif.', 'created_at': '2025-10-27T23:18:26.814790', 'status': 'created'}, {'Nom': 'crée un Solaris', 'Type': 'Web', 'DateCreation': '2025-10-20 12:29:13', 'Auteur': 'Athena', 'Etat': 'Initialisé', 'Fichiers': ['index.html', 'styles.css', 'script.js', 'README.md', 'meta.json']}, {'name': 'DemoProject', 'description': 'Projet test Usine à Projets', 'template': 'default', 'created': '2025-10-27T21:58:09.347547'}, {'name': 'TestPhase3', 'description': 'Aucun descriptif.', 'created_at': '2025-10-27T23:13:33.303961', 'status': 'created'}, {'Nom': 'un   nommé Solaris', 'Type': 'Web', 'DateCreation': '2025-10-20 12:22:54', 'Auteur': 'Athena', 'Etat': 'Initialisé', 'Fichiers': ['index.html', 'styles.css', 'script.js', 'README.md', 'meta.json']}], 'error': None, 'timestamp': '2025-10-27T22:48:06.535162Z'}
+[2025-10-28 00:12:44] [BRIDGE] ❌ Signature HMAC non valide, requête rejetée
+[2025-10-28 00:12:44] [SECURITY] 🟢 Signature générée : 3e8a7f889d6d...
+[2025-10-28 00:12:44] [SECURITY] ❌ Signature invalide ! attendu=3e8a7f889d6d reçu=ca5cc68b19d4
+[2025-10-28 00:12:44] [USINEPROTOCOL] ⬛ Build response: {'protocol': 'UsineProtocol_v1', 'status': 'error', 'action': 'auth', 'result': None, 'error': 'Invalid signature', 'timestamp': '2025-10-27T23:12:44.045715Z'}
+[2025-10-28 00:18:07] [BRIDGE] ❌ Signature invalide reçue.
+[2025-10-28 00:19:23] [BRIDGE] 🔗 Requête authentifiée : action=list_projects params={}
+[2025-10-28 00:19:23] [BRIDGE] ✅ Action 'list_projects' exécutée avec succès.
+[2025-10-28 00:23:51] [BRIDGEMONITOR] 🧩 Démarrage du serveur Flask (Usine à Projets)…
+[2025-10-28 00:23:56] [BRIDGEMONITOR] 🌐 Lancement de Ngrok (port 5050)…
+[2025-10-28 00:24:03] [BRIDGEMONITOR] ✅ Tunnel Ngrok actif : https://4a22bf9c7fca.ngrok-free.app
+[2025-10-28 00:24:03] [BRIDGEMONITOR] 🧠 Pont GPT-5 ↔ Usine prêt.
+[2025-10-28 00:24:03] [BRIDGEMONITOR] Détails enregistrés dans C:\Ariane-Agent\logs\BridgeStatus.json
+[2025-10-28 00:27:27] [BRIDGE] 🔗 Requête authentifiée : action=list_projects params={}
+[2025-10-28 00:27:27] [BRIDGE] ✅ Action 'list_projects' exécutée avec succès.
+[2025-10-28 09:45:43] [COCKPITUSINE] === Démarrage du Cockpit Usine à Projets ===
+[2025-10-28 09:45:45] [COCKPITUSINE] === Démarrage du Cockpit Usine à Projets ===
+[2025-10-28 09:45:51] [COCKPITUSINE] 🧭 Accès au Cockpit Usine
+[2025-10-28 09:49:33] [COCKPITUSINE] === Démarrage du Cockpit Usine à Projets ===
+[2025-10-28 09:49:35] [COCKPITUSINE] === Démarrage du Cockpit Usine à Projets ===
+[2025-10-28 09:49:39] [COCKPITUSINE] 🧭 Accès au Cockpit Usine
+[2025-10-28 09:52:20] [COCKPITUSINE] === Démarrage du Cockpit Usine à Projets ===
+[2025-10-28 09:52:22] [COCKPITUSINE] === Démarrage du Cockpit Usine à Projets ===
+[2025-10-28 09:52:26] [COCKPITUSINE] 🧭 Accès au Cockpit Usine
+[2025-10-28 10:00:15] [COCKPITUSINE] === Démarrage Cockpit Usine à Projets v2 ===
+[2025-10-28 10:01:23] [COCKPITUSINE] === Démarrage Cockpit Usine à Projets v2 ===
+[2025-10-28 10:01:24] [COCKPITUSINE] === Démarrage Cockpit Usine à Projets v2 ===
+[2025-10-28 10:01:28] [COCKPITUSINE] 🧭 Accès Cockpit Usine
+[2025-10-28 10:02:26] [COCKPITUSINE] 🆕 Création projet demandée : {'name': 'test1', 'type': 'Web'}
+[2025-10-28 10:02:29] [PHASE3] CREATE – test1 – succès
+[2025-10-28 10:02:34] [COCKPITUSINE] 🆕 Création projet demandée : {'name': 'test1', 'type': 'IA'}
+[2025-10-28 10:02:36] [PHASE3] CREATE – test1 – succès
+[2025-10-28 10:02:44] [COCKPITUSINE] 🧠 Ouverture Cockpit Athena
+[2025-10-28 10:06:16] [COCKPITUSINE] === Démarrage Cockpit Usine à Projets – Version finale ===
+[2025-10-28 10:07:40] [COCKPITUSINE] === Démarrage Cockpit Usine à Projets – Version finale ===
+[2025-10-28 10:07:42] [COCKPITUSINE] === Démarrage Cockpit Usine à Projets – Version finale ===
+[2025-10-28 10:07:45] [COCKPITUSINE] 🧭 Accès au Cockpit Usine
+[2025-10-28 10:07:58] [COCKPITUSINE] 🆕 Création projet : {'name': 'test', 'type': 'Script'}
+[2025-10-28 10:08:00] [PHASE3] CREATE – test – succès
+[2025-10-28 10:08:02] [COCKPITUSINE] 🧠 Ouverture du Cockpit Athena
+[2025-10-28 10:19:49] [COCKPITUSINE] === Démarrage Cockpit Usine à Projets – Version finale ===
+[2025-10-28 10:19:50] [COCKPITUSINE] === Démarrage Cockpit Usine à Projets – Version finale ===
+[2025-10-28 10:19:57] [COCKPITUSINE] 🧭 Accès au Cockpit Usine
+[2025-10-28 10:20:21] [COCKPITUSINE] 🆕 Création projet : {'name': 'test1', 'type': 'Web'}
+[2025-10-28 10:20:23] [PHASE3] CREATE – test1 – succès
+[2025-10-28 10:20:23] [PHASE3] ERROR – test1 – Object of type module is not JSON serializable
+[2025-10-28 10:24:04] [COCKPITUSINE] === Démarrage Cockpit Usine à Projets – Version finale ===
+[2025-10-28 10:24:05] [COCKPITUSINE] === Démarrage Cockpit Usine à Projets – Version finale ===
+[2025-10-28 10:24:11] [COCKPITUSINE] 🧭 Accès au Cockpit Usine
+[2025-10-28 10:24:32] [COCKPITUSINE] 🆕 Création projet : {'name': 'astra', 'type': 'Web'}
+[2025-10-28 10:24:34] [PHASE3] CREATE – astra – succès
+[2025-10-28 10:24:34] [PHASE3] ERROR – astra – Object of type module is not JSON serializable
+[2025-10-28 10:27:17] [PHASE3] CREATE – TestManual – succès
+[2025-10-28 10:27:17] [PHASE3] ERROR – TestManual – Object of type module is not JSON serializable
+[2025-10-28 10:30:37] [PHASE3] CREATE – TestManual – succès
+[2025-10-28 10:30:37] [PHASE3] ERROR – TestManual – Object of type module is not JSON serializable
+[2025-10-28 10:33:29] [PHASE3] CREATE – TestManual – succès
+[2025-10-28 11:55:02] [ATHENAVOICE] [2025-10-28 11:55:02] Test vocal lancé.
+[2025-10-28 11:55:08] [ATHENAVOICE] [2025-10-28 11:55:08] Athena said: Bonjour, je suis Athena. Système vocal opérationnel.
+[2025-10-28 11:59:13] [ATHENAVOICE] [2025-10-28 11:59:13] Test vocal lancé.
+[2025-10-28 11:59:18] [ATHENAVOICE] [2025-10-28 11:59:18] Athena said: Bonjour, je suis Athena. Système vocal opérationnel.
+[2025-10-28 12:01:05] [ATHENAVOICE] [2025-10-28 12:01:05] Process Flask non trouvé, redémarrage nécessaire.
+[2025-10-28 12:01:05] [ATHENAVOICE] [2025-10-28 12:01:05] Redémarrage vocal lancé.
+[2025-10-28 12:01:09] [ATHENAVOICE] [2025-10-28 12:01:09] Test vocal lancé.
+[2025-10-28 12:01:15] [ATHENAVOICE] [2025-10-28 12:01:15] Athena said: Bonjour, je suis Athena. Système vocal opérationnel.
+[2025-10-28 12:03:05] [ATHENAVOICE] [2025-10-28 12:03:05] Test vocal lancé.
+[2025-10-28 12:03:12] [ATHENAVOICE] [2025-10-28 12:03:12] Athena said: Bonjour, je suis Athena. Système vocal opérationnel.
+[2025-10-28 12:08:19] [GLOBAL] === PHASE 7.1A : Test de connectivité globale lancé ===
+[2025-10-28 12:16:53] [COCKPITATHENAUNIFIED] === Démarrage Cockpit Athena UNIFIED v4.0 ===
+[2025-10-28 12:16:53] [COCKPITATHENAUNIFIED] [TTS] Athena dit : Athena, cockpit et système vocal opérationnels.
+[2025-10-28 12:17:33] [GLOBAL] === PHASE 7.1A : Test de connectivité globale lancé ===
+[2025-10-28 12:17:39] [COCKPITATHENAUNIFIED] [HEALTH] AthenaVoice opérationnel.
+[2025-10-28 12:21:40] [AGENT] === Démarrage Ariane Agent Bridge (port 5000) ===
+[2025-10-28 12:23:02] [GLOBAL] === PHASE 7.1A : Test de connectivité globale lancé ===
+[2025-10-28 12:23:09] [COCKPITATHENAUNIFIED] [HEALTH] AthenaVoice opérationnel.
+[2025-10-28 12:25:27] [GLOBAL] === PHASE 7.1G : Test de connectivité globale lancé ===
+[2025-10-28 12:25:33] [COCKPITATHENAUNIFIED] [HEALTH] AthenaVoice opérationnel.
+[2025-10-28 12:25:35] [AGENT] 🧠 Requête reçue de TestConnectivity : exec (Get-Date)
+[2025-10-28 12:25:36] [AGENT] ✅ Exécution PowerShell OK : mardi 28 octobre 2025 12:25:36
+[2025-10-28 12:27:21] [AGENT] Agent démarré.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Écris un script PowerShell qui affiche la date du jour
+[2025-10-28 12:27:21] [AGENT] Script temporaire : C:\Users\Sonia\AppData\Local\Temp\tmpfmshjq4i.ps1
+[2025-10-28 12:27:21] [AGENT] Exécution terminée.
+[2025-10-28 12:27:21] [AGENT] Agent démarré.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Affiche la date du jour avec Write-Host (PowerShell)
+[2025-10-28 12:27:21] [AGENT] Script temporaire créé : C:\Users\Sonia\AppData\Local\Temp\tmp2msy9_g5.ps1
+[2025-10-28 12:27:21] [AGENT] Exécution terminée.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Write a PowerShell script that displays today's date using Write-Host
+[2025-10-28 12:27:21] [AGENT] Script temporaire créé : C:\Users\Sonia\AppData\Local\Temp\tmps6o9cc4s.ps1
+[2025-10-28 12:27:21] [AGENT] Exécution terminée.
+[2025-10-28 12:27:21] [AGENT] Agent démarré.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Write a PowerShell script that displays today's date using Write-Host
+[2025-10-28 12:27:21] [AGENT] === Début du code généré ===
+[2025-10-28 12:27:21] [AGENT] To display today's date using PowerShell's `Write-Host` command, you can use the `Get-Date` cmdlet to retrieve the current date. Here's a simple script that accomplishes this:# Get today's date$todayDate = Get-Date# Display today's dateWrite-Host "Today's date is: $todayDate"This script will retrieve the current date and time using `Get-Date` and then display it using `Write-Host`. If you want to display only the date without the time, you can format the date accordingly:# Get today's date$todayDate = Get-Date -Format "yyyy-MM-dd"# Display today's dateWrite-Host "Today's date is: $todayDate"In this version, the date is formatted as "yyyy-MM-dd" (year-month-day), but you can adjust the format string to your preference based on your regional settings or desired format.
+[2025-10-28 12:27:21] [AGENT] === Fin du code généré ===
+[2025-10-28 12:27:21] [AGENT] Code sauvegardé : C:\Ariane-Agent\logs\generated_20251027_093102.ps1
+[2025-10-28 12:27:21] [AGENT] Script temporaire créé : C:\Users\Sonia\AppData\Local\Temp\tmpit7iuqj8.ps1
+[2025-10-28 12:27:21] [AGENT] Exécution terminée.
+[2025-10-28 12:27:21] [AGENT] Agent démarré.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Write a PowerShell script that displays today's date using Write-Host
+[2025-10-28 12:27:21] [AGENT] Script temporaire créé : C:\Users\Sonia\AppData\Local\Temp\tmp3zloxk1w.ps1
+[2025-10-28 12:27:21] [AGENT] Exécution terminée.
+[2025-10-28 12:27:21] [AGENT] Agent démarré.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Write a PowerShell script that displays today's date using Write-Host
+[2025-10-28 12:27:21] [AGENT] Code sauvegardé : C:\Ariane-Agent\logs\generated_20251027_094426.ps1
+[2025-10-28 12:27:21] [AGENT] Script temporaire créé : C:\Users\Sonia\AppData\Local\Temp\tmppqsefxjn.ps1
+[2025-10-28 12:27:21] [AGENT] Exécution terminée.
+[2025-10-28 12:27:21] [AGENT] Agent démarré avec sauvegarde et versioning.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Write a PowerShell script that displays today's date using Write-Host
+[2025-10-28 12:27:21] [AGENT] Version enregistrée : C:\Ariane-Agent\versions\v_20251027_094857\script_20251027_094857.ps1
+[2025-10-28 12:27:21] [AGENT] Script temporaire créé : C:\Users\Sonia\AppData\Local\Temp\tmpde1p7714.ps1
+[2025-10-28 12:27:21] [AGENT] Résultat analyse : Aucun problème détecté
+[2025-10-28 12:27:21] [AGENT] Sauvegarde effectuée : C:\Ariane-Agent\backups\20251027_094858\tmpde1p7714.ps1
+[2025-10-28 12:27:21] [AGENT] Exécution terminée.
+[2025-10-28 12:27:21] [AGENT] Agent Ariane lié au répertoire Modules.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Create a new PowerShell module called TestModule.psm1 that writes 'Module Ariane connecté !'
+[2025-10-28 12:27:21] [AGENT] 🧩 Module Ariane créé : C:\Users\Sonia\Dropbox\ArianeV4\Modules\TestModule.psm1
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Crée un module nommé HelloWorld.psm1 qui affiche 'Ariane connecté avec succès !'
+[2025-10-28 12:27:21] [AGENT] 🧩 Module Ariane créé : C:\Users\Sonia\Dropbox\ArianeV4\Modules\HelloWorld.psm1
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Crée un module Ariane.Audit.psm1 qui analyse tout le dossier C:\Users\Sonia\Dropbox\ArianeV4 et produit un résumé clair : liste des fichiers, nombre de modules, scripts, journaux, configurations, et mémoire. Il doit me dire à la fin : 'Audit terminé — prêt pour analyse de nettoyage.' Le rapport doit être lisible directement dans la console.
+[2025-10-28 12:27:21] [AGENT] 🧩 Module Ariane créé : C:\Users\Sonia\Dropbox\ArianeV4\Modules\Ariane.Audit.psm1
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Analyse le résultat de l’audit ArianeV4 suivant :
+[2025-10-28 12:27:21] [AGENT] Total Files 2329, Modules 321, Scripts 130, Logs 222, Configurations 0, Taille totale 1,6Go.
+[2025-10-28 12:27:21] [AGENT] Propose un plan de nettoyage simple et structuré, adapté à un utilisateur non informaticien :
+[2025-10-28 12:27:21] [AGENT] - Quoi garder et pourquoi
+[2025-10-28 12:27:21] [AGENT] - Quoi archiver
+[2025-10-28 12:27:21] [AGENT] - Quoi fusionner ou supprimer
+[2025-10-28 12:27:21] [AGENT] - Quelle structure finale de dossiers adopter pour que tout soit clair et durable.
+[2025-10-28 12:27:21] [AGENT] 🧩 Module Ariane créé : C:\Users\Sonia\Dropbox\ArianeV4\Modules\GeneratedModule_20251027_102731.psm1
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Ne crée pas de module. Réponds uniquement par un texte clair et simple, pas en PowerShell.
+[2025-10-28 12:27:21] [AGENT] Analyse le résultat de l’audit ArianeV4 :
+[2025-10-28 12:27:21] [AGENT] Total Files 2329, Modules 321, Scripts 130, Logs 222, Configurations 0, Taille totale 1,6Go.
+[2025-10-28 12:27:21] [AGENT] Propose-moi un plan de nettoyage et d’organisation adapté à un utilisateur non informaticien :
+[2025-10-28 12:27:21] [AGENT] 1. Quoi garder et pourquoi
+[2025-10-28 12:27:21] [AGENT] 2. Quoi archiver
+[2025-10-28 12:27:21] [AGENT] 3. Quoi fusionner ou supprimer
+[2025-10-28 12:27:21] [AGENT] 4. Quelle structure finale de dossiers adopter pour que tout soit clair et durable.
+[2025-10-28 12:27:21] [AGENT] Réponds dans un texte explicatif lisible, sans code.
+[2025-10-28 12:27:21] [AGENT] 🧩 Module Ariane créé : C:\Users\Sonia\Dropbox\ArianeV4\Modules\GeneratedModule_20251027_103017.psm1
+[2025-10-28 12:27:21] [AGENT] Agent Ariane lié au répertoire Modules.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Analyse le résultat de l’audit ArianeV4 :
+[2025-10-28 12:27:21] [AGENT] Total Files 2329, Modules 321, Scripts 130, Logs 222, Configurations 0, Taille totale 1,6Go.
+[2025-10-28 12:27:21] [AGENT] Propose un plan de nettoyage et d’organisation simple et clair pour un utilisateur non informaticien.
+[2025-10-28 12:27:21] [AGENT] Mode détecté : text
+[2025-10-28 12:27:21] [AGENT] Réponse textuelle renvoyée à Ariane.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Crée un module Ariane.Cleaner.psm1 qui lit le dossier C:\Users\Sonia\Dropbox\ArianeV4, crée le dossier C:\Users\Sonia\Dropbox\ArianeV4_Audit (avec sous-dossiers Modules, Scripts, Logs, Autres), puis déplace automatiquement les fichiers selon leur extension (.psm1 → Modules, .ps1 → Scripts, .log → Logs, autres → Autres). Avant de déplacer, il doit vérifier et ignorer les fichiers déjà présents dans ArianeV4_Audit. Il doit afficher un résumé à la fin avec le nombre de fichiers déplacés.
+[2025-10-28 12:27:21] [AGENT] Mode détecté : code
+[2025-10-28 12:27:21] [AGENT] 🧩 Module Ariane créé : C:\Users\Sonia\Dropbox\ArianeV4\Modules\(.psm1
+[2025-10-28 12:27:21] [AGENT] Agent Ariane initialisé.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Agent Ariane initialisé.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Agent Ariane initialisé.
+[2025-10-28 12:27:21] [AGENT] Analyse terminée : 201 modules inspectés.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Agent Ariane initialisé.
+[2025-10-28 12:27:21] [AGENT] Analyse terminée : 201 modules inspectés.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Analyse terminée : 201 modules inspectés.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Agent Ariane initialisé.
+[2025-10-28 12:27:21] [AGENT] Analyse terminée : 201 modules inspectés.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Crée un module AutoTest.psm1 qui affiche 'Ariane moteur automatique opérationnel !'
+[2025-10-28 12:27:21] [AGENT] Mode détecté : code
+[2025-10-28 12:27:21] [AGENT] 🧩 Module Ariane créé : C:\\Users\\Sonia\\Dropbox\\ArianeV4\Modules\AutoTest.psm1
+[2025-10-28 12:27:21] [AGENT] Agent Ariane initialisé.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : Crée un module AutoTest.psm1 qui affiche 'Ariane moteur automatique opérationnel !'
+[2025-10-28 12:27:21] [AGENT] Mode détecté : code
+[2025-10-28 12:27:21] [AGENT] 🧩 Module Ariane créé : C:\\Users\\Sonia\\Dropbox\\ArianeV4\Modules\AutoTest.psm1
+[2025-10-28 12:27:21] [AGENT] Analyse terminée : 201 modules inspectés.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : vérifie l’intégrité des modules Ariane
+[2025-10-28 12:27:21] [AGENT] Mode détecté : code
+[2025-10-28 12:27:21] [AGENT] 🧩 Module Ariane créé : C:\\Users\\Sonia\\Dropbox\\ArianeV4\Modules\GeneratedModule_20251027_115353.psm1
+[2025-10-28 12:27:21] [AGENT] Analyse terminée : 201 modules inspectés.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Prompt reçu : vérifie l’intégrité des modules Ariane
+[2025-10-28 12:27:21] [AGENT] Mode détecté : code
+[2025-10-28 12:27:21] [AGENT] 🧩 Module Ariane créé : C:\\Users\\Sonia\\Dropbox\\ArianeV4\Modules\GeneratedModule_20251027_120216.psm1
+[2025-10-28 12:27:21] [AGENT] Agent Ariane initialisé.
+[2025-10-28 12:27:21] [AGENT] Analyse terminée : 201 modules inspectés.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Agent Ariane initialisé.
+[2025-10-28 12:27:21] [AGENT] Analyse terminée : 201 modules inspectés.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Agent Ariane initialisé.
+[2025-10-28 12:27:21] [AGENT] Analyse terminée : 201 modules inspectés.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Commande reçue : vérifie l’intégrité des modules Ariane
+[2025-10-28 12:27:21] [AGENT] Résultat : {'status': 'ERROR', 'stdout': '', 'stderr': "Le terminateur ' est manquant dans la chaŒne.\n    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException\n    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString", 'return_code': 1}
+[2025-10-28 12:27:21] [AGENT] Agent Ariane initialisé.
+[2025-10-28 12:27:21] [AGENT] Analyse terminée : 201 modules inspectés.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Commande reçue : vérifie l’intégrité des modules Ariane
+[2025-10-28 12:27:21] [AGENT] Résultat : {'status': 'OK', 'stdout': "Ex‚cution de la commande : v‚rifie l'int‚grit‚ des modules Ariane", 'stderr': '', 'return_code': 0}
+[2025-10-28 12:27:21] [AGENT] Agent Ariane initialisé.
+[2025-10-28 12:27:21] [AGENT] Analyse terminée : 201 modules inspectés.
+[2025-10-28 12:27:21] [AGENT] Analyse complète des modules Ariane effectuée.
+[2025-10-28 12:27:21] [AGENT] Commande reçue : vérifie l’intégrité des modules Ariane
+[2025-10-28 12:27:21] [AGENT] Résultat : {'status': 'OK', 'stdout': 'ExÃ©cution de la commande : vÃ©rifie lâ€™intÃ©gritÃ© des modules Ariane', 'stderr': '', 'return_code': 0}
+[2025-10-28 12:27:21] [GLOBAL] ✅ Usine Flask : OK (http://localhost:5050/)
+[2025-10-28 12:27:21] [GLOBAL] ✅ AgentKit /list : OK (http://localhost:5050/list)
+[2025-10-28 12:27:21] [GLOBAL] ❌ Cockpit Athena (port 5070) : Échec (http://localhost:5070/health)
+[2025-10-28 12:27:21] [GLOBAL] ❌ Bridge GPT (port 5000) : Échec (http://localhost:5000/execute)
+[2025-10-28 12:27:21] [GLOBAL] Résumé : [
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "Usine Flask",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5050/",
+[2025-10-28 12:27:21] [GLOBAL] "OK": true
+[2025-10-28 12:27:21] [GLOBAL] },
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "AgentKit /list",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5050/list",
+[2025-10-28 12:27:21] [GLOBAL] "OK": true
+[2025-10-28 12:27:21] [GLOBAL] },
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "Cockpit Athena (port 5070)",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5070/health",
+[2025-10-28 12:27:21] [GLOBAL] "OK": false
+[2025-10-28 12:27:21] [GLOBAL] },
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "Bridge GPT (port 5000)",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5000/execute",
+[2025-10-28 12:27:21] [GLOBAL] "OK": false
+[2025-10-28 12:27:21] [GLOBAL] }
+[2025-10-28 12:27:21] [GLOBAL] ]
+[2025-10-28 12:27:21] [GLOBAL] === PHASE 7.1A terminée ===
+[2025-10-28 12:27:21] [GLOBAL] ✅ Usine Flask : OK (http://localhost:5050/)
+[2025-10-28 12:27:21] [GLOBAL] ✅ AgentKit /list : OK (http://localhost:5050/list)
+[2025-10-28 12:27:21] [GLOBAL] ✅ Cockpit Athena (port 5070) : OK (http://localhost:5070/health)
+[2025-10-28 12:27:21] [GLOBAL] ❌ Bridge GPT (port 5000) : Échec (http://localhost:5000/execute)
+[2025-10-28 12:27:21] [GLOBAL] Résumé : [
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "Usine Flask",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5050/",
+[2025-10-28 12:27:21] [GLOBAL] "OK": true
+[2025-10-28 12:27:21] [GLOBAL] },
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "AgentKit /list",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5050/list",
+[2025-10-28 12:27:21] [GLOBAL] "OK": true
+[2025-10-28 12:27:21] [GLOBAL] },
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "Cockpit Athena (port 5070)",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5070/health",
+[2025-10-28 12:27:21] [GLOBAL] "OK": true
+[2025-10-28 12:27:21] [GLOBAL] },
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "Bridge GPT (port 5000)",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5000/execute",
+[2025-10-28 12:27:21] [GLOBAL] "OK": false
+[2025-10-28 12:27:21] [GLOBAL] }
+[2025-10-28 12:27:21] [GLOBAL] ]
+[2025-10-28 12:27:21] [GLOBAL] === PHASE 7.1A terminée ===
+[2025-10-28 12:27:21] [GLOBAL] ✅ Usine Flask : OK (http://localhost:5050/)
+[2025-10-28 12:27:21] [GLOBAL] ✅ AgentKit /list : OK (http://localhost:5050/list)
+[2025-10-28 12:27:21] [GLOBAL] ✅ Cockpit Athena (port 5070) : OK (http://localhost:5070/health)
+[2025-10-28 12:27:21] [GLOBAL] ❌ Bridge GPT (port 5000) : Échec (http://localhost:5000/execute)
+[2025-10-28 12:27:21] [GLOBAL] Résumé : [
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "Usine Flask",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5050/",
+[2025-10-28 12:27:21] [GLOBAL] "OK": true
+[2025-10-28 12:27:21] [GLOBAL] },
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "AgentKit /list",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5050/list",
+[2025-10-28 12:27:21] [GLOBAL] "OK": true
+[2025-10-28 12:27:21] [GLOBAL] },
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "Cockpit Athena (port 5070)",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5070/health",
+[2025-10-28 12:27:21] [GLOBAL] "OK": true
+[2025-10-28 12:27:21] [GLOBAL] },
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "Bridge GPT (port 5000)",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5000/execute",
+[2025-10-28 12:27:21] [GLOBAL] "OK": false
+[2025-10-28 12:27:21] [GLOBAL] }
+[2025-10-28 12:27:21] [GLOBAL] ]
+[2025-10-28 12:27:21] [GLOBAL] === PHASE 7.1A terminée ===
+[2025-10-28 12:27:21] [GLOBAL] ✅ Usine Flask : OK (http://localhost:5050/)
+[2025-10-28 12:27:21] [GLOBAL] ✅ AgentKit /list : OK (http://localhost:5050/list)
+[2025-10-28 12:27:21] [GLOBAL] ✅ Cockpit Athena (port 5070) : OK (http://localhost:5070/health)
+[2025-10-28 12:27:21] [GLOBAL] ✅ Bridge GPT (port 5000) : OK (http://localhost:5000/execute)
+[2025-10-28 12:27:21] [GLOBAL] Résumé : [
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "Usine Flask",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5050/",
+[2025-10-28 12:27:21] [GLOBAL] "OK": true
+[2025-10-28 12:27:21] [GLOBAL] },
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "AgentKit /list",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5050/list",
+[2025-10-28 12:27:21] [GLOBAL] "OK": true
+[2025-10-28 12:27:21] [GLOBAL] },
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "Cockpit Athena (port 5070)",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5070/health",
+[2025-10-28 12:27:21] [GLOBAL] "OK": true
+[2025-10-28 12:27:21] [GLOBAL] },
+[2025-10-28 12:27:21] [GLOBAL] {
+[2025-10-28 12:27:21] [GLOBAL] "Service": "Bridge GPT (port 5000)",
+[2025-10-28 12:27:21] [GLOBAL] "URL": "http://localhost:5000/execute",
+[2025-10-28 12:27:21] [GLOBAL] "OK": true
+[2025-10-28 12:27:21] [GLOBAL] }
+[2025-10-28 12:27:21] [GLOBAL] ]
+[2025-10-28 12:27:21] [GLOBAL] === PHASE 7.1G terminée ===
+[2025-10-28 12:27:21] [PHASE3] Phase3.log créé le 2025-10-27 23:11:33
+[2025-10-28 12:46:33] [AUTOBACKUP] === DÉBUT DU CYCLE AUTO BACKUP & SELFCHECK ===
+[2025-10-28 12:46:35] [AUTOBACKUP] ✅ Usine Flask : OK
+[2025-10-28 12:46:37] [AUTOBACKUP] ✅ AgentKit /list : OK
+[2025-10-28 12:46:39] [AUTOBACKUP] ✅ Cockpit Athena : OK
+[2025-10-28 12:46:42] [AUTOBACKUP] ❌ Bridge GPT : Inaccessible (Response status code does not indicate success: 405 (METHOD NOT ALLOWED).)
+[2025-10-28 12:46:42] [AUTOBACKUP] 📦 Lancement du Snapshot automatique...
+[2025-10-28 12:46:51] [AUTOBACKUP] ✅ Snapshot terminé avec succès.
+[2025-10-28 12:46:51] [AUTOBACKUP] 🧠 Génération du rapport de validation...
+[2025-10-28 12:46:51] [AUTOBACKUP] ✅ Rapport de validation mis à jour.
+[2025-10-28 12:46:51] [AUTOBACKUP] === FIN DU CYCLE AUTO BACKUP & SELFCHECK ===
+
+[2025-10-28 13:20:27] [AUTOCLEANUP] === DÉBUT DU CYCLE AUTO CLEANUP ===
+[2025-10-28 13:20:27] [AUTOCLEANUP] ✅ Nettoyage terminé pour Snapshot → 0 fichier(s) supprimé(s).
+[2025-10-28 13:20:27] [AUTOCLEANUP] ✅ Nettoyage terminé pour Log → 0 fichier(s) supprimé(s).
+[2025-10-28 13:20:27] [AUTOCLEANUP] === FIN DU CYCLE AUTO CLEANUP ===
+
+[2025-10-28 13:46:00] [Monitor] Démarrage Monitor-Athena.ps1 (interval=10s)
+[2025-10-28 13:46:02] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:04] [Monitor] OK: UsineAProjets
+[2025-10-28 13:46:06] [Monitor] DOWN détecté: AgentFlask. Tentative de relance...
+[2025-10-28 13:46:06] [Monitor] Relance demandée: AgentFlask via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Agent.ps1
+[2025-10-28 13:46:07] [Monitor] ERREUR relance AgentFlask: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:07] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:07] [Monitor] Relance demandée: AgentFlask via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Agent.ps1
+[2025-10-28 13:46:08] [Monitor] ERREUR relance AgentFlask: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:08] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:08] [Monitor] ECHEC après 2 tentative(s): AgentFlask
+[2025-10-28 13:46:08] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:09] [Monitor] DOWN détecté: BridgeSuite. Tentative de relance...
+[2025-10-28 13:46:09] [Monitor] Relance demandée: BridgeSuite via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Bridge.ps1
+[2025-10-28 13:46:09] [Monitor] ERREUR relance BridgeSuite: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:09] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:11] [Monitor] Relance demandée: BridgeSuite via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Bridge.ps1
+[2025-10-28 13:46:11] [Monitor] ERREUR relance BridgeSuite: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:11] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:13] [Monitor] ECHEC après 2 tentative(s): BridgeSuite
+[2025-10-28 13:46:13] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:14] [Monitor] DOWN détecté: AthenaServerCore. Tentative de relance...
+[2025-10-28 13:46:14] [Monitor] Relance demandée: AthenaServerCore via: powershell -ExecutionPolicy Bypass -File C:/Users/Sonia/Dropbox/ArianeV4/Scripts/Start-AthenaServer.ps1
+[2025-10-28 13:46:14] [Monitor] ERREUR relance AthenaServerCore: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:14] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:16] [Monitor] Relance demandée: AthenaServerCore via: powershell -ExecutionPolicy Bypass -File C:/Users/Sonia/Dropbox/ArianeV4/Scripts/Start-AthenaServer.ps1
+[2025-10-28 13:46:16] [Monitor] ERREUR relance AthenaServerCore: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:16] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:18] [Monitor] ECHEC après 2 tentative(s): AthenaServerCore
+[2025-10-28 13:46:18] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:18] [Monitor] OK: CockpitTTS
+[2025-10-28 13:46:28] [Monitor] OK: UsineAProjets
+[2025-10-28 13:46:28] [Monitor] DOWN détecté: AgentFlask. Tentative de relance...
+[2025-10-28 13:46:28] [Monitor] Relance demandée: AgentFlask via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Agent.ps1
+[2025-10-28 13:46:28] [Monitor] ERREUR relance AgentFlask: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:28] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:29] [Monitor] Relance demandée: AgentFlask via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Agent.ps1
+[2025-10-28 13:46:29] [Monitor] ERREUR relance AgentFlask: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:29] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:30] [Monitor] ECHEC après 2 tentative(s): AgentFlask
+[2025-10-28 13:46:30] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:31] [Monitor] DOWN détecté: BridgeSuite. Tentative de relance...
+[2025-10-28 13:46:31] [Monitor] Relance demandée: BridgeSuite via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Bridge.ps1
+[2025-10-28 13:46:31] [Monitor] ERREUR relance BridgeSuite: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:31] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:33] [Monitor] Relance demandée: BridgeSuite via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Bridge.ps1
+[2025-10-28 13:46:33] [Monitor] ERREUR relance BridgeSuite: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:33] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:35] [Monitor] ECHEC après 2 tentative(s): BridgeSuite
+[2025-10-28 13:46:35] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:36] [Monitor] DOWN détecté: AthenaServerCore. Tentative de relance...
+[2025-10-28 13:46:36] [Monitor] Relance demandée: AthenaServerCore via: powershell -ExecutionPolicy Bypass -File C:/Users/Sonia/Dropbox/ArianeV4/Scripts/Start-AthenaServer.ps1
+[2025-10-28 13:46:36] [Monitor] ERREUR relance AthenaServerCore: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:36] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:38] [Monitor] Relance demandée: AthenaServerCore via: powershell -ExecutionPolicy Bypass -File C:/Users/Sonia/Dropbox/ArianeV4/Scripts/Start-AthenaServer.ps1
+[2025-10-28 13:46:38] [Monitor] ERREUR relance AthenaServerCore: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:38] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:40] [Monitor] ECHEC après 2 tentative(s): AthenaServerCore
+[2025-10-28 13:46:40] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:40] [Monitor] OK: CockpitTTS
+[2025-10-28 13:46:50] [Monitor] OK: UsineAProjets
+[2025-10-28 13:46:51] [Monitor] DOWN détecté: AgentFlask. Tentative de relance...
+[2025-10-28 13:46:51] [Monitor] Relance demandée: AgentFlask via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Agent.ps1
+[2025-10-28 13:46:51] [Monitor] ERREUR relance AgentFlask: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:51] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:52] [Monitor] Relance demandée: AgentFlask via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Agent.ps1
+[2025-10-28 13:46:52] [Monitor] ERREUR relance AgentFlask: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:52] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:53] [Monitor] ECHEC après 2 tentative(s): AgentFlask
+[2025-10-28 13:46:53] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:54] [Monitor] DOWN détecté: BridgeSuite. Tentative de relance...
+[2025-10-28 13:46:54] [Monitor] Relance demandée: BridgeSuite via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Bridge.ps1
+[2025-10-28 13:46:54] [Monitor] ERREUR relance BridgeSuite: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:54] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:56] [Monitor] Relance demandée: BridgeSuite via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Bridge.ps1
+[2025-10-28 13:46:56] [Monitor] ERREUR relance BridgeSuite: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:56] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:58] [Monitor] ECHEC après 2 tentative(s): BridgeSuite
+[2025-10-28 13:46:58] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:46:59] [Monitor] DOWN détecté: AthenaServerCore. Tentative de relance...
+[2025-10-28 13:46:59] [Monitor] Relance demandée: AthenaServerCore via: powershell -ExecutionPolicy Bypass -File C:/Users/Sonia/Dropbox/ArianeV4/Scripts/Start-AthenaServer.ps1
+[2025-10-28 13:46:59] [Monitor] ERREUR relance AthenaServerCore: Impossible de lier le param�tre ��Seconds��. Impossible de convertir la valeur ��[int]8�� en type ��System.Int32��. Erreur�: ��Le format de la cha�ne d'entr�e est incorrect.��
+[2025-10-28 13:46:59] [Monitor] TTS indisponible: Le serveur distant a retourn� une erreur�: (400) Demande incorrecte.
+[2025-10-28 13:50:22] [Monitor] Démarrage Monitor-Athena.ps1 (interval=10s)
+[2025-10-28 13:50:24] [Monitor] OK: UsineAProjets
+[2025-10-28 13:50:26] [Monitor] DOWN détecté: AgentFlask. Tentative de relance...
+[2025-10-28 13:50:26] [Monitor] Relance demandée: AgentFlask via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Agent.ps1
+[2025-10-28 13:50:34] [Monitor] Relance effectuée: AgentFlask
+[2025-10-28 13:50:35] [Monitor] Relance demandée: AgentFlask via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Agent.ps1
+[2025-10-28 13:50:43] [Monitor] Relance effectuée: AgentFlask
+[2025-10-28 13:50:44] [Monitor] ECHEC après 2 tentative(s): AgentFlask
+[2025-10-28 13:50:45] [Monitor] DOWN détecté: BridgeSuite. Tentative de relance...
+[2025-10-28 13:50:45] [Monitor] Relance demandée: BridgeSuite via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Bridge.ps1
+[2025-10-28 13:50:53] [Monitor] Relance effectuée: BridgeSuite
+[2025-10-28 13:50:55] [Monitor] Relance demandée: BridgeSuite via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Bridge.ps1
+[2025-10-28 13:51:03] [Monitor] Relance effectuée: BridgeSuite
+[2025-10-28 13:51:05] [Monitor] ECHEC après 2 tentative(s): BridgeSuite
+[2025-10-28 13:51:06] [Monitor] DOWN détecté: AthenaServerCore. Tentative de relance...
+[2025-10-28 13:51:06] [Monitor] Relance demandée: AthenaServerCore via: powershell -ExecutionPolicy Bypass -File C:/Users/Sonia/Dropbox/ArianeV4/Scripts/Start-AthenaServer.ps1
+[2025-10-28 13:51:14] [Monitor] Relance effectuée: AthenaServerCore
+[2025-10-28 13:51:16] [Monitor] Relance demandée: AthenaServerCore via: powershell -ExecutionPolicy Bypass -File C:/Users/Sonia/Dropbox/ArianeV4/Scripts/Start-AthenaServer.ps1
+[2025-10-28 13:51:24] [Monitor] Relance effectuée: AthenaServerCore
+[2025-10-28 13:51:25] [Monitor] ECHEC après 2 tentative(s): AthenaServerCore
+[2025-10-28 13:51:27] [Monitor] OK: CockpitTTS
+[2025-10-28 13:51:38] [Monitor] OK: UsineAProjets
+[2025-10-28 13:51:38] [Monitor] DOWN détecté: AgentFlask. Tentative de relance...
+[2025-10-28 13:51:38] [Monitor] Relance demandée: AgentFlask via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Agent.ps1
+[2025-10-28 13:51:46] [Monitor] Relance effectuée: AgentFlask
+[2025-10-28 13:51:50] [Monitor] Relance demandée: AgentFlask via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Agent.ps1
+[2025-10-28 13:51:58] [Monitor] Relance effectuée: AgentFlask
+[2025-10-28 13:51:59] [Monitor] ECHEC après 2 tentative(s): AgentFlask
+[2025-10-28 13:52:00] [Monitor] DOWN détecté: BridgeSuite. Tentative de relance...
+[2025-10-28 13:52:00] [Monitor] Relance demandée: BridgeSuite via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Bridge.ps1
+[2025-10-28 13:52:08] [Monitor] Relance effectuée: BridgeSuite
+[2025-10-28 13:52:10] [Monitor] Relance demandée: BridgeSuite via: powershell -ExecutionPolicy Bypass -File C:/Ariane-Agent/Start-Bridge.ps1
+[2025-10-28 13:52:18] [Monitor] Relance effectuée: BridgeSuite
+[2025-10-28 13:52:20] [Monitor] ECHEC après 2 tentative(s): BridgeSuite
+[2025-10-28 13:52:21] [Monitor] DOWN détecté: AthenaServerCore. Tentative de relance...
+[2025-10-28 13:52:21] [Monitor] Relance demandée: AthenaServerCore via: powershell -ExecutionPolicy Bypass -File C:/Users/Sonia/Dropbox/ArianeV4/Scripts/Start-AthenaServer.ps1

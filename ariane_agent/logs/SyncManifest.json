@@ -1,0 +1,177 @@
+{
+  "Modules\\auto_adapt.py": {
+    "hash": "6a4455457c8c4d7f3737160e90a2c3a4eb9fceaca9bfa3bfa5dc642e806359b6",
+    "size": 3362,
+    "mtime": 1761756066.253628
+  },
+  "Modules\\auto_repair.py": {
+    "hash": "da8c777abb46c6b066f90a6302a776b4fff1366c55605598fd70aa994df6dafa",
+    "size": 3291,
+    "mtime": 1761756343.008105
+  },
+  "Modules\\auto_sync.py": {
+    "hash": "1725eb40e3bab80e4829f97016e35615ac53d45c191f4d444acac224f6896777",
+    "size": 3021,
+    "mtime": 1761756900.2232463
+  },
+  "Modules\\learning_engine.py": {
+    "hash": "24e69580e65f9ffd6f3f23d90c34fc8d145f2e256fe0dbcd25dcf02fe5069261",
+    "size": 2560,
+    "mtime": 1761755797.7874691
+  },
+  "Modules\\status_cloud.py": {
+    "hash": "846dfe2e6dffec217ae643840410895128691c62123e9ec92b097639455d8c58",
+    "size": 2730,
+    "mtime": 1761755190.717105
+  },
+  "Modules\\Athena.Voice\\Athena.SelfMaintenance.py": {
+    "hash": "8874952d2097eab3c9ee9d2140f5e42b4adbbb8e32cc6a50092e75e0fc92bf6d",
+    "size": 1507,
+    "mtime": 1761649263.6210182
+  },
+  "Modules\\Athena.Voice\\Athena.STT.py": {
+    "hash": "ab3d4f830bacffd7f36274f35dc152081bd8a5fe60172019e148c20e374b8dbc",
+    "size": 891,
+    "mtime": 1761646906.4516938
+  },
+  "Modules\\Athena.Voice\\Athena.TTS.py": {
+    "hash": "919228ff32a2327a2a7978fbd54516688a023daa6ea8e1afab091973c7aea44e",
+    "size": 1005,
+    "mtime": 1761646906.4466937
+  },
+  "Modules\\Athena.Voice\\Athena.VoiceLink.py": {
+    "hash": "9d1b1ed21395a7942be56524d95d53493c637411ae6674df393b721f1cfcae64",
+    "size": 905,
+    "mtime": 1761646906.4526947
+  },
+  "Modules\\Athena.Voice\\config.json": {
+    "hash": "4714767b9f51387b6ea9e256cfee706d447f871b79c259db5bd462cbff9b1f78",
+    "size": 254,
+    "mtime": 1761646906.4447002
+  },
+  "Modules\\Athena.Voice\\__init__.py": {
+    "hash": "0af6dc18140568b5d8c8ba49172bfd56bfbf8f358cc9f7cf2aef6a9e00e185ff",
+    "size": 244,
+    "mtime": 1761646906.455693
+  },
+  "Scripts\\Analyze-GlobalLog.py": {
+    "hash": "71f07161b1efa3ec857c8b18fe912d70d6f9609b2fffc83085f8e9523b4b55e6",
+    "size": 1642,
+    "mtime": 1761656607.1027439
+  },
+  "Scripts\\AutoBackup_Ariane.ps1": {
+    "hash": "dc0bca4ace5f89e01260ffaba0e358b087de8b242daca87e7a236fb146409440",
+    "size": 2039,
+    "mtime": 1761651986.3772664
+  },
+  "Scripts\\AutoCleanup.ps1": {
+    "hash": "d7d7107a160ffebcf25e0a5e15c418513d5d6a464c0b97729f227bbc31e3dfb8",
+    "size": 1802,
+    "mtime": 1761654019.1793697
+  },
+  "Scripts\\Invoke-AgentCloudCommand.ps1": {
+    "hash": "97e46c7162af1184e7da50a4a78153f282d67744cb6dd728ba5bfadcfd45c7e7",
+    "size": 2757,
+    "mtime": 1761748707.629529
+  },
+  "Scripts\\Invoke-AgentSecure.py": {
+    "hash": "eb83863322997968cc29641f49da9397ef3c10d24ae5f0d566e2168cc2ec4892",
+    "size": 1445,
+    "mtime": 1761670526.0520928
+  },
+  "Scripts\\Invoke-BridgeSecure.ps1": {
+    "hash": "09a4de7f359dbcd3514faedf94494b521a90d2ac9e73587a8ba22079a0df1dd5",
+    "size": 2346,
+    "mtime": 1761670576.5105817
+  },
+  "Scripts\\Invoke-UsineSecureRequest.ps1": {
+    "hash": "0894b2634c00cbcf6d7180d24dfad6ec8177a320af1470dc1936e813ecd0a605",
+    "size": 1507,
+    "mtime": 1761607561.554488
+  },
+  "Scripts\\Monitor-Athena.ps1": {
+    "hash": "338a960e2d417282b0c29f49cd02e215b9722a7410d244512e18688cebf46a34",
+    "size": 5087,
+    "mtime": 1761655720.9577029
+  },
+  "Scripts\\Register-AgentKitCloud.ps1": {
+    "hash": "62fe9e3ee828968871308137211e0cf67296ab603175c28b54c0925edc1afe51",
+    "size": 2712,
+    "mtime": 1761745164.965625
+  },
+  "Scripts\\Register-AthenaMonitorTask.ps1": {
+    "hash": "1f2d4e49eb6755edd9171da14b35da7109a9fe7b8edce0168f05962c701bea9f",
+    "size": 450,
+    "mtime": 1761655403.6262846
+  },
+  "Scripts\\Start-AgentCloud.ps1": {
+    "hash": "7f4d643286251da09712c88aa76fa817b02aca9aac984382b2783ec85eb0349b",
+    "size": 4385,
+    "mtime": 1761742174.2043507
+  },
+  "Scripts\\Start-Monitor.ps1": {
+    "hash": "2894c82a9c5c9875086a8bd288f0bf4ef7d901f55ab60bed201ea4f79b24819c",
+    "size": 247,
+    "mtime": 1761655376.2007816
+  },
+  "Scripts\\Start-NgrokBridge.ps1": {
+    "hash": "4546d01c14003225ac3842766282c3db9e056ce98b3d06018e98f2ee3a1e77fb",
+    "size": 2644,
+    "mtime": 1761607412.1034791
+  },
+  "Scripts\\Test-Failure.ps1": {
+    "hash": "871634d729e94a49dc3aafadad8a9e7c1e8081c21822114a1cc22a845d7d2b3b",
+    "size": 872,
+    "mtime": 1761655483.3880527
+  },
+  "Scripts\\Test-Phase9.ps1": {
+    "hash": "c80dd9b1384b5a7903203206871747afb6efd12b4c6bebb8b972ae3095522af4",
+    "size": 1067,
+    "mtime": 1761658004.9070003
+  },
+  "Backups\\ArianeV4_Validation.txt": {
+    "hash": "9437705860e9572b8a8c0491525d15043467faae8f9e4c6cd858fa06b58b718b",
+    "size": 1728,
+    "mtime": 1761652011.5527065
+  },
+  "Backups\\auto_adapt.py": {
+    "hash": "6a4455457c8c4d7f3737160e90a2c3a4eb9fceaca9bfa3bfa5dc642e806359b6",
+    "size": 3362,
+    "mtime": 1761756066.253628
+  },
+  "Backups\\learning_engine.py": {
+    "hash": "24e69580e65f9ffd6f3f23d90c34fc8d145f2e256fe0dbcd25dcf02fe5069261",
+    "size": 2560,
+    "mtime": 1761755797.7874691
+  },
+  "Backups\\status_cloud.py": {
+    "hash": "846dfe2e6dffec217ae643840410895128691c62123e9ec92b097639455d8c58",
+    "size": 2730,
+    "mtime": 1761755190.717105
+  },
+  "Backups\\20251027_094858\\tmpde1p7714.ps1": {
+    "hash": "79e61cf37b8ef68312b997df529b5edb872ade6b8c36ba3e7240be51b4d2c401",
+    "size": 42,
+    "mtime": 1761554938.2681482
+  },
+  "Backups\\ArianeV4_Snapshots\\ArianeV4_Snapshot_20251028_123629.zip": {
+    "hash": "4482c2e619c882431a065d355e012a1749bddfc9e2e1b33ef29dfd9ee6c01945",
+    "size": 82769728,
+    "mtime": 1761651421.1317275
+  },
+  "Backups\\ArianeV4_Snapshots\\ArianeV4_Snapshot_20251028_124642.zip": {
+    "hash": "0d5247cde39bccc34ca327be8be3834870ef0871d033212ace4cb10bb9c37906",
+    "size": 82769783,
+    "mtime": 1761652011.1087515
+  },
+  "config\\agentkit_config.json": {
+    "hash": "ef9c113cdb81b4d41cede8f07ab4994381940aa153f17f3b78e0d11e105b8e44",
+    "size": 1246,
+    "mtime": 1761669723.498121
+  },
+  "config\\services.json": {
+    "hash": "c49a5fd211116798e7dc278c0c2dc6d4bccd63b8138336c98876c332a39dc256",
+    "size": 1357,
+    "mtime": 1761655812.508232
+  }
+}

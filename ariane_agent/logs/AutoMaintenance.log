@@ -1,0 +1,40 @@
+[2025-10-29 17:03:41.078781] [auto_update] === DÉMARRAGE AUTO_UPDATE ===
+[2025-10-29 17:03:41.079392] [auto_update] Exécution : powershell -ExecutionPolicy Bypass -File C:\Ariane-Agent\Scripts\Update-System.ps1
+[2025-10-29 17:03:41.168015] [self_repair] === DÉMARRAGE SELF_REPAIR ===
+[2025-10-29 17:03:41.655196] [auto_update] ✅ Système vérifié et mis à jour
+[2025-10-29 17:03:41.724442] [auto_deploy] === DÉMARRAGE AUTO_DEPLOY ===
+[2025-10-29 17:03:41.997602] [sync_cloud] === DÉMARRAGE SYNC_CLOUD ===
+[2025-10-29 17:03:42.763210] [sync_cloud] ☁️ Sync envoyée, statut : 401
+[2025-10-29 17:05:58.035739] [sync_cloud] === DÉMARRAGE SYNC_CLOUD (HMAC) ===
+[2025-10-29 17:05:58.662882] [sync_cloud] ☁️ Sync envoyée, statut : 401
+[2025-10-29 17:07:43.609997] [sync_cloud] === DÉMARRAGE SYNC_CLOUD (HMAC v2) ===
+[2025-10-29 17:07:44.249444] [sync_cloud] ☁️ Sync envoyée, statut : 401
+[2025-10-29 17:08:43.483681] [sync_cloud] ☁️ Sync envoyée, statut : 401
+[2025-10-29 17:09:23.391125] [sync_cloud] === DÉMARRAGE SYNC_CLOUD (HMAC v3 + timestamp) ===
+[2025-10-29 17:09:23.984286] [sync_cloud] ☁️ Sync envoyée (ts=1761754163), statut : 401
+[2025-10-29 17:11:17.734796] [sync_cloud] === DÉMARRAGE SYNC_CLOUD (HMAC v4 – protocole SelfGuard) ===
+[2025-10-29 17:11:18.330487] [sync_cloud] ☁️ Sync envoyée (ts=1761754277), statut : 401
+[2025-10-29 17:14:57.488624] [sync_cloud] === DÉMARRAGE SYNC_CLOUD (canal ouvert /bridge/sync) ===
+[2025-10-29 17:14:58.099001] [sync_cloud] ☁️ Sync envoyée (statut=200)
+[2025-10-30 00:02:08] [sync_cloud] 🔄 Requête reçue (mode=full)\n[2025-10-30 00:02:10.022] [auto_deploy] === DÉMARRAGE AUTO_DEPLOY (All) ===
+[2025-10-30 00:02:10.178] [auto_deploy] ✅ Relay présent
+[2025-10-30 00:02:10.181] [auto_deploy] ✅ Usine présent
+[2025-10-30 00:02:10.182] [auto_deploy] ✅ Bridge présent
+[2025-10-30 00:02:10.184] [auto_deploy] === AUTO_DEPLOY TERMINÉ ===
+[2025-10-30 00:02:08] [sync_cloud] ✅ Synchronisation complète terminée\n[2025-10-30 00:03:29] [sync_cloud] 🔄 Requête reçue (mode=full)\n[2025-10-30 00:03:29.683] [sync_cloud] === DÉMARRAGE SYNC_CLOUD (full) ===
+[2025-10-30 00:03:29.952] [sync_cloud] ✅ Tunnel actif (https://noneuphonious-unquickly-shawnda.ngrok-free.dev)
+[2025-10-30 00:03:29.955] [sync_cloud] ✅ Vérification OK
+[2025-10-30 00:03:30.274] [auto_deploy] === DÉMARRAGE AUTO_DEPLOY (All) ===
+[2025-10-30 00:03:30.325] [auto_deploy] ✅ Relay présent
+[2025-10-30 00:03:30.327] [auto_deploy] ✅ Usine présent
+[2025-10-30 00:03:30.328] [auto_deploy] ✅ Bridge présent
+[2025-10-30 00:03:30.329] [auto_deploy] === AUTO_DEPLOY TERMINÉ ===
+[2025-10-30 00:03:29] [sync_cloud] ✅ Synchronisation complète terminée\n[2025-10-30 00:07:38.016] [sync_cloud] === DÉMARRAGE SYNC_CLOUD (quick) ===
+[2025-10-30 00:07:38.214] [sync_cloud] ✅ Tunnel actif (https://noneuphonious-unquickly-shawnda.ngrok-free.dev)
+[2025-10-30 00:07:38.216] [sync_cloud] ✅ Vérification OK
+[2025-10-30 00:07:38.597] [auto_deploy] === DÉMARRAGE AUTO_DEPLOY (All) ===
+[2025-10-30 00:07:38.668] [auto_deploy] ✅ Relay présent
+[2025-10-30 00:07:38.671] [auto_deploy] ✅ Usine présent
+[2025-10-30 00:07:38.673] [auto_deploy] ✅ Bridge présent
+[2025-10-30 00:07:38.675] [auto_deploy] === AUTO_DEPLOY TERMINÉ ===
+[2025-10-30 00:07:38.699] [autostart] ✅ Auto-maintenance exécutée au démarrage.

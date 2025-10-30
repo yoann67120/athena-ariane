@@ -1,0 +1,8 @@
+[2025-10-28 12:36:29] === DÉBUT SNAPSHOT ARIANE V4 ===
+[2025-10-28 12:36:29] === Création du snapshot ArianeV4_Snapshot_20251028_123629.zip ===
+[2025-10-28 12:37:01] ✅ Snapshot terminé (78.94 Mo) → C:\Ariane-Agent\Backups\ArianeV4_Snapshots\ArianeV4_Snapshot_20251028_123629.zip
+[2025-10-28 12:37:01] === FIN SNAPSHOT : C:\Ariane-Agent\Backups\ArianeV4_Snapshots\ArianeV4_Snapshot_20251028_123629.zip ===
+[2025-10-28 12:46:42] === DÉBUT SNAPSHOT ARIANE V4 ===
+[2025-10-28 12:46:42] === Création du snapshot ArianeV4_Snapshot_20251028_124642.zip ===
+[2025-10-28 12:46:51] ✅ Snapshot terminé (78.94 Mo) → C:\Ariane-Agent\Backups\ArianeV4_Snapshots\ArianeV4_Snapshot_20251028_124642.zip
+[2025-10-28 12:46:51] ❌ Erreur lors du snapshot : 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>

@@ -1,0 +1,22 @@
+{
+  "BridgeSecure.ps1": {
+    "status": "ok",
+    "hash": "09a4de7f359dbcd3514faedf94494b521a90d2ac9e73587a8ba22079a0df1dd5"
+  },
+  "Invoke-AgentSecure.py": {
+    "status": "ok",
+    "hash": "eb83863322997968cc29641f49da9397ef3c10d24ae5f0d566e2168cc2ec4892"
+  },
+  "autopilot_server.py": {
+    "status": "ok",
+    "hash": "9bbca452bf7b0ce0d3ebba6069ae68833389062240228ec33019a787c09757ff"
+  },
+  "supervisor_service.py": {
+    "status": "ok",
+    "hash": "e95cc3fff8330bb770ecde1007ec6cea4592d4660977827bb687ee654b475686"
+  },
+  "agent_registry.py": {
+    "status": "ok",
+    "hash": "d03dd9380d13a9f491f0fe5ad5a025c9bf03e12116d34e9893750ee80e0f9b47"
+  }
+}

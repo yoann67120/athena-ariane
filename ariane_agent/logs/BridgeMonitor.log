@@ -1,0 +1,5 @@
+[2025-10-28 00:23:51] 🧩 Démarrage du serveur Flask (Usine à Projets)…
+[2025-10-28 00:23:56] 🌐 Lancement de Ngrok (port 5050)…
+[2025-10-28 00:24:03] ✅ Tunnel Ngrok actif : https://4a22bf9c7fca.ngrok-free.app
+[2025-10-28 00:24:03] 🧠 Pont GPT-5 ↔ Usine prêt.
+[2025-10-28 00:24:03] Détails enregistrés dans C:\Ariane-Agent\logs\BridgeStatus.json

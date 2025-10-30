@@ -1,0 +1,45 @@
+{
+  "defaultProfile": "Full",
+  "profiles": {
+    "Simple": {
+      "description": "Accès limité, pas de modification du noyau, uniquement dans Ariane V4.",
+      "canModify": [],
+      "canAccessPaths": ["%ArianeRoot%"],
+      "modifyKernel": false,
+      "networkAccess": false,
+      "requiresConfirmation": true,
+      "allowVoiceCommands": true,
+      "allowAutoPatch": false
+    },
+    "Agent": {
+      "description": "Accès complet aux fichiers/système, mais pas au noyau.",
+      "canModify": ["Modules", "Config", "Logs"],
+      "canAccessPaths": ["%ArianeRoot%", "%USERPROFILE%"],
+      "modifyKernel": false,
+      "networkAccess": true,
+      "requiresConfirmation": true,
+      "allowVoiceCommands": true,
+      "allowAutoPatch": true
+    },
+    "Full": {
+      "description": "Accès total, y compris modification du noyau.",
+      "canModify": ["*"],
+      "canAccessPaths": ["%ArianeRoot%", "%USERPROFILE%"],
+      "modifyKernel": true,
+      "networkAccess": true,
+      "requiresConfirmation": false,
+      "allowVoiceCommands": true,
+      "allowAutoPatch": true
+    },
+    "Dieu": {
+      "description": "Tous les verrous tombent. Ariane explique chaque action et s’arrête uniquement sur ordre STOP.",
+      "canModify": ["*"],
+      "canAccessPaths": ["*"],
+      "modifyKernel": true,
+      "networkAccess": true,
+      "requiresConfirmation": false,
+      "allowVoiceCommands": true,
+      "allowAutoPatch": true
+    }
+  }
+}
